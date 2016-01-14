@@ -1,0 +1,116 @@
+/** resort standar info */
+
+{
+    "resorts": [
+        {
+            "name": "Liberty Mountain Resort",
+
+            "contact_info": {
+                "url": "www.libertymountainresort.com",
+                "street_address": "78 Country Club Trail",
+                "city": "Carroll Valley",
+                "state": "PA",
+                "zip": "17320",
+                "phone": "717-642-9000",
+                "snow_phone": "717-642-9000",
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "620",
+                "skiable_acres": "100",
+                "trails": "16",
+                "lifts": "8"
+            },
+
+            "current_stats": {
+                "acres_open": "",
+                "trails_open": "",
+                "trails_open_details": "",
+                "lifts_open": "",
+                "lifts_open_details": "",
+                "snow_base": "",
+                "snow_description": "",
+                "snow_last_24": ""
+            },
+
+            "current_weather": {
+                "temp": "",
+                "wind": "",
+                "visibility": ""
+            },
+
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": "www.libertymountainresort.com/winter-sports-liberty/tickets-packages/daily-rates"
+
+            }
+
+
+        },
+
+        {
+            "name": "Snowshoe Mountain Resort",
+
+            "contact_info": {
+                "url": "www.snowshoemtn.com",
+                "street_address": "10 Snowshoe Drive",
+                "city": "Snowshoe",
+                "state": "WV",
+                "zip": "26209",
+                "phone": "877-441-4386",
+                "snow_phone": "304-572-4636",
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1500",
+                "skiable_acres": "244",
+                "trails": "60",
+                "lifts": "14"
+            },
+
+            "current_stats": {
+                "acres_open": "",
+                "trails_open": "",
+                "trails_open_details": "",
+                "lifts_open": "",
+                "lifts_open_details": "",
+                "snow_base": "",
+                "snow_description": "",
+                "snow_last_24": ""
+            },
+
+            "current_weather": {
+                "temp": "",
+                "wind": "",
+                "visibility": ""
+            },
+
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": ""
+
+            }
+
+
+        }
+
+
+    ]
+
+}
