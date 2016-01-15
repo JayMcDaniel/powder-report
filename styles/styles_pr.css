@@ -1,0 +1,57 @@
+/*theme color: #6C90BD */
+
+/*
+#navbar{
+    background-color: #6C90BD;
+    width: 100%;
+    height: 30px;
+}
+*/
+/*
+
+@font-face {
+    font-family: REIS-Regular;
+    src: url(REIS-Regular.ttf);
+}
+
+*/
+
+body{
+    color: #6C90BD;
+}
+
+#inner_container{
+    margin: auto;
+    width: 98%;
+}
+
+h1#logo_pr{
+/*    font-family: REIS-Regular;*/
+    font-size: 21vw;
+    position: relative;
+    top: 60px;
+    color: rgba(108,144,189,.8);
+    display: none;
+        
+}
+
+h2#subhead_pr{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+
+#banner_img{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: url("../images/stock/main_logo.png");
+    background-size: 100% 100%;
+
+}
+
+
+.btn{
+    background-color: #6C90BD;
+}
