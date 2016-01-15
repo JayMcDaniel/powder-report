@@ -1,4 +1,5 @@
-/*theme color: #6C90BD */
+/*theme color: #85A3C8 */
+
 
 /*
 #navbar{
@@ -7,6 +8,8 @@
     height: 30px;
 }
 */
+
+
 /*
 
 @font-face {
@@ -16,48 +19,96 @@
 
 */
 
-body{
-    color: #6C90BD;
+html, body {
+    position: relative;
+    height: 100%;
 }
 
-#inner_container{
+body {
+    color: #85A3C8;
+    font-family: sans-serif;
+}
+
+body p{
+        margin: 8px;
+}
+
+#container-fluid{
+    position: relative;
+    min-height: 100%;
+}
+#inner_container {
     margin: auto;
     width: 98%;
+    min-height: 400px;
 }
 
-h1#logo_pr{
-/*    font-family: REIS-Regular;*/
+h1#logo_pr {
+    /*    font-family: REIS-Regular;*/
     font-size: 21vw;
     position: relative;
     top: 60px;
-    color: rgba(108,144,189,.8);
+    color: rgba(108, 144, 189, .8);
     display: none;
-        
 }
 
-h2#subhead_pr{
+h2#subhead_pr {
     font-family: sans-serif;
     font-weight: normal;
     font-size: 3vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-
-#banner_img{
+#banner_img {
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-repeat: no-repeat;
     background-image: url("../images/stock/main_logo.png");
     background-size: 100% 100%;
+}
+
+#sort_bar,
+#footer_bar {
+    min-height: 30px;
+    background-color: #85A3C8;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-size: 2.2vw;
 
 }
 
-
-.btn{
-    background-color: #6C90BD;
+#sort_bar p {
+    color: #fff;
+    text-align: center;
 }
 
-@media (max-width: @screen-sm){
-    .btn, p{
-    font-size: 16px;
+#sort_by_p{
+        font-size: 1.6vw;
+}
+
+#sort_bar .sort_link {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #633737;
+    margin-right: 15px;
+
+}
+
+.btn {
+    background-color: #85A3C8;
+}
+
+@media screen and (max-device-width: 480px) {
+    .btn,
+    p {
+        font-size: 16px;
     }
+}
+
+#footer_bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
