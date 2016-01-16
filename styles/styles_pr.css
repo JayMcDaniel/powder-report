@@ -129,7 +129,6 @@ img.resort_logo_img {
 .full_address:before {
     content: url('../images/stock/map_it_icon.png');
     position: relative;
-    left: 2px;
     top: 3px;
 }
 
