@@ -1,0 +1,55 @@
+/** resort standar info */
+
+{
+    "DC": [
+        {
+            "name": "Liberty Mountain Resort",
+
+            "current_stats": {
+                "acres_open": "",
+                "trails_open": "",
+                "trails_open_details": "",
+                "lifts_open": "",
+                "lifts_open_details": "",
+                "snow_base": "",
+                "snow_description": "",
+                "snow_last_24": ""
+            },
+
+            "current_weather": {
+                "temp": "",
+                "wind": "",
+                "visibility": ""
+            }
+
+
+        },
+
+        {
+            "name": "Snowshoe Mountain Resort",
+
+
+            "current_stats": {
+                "acres_open": "",
+                "trails_open": "",
+                "trails_open_details": "",
+                "lifts_open": "",
+                "lifts_open_details": "",
+                "snow_base": "",
+                "snow_description": "",
+                "snow_last_24": ""
+            },
+
+            "current_weather": {
+                "temp": "",
+                "wind": "",
+                "visibility": ""
+            }
+
+
+        }
+
+
+    ]
+
+}

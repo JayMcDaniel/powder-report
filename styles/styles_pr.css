@@ -1,4 +1,4 @@
-/*theme color: #85A3C8 */
+/*theme color: #85A3C8  (blue) second color: #633737 (red)*/
 
 
 /*
@@ -19,7 +19,8 @@
 
 */
 
-html, body {
+html,
+body {
     position: relative;
     height: 100%;
 }
@@ -29,23 +30,23 @@ body {
     font-family: sans-serif;
 }
 
-body p{
-        margin: 8px;
+body p {
+    margin: 8px;
 }
 
-#container-fluid{
+#container-fluid {
     position: relative;
     min-height: 100%;
 }
+
 #inner_container {
     margin: auto;
     width: 98%;
     min-height: 400px;
+    margin-bottom: 20px;
 }
 
 h1#logo_pr {
-    /*    font-family: REIS-Regular;*/
-    font-size: 21vw;
     position: relative;
     top: 60px;
     color: rgba(108, 144, 189, .8);
@@ -55,9 +56,10 @@ h1#logo_pr {
 h2#subhead_pr {
     font-family: sans-serif;
     font-weight: normal;
-    font-size: 3vw;
+    /*    font-size: 3vw;*/
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 #banner_img {
@@ -75,8 +77,7 @@ h2#subhead_pr {
     padding: 10px;
     padding-bottom: 2px;
     padding-top: 2px;
-    font-size: 2.2vw;
-
+    /*    font-size: 2.2vw;*/
 }
 
 #sort_bar p {
@@ -84,16 +85,11 @@ h2#subhead_pr {
     text-align: center;
 }
 
-#sort_by_p{
-        font-size: 1.6vw;
-}
-
 #sort_bar .sort_link {
     cursor: pointer;
     text-decoration: underline;
     color: #633737;
     margin-right: 15px;
-
 }
 
 .btn {
@@ -107,8 +103,43 @@ h2#subhead_pr {
     }
 }
 
+#resorts_results_div {
+    padding-bottom: 20px;
+}
+
+#resort_snippet {
+    margin-top: 30px;
+}
+
+img.resort_logo_img {
+    margin-right: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.trails_report {
+    margin-right: 25px;
+    color: #633737;
+    
+}
+.full_address{
+    position: relative;
+    left: -4px;
+}
+.full_address:before {
+    content: url('../images/stock/map_it_icon.png');
+    position: relative;
+    left: 2px;
+    top: 3px;
+}
+
+/*
+.resort_phone_number {
+    color: #633737;
+}
+*/
+
 #footer_bar {
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
 }

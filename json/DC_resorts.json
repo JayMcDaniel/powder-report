@@ -1,0 +1,262 @@
+{
+    "DC": [
+        {
+            "name": "Liberty",
+
+            "contact_info": {
+                "url": "www.libertymountainresort.com",
+                "street_address": "78 Country Club Trail",
+                "city": "Carroll Valley",
+                "state": "PA",
+                "zip": "17320",
+                "phone": "717-642-9000",
+                "address_url": "https://goo.gl/maps/eaQmrAkoPvL2"
+            },
+
+            "images": {
+                "logo": "liberty_PA.png",
+                "map": "liberty_PA.png",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "620",
+                "skiable_acres": "100",
+                "trails": "16",
+                "lifts": "8"
+            },
+
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": "www.libertymountainresort.com/winter-sports-liberty/tickets-packages/daily-rates"
+
+            }
+
+        },
+
+        {
+            "name": "Snowshoe",
+
+            "contact_info": {
+                "url": "www.snowshoemtn.com",
+                "street_address": "10 Snowshoe Drive",
+                "city": "Snowshoe",
+                "state": "WV",
+                "zip": "26209",
+                "phone": "877-441-4386",
+                "address_url": "https://goo.gl/maps/KijoGjQCfgM2"
+            },
+
+            "images": {
+                "logo": "snowshoe_WV.png",
+                "map": "snowshoe_WV.png",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1500",
+                "skiable_acres": "244",
+                "trails": "57",
+                "lifts": "14"
+            },
+
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": ""
+            }
+
+
+        },
+
+        {
+            "name": "Seven Springs",
+
+            "contact_info": {
+                "url": "www.7springs.com",
+                "street_address": "777 Waterwheel Dr",
+                "city": "Seven Springs",
+                "state": "PA",
+                "zip": "15622",
+                "phone": "800-452-2223",
+                "address_url": "https://goo.gl/maps/SpgHaFiMqwP2"
+            },
+
+            "images": {
+                "logo": "7springs_WV.png",
+                "map": "7springs_WV.png",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "750",
+                "skiable_acres": "285",
+                "trails": "33",
+                "lifts": "14"
+            },
+
+
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": ""
+
+            }
+
+
+     },
+
+        {
+            "name": "Whitetail",
+
+            "contact_info": {
+                "url": "www.skiwhitetail.com/winter",
+                "street_address": "13805 Blairs Valley Rd",
+                "city": "Mercersburg",
+                "state": "PA",
+                "zip": "17236",
+                "phone": "717-328-9400",
+                "address_url": "https://goo.gl/maps/Jn93CfbyeoT2"
+            },
+
+            "images": {
+                "logo": "whitetail_PA.png",
+                "map": "whitetail_PA.png",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "935",
+                "skiable_acres": "120",
+                "trails": "23",
+                "lifts": "9"
+            },
+
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": ""
+
+            }
+
+
+        },
+        
+        {
+            "name": "Camelback",
+        
+            "contact_info": {
+                "url": "www.skicamelback.com",
+                "street_address": "301 Resort Dr",
+                "city": "Tannersville",
+                "state": "PA",
+                "zip": "18372",
+                "phone": "570-629-1661",
+                "address_url": "https://goo.gl/maps/SRiSbUSiXPJ2"
+            },
+        
+            "images": {
+                "logo": "camelback_PA.png",
+                "map": "camelback_PA.png",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "800",
+                "skiable_acres": "160",
+                "trails": "34",
+                "lifts": "16"
+            },
+        
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": ""
+        
+            }
+        
+        
+        },
+        
+        {
+            "name": "Roundtop",
+        
+            "contact_info": {
+                "url": "www.skiroundtop.com",
+                "street_address": "925 Roundtop Rd",  
+                "city": "Lewisberry",
+                "state": "PA",
+                "zip": "17339",
+                "phone": "717-432-9631",
+                "address_url": "https://goo.gl/maps/5otjSMmqHT62"
+            },
+        
+            "images": {
+                "logo": "roundtop_PA.png",
+                "map": "roundtop_PA.png",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "600",
+                "skiable_acres": "103",
+                "trails": "20",
+                "lifts": "8"
+            },
+        
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": ""
+        
+            }
+        
+        
+        },
+        
+        {
+            "name": "Timberline Four Seasons",
+        
+            "contact_info": {
+                "url": "",
+                "street_address": "254 Four Seasons Dr",
+                "city": "Davis",
+                "state": "WV",
+                "zip": "26260",
+                "phone": "(304) 866-4801",
+                "address_url": "https://goo.gl/maps/E65Utf9qvVw"
+            },
+        
+            "images": {
+                "logo": "timberline_WV.png",
+                "map": "timberline_WV.png",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "100",
+                "skiable_acres": "100",
+                "trails": "39",
+                "lifts": "4"
+            },
+        
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": "http://www.timberlineresort.com/lifttickets.php"
+        
+                }
+        
+        
+             }
+    ]
+
+}
