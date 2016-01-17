@@ -62,6 +62,10 @@ h2#subhead_pr {
     text-align: center;
 }
 
+h3{
+    margin-top: 10px;
+}
+
 #banner_img {
     width: 100%;
     height: 350px;
@@ -107,9 +111,32 @@ h2#subhead_pr {
     padding-bottom: 20px;
 }
 
-#resort_snippet {
-    margin-top: 30px;
+.map_thumbnail {
+    float: left;
 }
+
+.resort_snippet {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.resort_snippet:nth-child(even) {
+    background-color: aliceblue;
+}
+
+.resort_snippet_text {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+}
+
+.resort_snippet_text p {
+    margin-top: 0px;
+}
+
 
 img.resort_logo_img {
     margin-right: 3px;
@@ -117,20 +144,40 @@ img.resort_logo_img {
     height: 30px;
 }
 
+img.weather_icon{
+    width: 40px;
+    height: 40px;
+}
+
+p.weather_report{
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+p.weather_report span{
+    margin-left: 10px;
+}
+
 .trails_report {
     margin-right: 25px;
     color: #633737;
-    
 }
-.full_address{
+
+.full_address {
     position: relative;
     left: -4px;
 }
+
 .full_address:before {
     content: url('../images/stock/map_it_icon.png');
     position: relative;
     top: 3px;
 }
+
+.clear_float {
+    clear: both;
+}
+
 
 /*
 .resort_phone_number {
