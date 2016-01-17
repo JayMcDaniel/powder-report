@@ -85,10 +85,15 @@ h3{
     /*    font-size: 2.2vw;*/
 }
 
+#sort_by_p{
+    display: none;
+}
+
 #sort_bar p {
     color: #fff;
     text-align: center;
 }
+
 
 #sort_bar .sort_link {
     cursor: pointer;
