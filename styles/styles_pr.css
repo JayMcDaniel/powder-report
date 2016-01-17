@@ -72,6 +72,7 @@ h3{
     background-repeat: no-repeat;
     background-image: url("../images/stock/main_logo.png");
     background-size: 100% 100%;
+    background-position-x: 30px;
 }
 
 #sort_bar,
