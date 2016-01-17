@@ -169,6 +169,14 @@ p.weather_report span{
     color: #633737;
 }
 
+.trails_open{
+    display: none;
+}
+
+.acres_open{
+    display: none;
+}
+
 .full_address {
     position: relative;
     left: -4px;
