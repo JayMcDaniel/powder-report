@@ -12,7 +12,7 @@ var toggleWidgetDisplaySetup = function(){
             var conditions_widget_snowcountry_link = document.createElement("a");
                 conditions_widget_snowcountry_link.className = "conditions_widget_snowcountry_link";
                 conditions_widget_snowcountry_link.textContent ="Powered by www.snocountry.com";
-                conditions_widget_snowcountry_link.href = "www.snocountry.com";
+                conditions_widget_snowcountry_link.href = "http://www.snocountry.com";
                 conditions_widget_snowcountry_link.target = "_blank";
             
             
