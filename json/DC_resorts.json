@@ -37,6 +37,44 @@
             }
 
         },
+        
+        {
+            "name": "Jack Frost",
+        
+            "contact_info": {
+                "url": "http://www.jfbb.com/",
+                "street_address": " 434 Jack Frost Mountain Rd",
+                "city": "White Haven",
+                "state": "PA",
+                "zip": "18661",
+                "phone": "570-443-8425",
+                "address_url": "https://goo.gl/maps/iqWmK6sua6E2"
+            },
+        
+            "images": {
+                "logo": "jack_frost_PA.png",
+                "map": "jack_frost_PA.png",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "600",
+                "skiable_acres": "100",
+                "trails": "24",
+                "lifts": "10",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717006&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+        
+            "rates": {
+                "adults": "",
+                "children": "",
+                "rentals": "",
+                "rates_url": ""
+        
+                }
+        
+        
+             },
 
         {
             "name": "Snowshoe",

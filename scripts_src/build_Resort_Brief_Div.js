@@ -18,7 +18,7 @@ var buildResortBriefDiv = function (resort_obj) {
     
     var vert = "<span class = 'vert report'>" + utils.addCommas(resort_obj.stats.vertical_drop_ft) + "'&nbsp;vertical&nbsp;drop</span>";
     
-    var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + ">more</span>"
+    var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + ">more info</span>"
     
     var map_thumbnail = "<div class='map_thumbnail'> <a target ='_blank' href='images/resort_maps/"+resort_obj.images.map+"'><img src='images/resort_maps/" + resort_obj.images.map.replace('.png', '_sm.png') + "'/></a></div>";
 
