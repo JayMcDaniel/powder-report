@@ -1,4 +1,6 @@
-var insert_Current_Weather = function(json, name){
+/** builds html from weather json and inserts weather report span */
+
+var insertCurrentWeather = function(json, name){
     
     
     var weather_report = document.createElement("p");
@@ -28,6 +30,8 @@ var insert_Current_Weather = function(json, name){
     weather_report.appendChild(wind_speed);
     
     $("#" + name.id + " .resort_snippet_text").prepend(weather_report);
-  
-    
+      
 }
+
+
+module.exports = insertCurrentWeather;

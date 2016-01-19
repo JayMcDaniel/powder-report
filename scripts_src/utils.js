@@ -1,7 +1,8 @@
-      ///////add commas function
+      
 
 var utils = {
     
+    /** add commas function */
     addCommas: function (val) {
 				
 				if(isNaN(val)){
@@ -16,4 +17,5 @@ var utils = {
     
 }
 
-            
+
+module.exports= utils;

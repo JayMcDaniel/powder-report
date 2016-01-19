@@ -1,3 +1,5 @@
+/** gets static resort condition from .json file */
+
 var loadResorts = function (area, callback) {
 
     var file = "json/" + area + "_resorts.json";
@@ -13,4 +15,4 @@ var loadResorts = function (area, callback) {
 
 }
 
-//module.exports = loadResorts;
+module.exports = loadResorts;

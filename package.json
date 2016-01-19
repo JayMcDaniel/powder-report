@@ -1,0 +1,28 @@
+{
+  "name": "powder-report",
+  "version": "1.0.0",
+  "description": "Powder Report",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayMcDaniel/powder-report.git"
+  },
+  "author": "Jay McDaniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayMcDaniel/powder-report/issues"
+  },
+  "homepage": "https://github.com/JayMcDaniel/powder-report#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

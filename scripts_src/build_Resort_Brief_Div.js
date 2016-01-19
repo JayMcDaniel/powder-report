@@ -1,6 +1,7 @@
+var utils = require('./utils.js');
+/** builds html from _resorts.json and returns it as a .resort_snippet div*/
+
 var buildResortBriefDiv = function (resort_obj) {
-    
-    
     
 
     var name_and_logo = "<a target ='_blank' href ='http://" + resort_obj.contact_info.url + "'><h3><img class ='resort_logo_img' src = 'images/resort_logos/" + resort_obj.images.logo + "'/>" + resort_obj.name + "</h3></a>";
@@ -35,4 +36,4 @@ var buildResortBriefDiv = function (resort_obj) {
     return snippet;
 }
 
-//module.exports = Resort_brief_div;
+module.exports = buildResortBriefDiv;

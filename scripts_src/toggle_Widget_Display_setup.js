@@ -1,3 +1,5 @@
+/** when "more" link is clicked, gets widget for that resort and appends it to resort snippet */
+
 var toggleWidgetDisplaySetup = function(){
     
     
@@ -33,17 +35,15 @@ var toggleWidgetDisplaySetup = function(){
                 
         }else{
             $(this).text("more")
-            .closest(".resort_snippet").find(".conditions_widget_container").remove();
+                .closest(".resort_snippet").find(".conditions_widget_container").remove();
             
         }
        
-        
-//        
-//          <iframe id="conditions_widget" src="http://www.snocountry.com/widget/widget_resort.php?code=717015&state=PA" frameborder="0" height="590" width="470" scrolling="no">
-//              
-//            </iframe>
         
     });
     
     
 }
+
+
+module.exports = toggleWidgetDisplaySetup;
