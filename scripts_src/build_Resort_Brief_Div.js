@@ -9,17 +9,24 @@ var buildResortBriefDiv = function (resort_obj) {
 
     var phone = "<span class ='resort_phone_number'>" + resort_obj.contact_info.phone.replace(/-/g, "&#8209;") + "</span>";
 
-    var trails_report = "<span class = 'trails_report'><span class = 'trails_open'>5</span> / " + resort_obj.stats.trails + " trails open</span>";
+    var trails = "<span class = 'trails report'>" + resort_obj.stats.trails + "&nbsp;trails </span>";
     
-    var acres_report = "<span class = 'acres_report'><span class = 'acres_open'>5</span> / " + resort_obj.stats.skiable_acres + " acres open</span>";
+    var lifts =  "<span class = 'lifts report'>" + resort_obj.stats.lifts + "&nbsp;lifts </span>";
+    
+    var acres = "<span class = 'acres report'>" + resort_obj.stats.skiable_acres + "&nbsp;acres</span>";
+    
+    var vert = "<span class = 'vert report'>" + utils.addCommas(resort_obj.stats.vertical_drop_ft) + "'&nbsp;vertical&nbsp;drop</span>";
+    
+    var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + ">more</span>"
     
     var map_thumbnail = "<div class='map_thumbnail'> <a target ='_blank' href='images/resort_maps/"+resort_obj.images.map+"'><img src='images/resort_maps/" + resort_obj.images.map.replace('.png', '_sm.png') + "'/></a></div>";
 
 
     var snippet = "<div class='resort_snippet' id ='"+ resort_obj.id +"'>" + name_and_logo + "\
-        " + map_thumbnail  + "<div class='resort_snippet_text'><p>\
-        " + trails_report + acres_report + "<br/>\
-        " + full_address + " | " + phone + "</p></div>\
+        " + map_thumbnail  + "<div class='resort_snippet_text'>\
+        " + trails + lifts + acres + vert + "<br/>\
+        " + full_address + " | " + phone + "<br/>\
+        " + toggle_widget_link + "</div>\
             <div class='clear_float'></div>\
         </div>";
     

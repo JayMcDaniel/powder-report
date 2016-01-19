@@ -23,7 +23,9 @@
                 "vertical_drop_ft": "620",
                 "skiable_acres": "100",
                 "trails": "16",
-                "lifts": "8"
+                "lifts": "8",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717009&state=PA&size=large&region=us&noads=TRUE"
+                
             },
 
             "rates": {
@@ -59,7 +61,8 @@
                 "vertical_drop_ft": "1500",
                 "skiable_acres": "244",
                 "trails": "57",
-                "lifts": "14"
+                "lifts": "14",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=304001&state=WV&size=large&region=us&noads=TRUE"
             },
 
             "rates": {
@@ -95,7 +98,8 @@
                 "vertical_drop_ft": "750",
                 "skiable_acres": "285",
                 "trails": "33",
-                "lifts": "14"
+                "lifts": "14",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=814002&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
 
@@ -133,7 +137,8 @@
                 "vertical_drop_ft": "935",
                 "skiable_acres": "120",
                 "trails": "23",
-                "lifts": "9"
+                "lifts": "9",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717013&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -170,7 +175,8 @@
                 "vertical_drop_ft": "800",
                 "skiable_acres": "160",
                 "trails": "34",
-                "lifts": "16"
+                "lifts": "16",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717003&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
         
             "rates": {
@@ -207,7 +213,8 @@
                 "vertical_drop_ft": "600",
                 "skiable_acres": "103",
                 "trails": "20",
-                "lifts": "8"
+                "lifts": "8",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717015&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
         
             "rates": {
@@ -230,7 +237,7 @@
                 "city": "Davis",
                 "state": "WV",
                 "zip": "26260",
-                "phone": "(304) 866-4801",
+                "phone": "304-866-4801",
                 "address_url": "https://goo.gl/maps/E65Utf9qvVw"
             },
         
@@ -244,7 +251,8 @@
                 "vertical_drop_ft": "100",
                 "skiable_acres": "100",
                 "trails": "39",
-                "lifts": "4"
+                "lifts": "4",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=304002&state=WV&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
         
             "rates": {

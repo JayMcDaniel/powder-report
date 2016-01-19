@@ -46,33 +46,55 @@ body p {
     margin-bottom: 20px;
 }
 
-h1#logo_pr {
-    position: relative;
-    top: 60px;
-    color: rgba(108, 144, 189, .8);
-    display: none;
+#skis_logo {
+    width: 5vw;
+   
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
-h2#subhead_pr {
+h1#logo_pr {
+    position: absolute;
+    bottom: 0px;
+    left: 11vw;
+    font-size: 8vw;
+    font-weight: bold;
+    color: rgba(108, 144, 189, .65);
+}
+
+h2 {
     font-family: sans-serif;
     font-weight: normal;
-    /*    font-size: 3vw;*/
+    font-size: 3vw;
     margin-top: 5px;
     margin-bottom: 5px;
-    text-align: center;
 }
 
-h3{
+h3 {
     margin-top: 10px;
 }
 
 #banner_img {
-    width: 100%;
-    height: 350px;
+    width: 1500px;
+    height: 426px;
     background-repeat: no-repeat;
-    background-image: url("../images/stock/main_logo.png");
+    background-image: url("../images/stock/boarding.jpg");
+    background-position-x: 0px;
     background-size: 100% 100%;
-    background-position-x: 30px;
+}
+
+@media screen and (max-device-width: 480px) {
+    #banner_img {
+        width: 480px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-device-width: 700px) {
+    #banner_img {
+        width: 700px;
+        height: 200px;
+    }
 }
 
 #sort_bar,
@@ -82,10 +104,11 @@ h3{
     padding: 10px;
     padding-bottom: 2px;
     padding-top: 2px;
+    color: #fff;
     /*    font-size: 2.2vw;*/
 }
 
-#sort_by_p{
+#sort_by_p {
     display: none;
 }
 
@@ -93,7 +116,6 @@ h3{
     color: #fff;
     text-align: center;
 }
-
 
 #sort_bar .sort_link {
     cursor: pointer;
@@ -124,10 +146,7 @@ h3{
 }
 
 .resort_snippet {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 .resort_snippet:nth-child(even) {
@@ -144,43 +163,50 @@ h3{
     margin-top: 0px;
 }
 
-
 img.resort_logo_img {
     margin-right: 3px;
     width: 30px;
     height: 30px;
 }
 
-img.weather_icon{
+img.weather_icon {
     width: 40px;
     height: 40px;
 }
 
-p.weather_report{
+.weather_report {
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: -10px;
 }
 
-p.weather_report span{
-    margin-left: 10px;
-}
-
-.trails_report {
+span.report {
     margin-right: 25px;
+}
+
+.weather_report span {
+    margin-left: 30px;
+}
+
+.weather_report .weather_description {
+    margin-left: 5px;
+}
+
+.trails,
+.acres,
+.toggle_widget_link,
+.weather_temp {
     color: #633737;
 }
 
-.trails_open{
-    display: none;
-}
-
-.acres_open{
-    display: none;
+.toggle_widget_link {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .full_address {
     position: relative;
     left: -4px;
+    text-decoration: underline;
 }
 
 .full_address:before {
@@ -191,6 +217,18 @@ p.weather_report span{
 
 .clear_float {
     clear: both;
+}
+
+.conditions_widget_container {
+    position: relative;
+    top: 15px;
+    left: -17px;
+}
+
+.conditions_widget_snowcountry_link {
+    position: absolute;
+    left: 150px;
+    bottom: 17px;
 }
 
 

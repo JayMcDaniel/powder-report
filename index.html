@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<LINK REL="SHORTCUT ICON" HREF="images/stock/tinyicon.jpg">
+<LINK REL="SHORTCUT ICON" HREF="images/stock/skis_icon.png">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
+
     <title>Powder Report: Compare local ski resort conditions and prices!</title>
     <meta name="Author" content="Jay McDaniel" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -16,19 +16,21 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <script src="scripts_src/utils.js"></script>
 
     <script src="scripts_src/request_Current_Weather.js"></script>
     <script src="scripts_src/insert_Current_Weather.js"></script>
-    
-    
+
+
     <script src="scripts_src/print_Resorts.js"></script>
     <script src="scripts_src/load_Resorts.js"></script>
     <script src="scripts_src/build_Resort_Brief_Div.js"></script>
-    
-    
-    
-    
-    
+
+
+
+
+    <script src="scripts_src/toggle_Widget_Display_setup.js"></script>
     <script src="scripts_src/app.js"></script>
 
 </head>
@@ -39,19 +41,25 @@
         <div class="row">
             <div id="navbar"></div>
             <div id="banner_img" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h1 id="logo_pr">Powder Report</h1>
+                <h1 id="logo_pr">Powder<img id="skis_logo" src="images/stock/skis_icon.png"/>Report</h1>
+                
+                
+          
+                
+                
+                
             </div>
         </div>
         <div id="inner_container">
 
-            <h2 id="subhead_pr">Compare conditions and prices of nearby resorts</h2>
+            <h2 id="subhead_pr">Mountain resort info at a glance</h2>
 
 
 
 
             <div class="row">
                 <div id="sort_bar" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p>Here are the most recent stats for DC-area mountains (other areas coming soon!)</p>
+                    <p>Resorts near Washington, DC (other areas coming soon!)</p>
                     <p id="sort_by_p">Sort by:
 
                         <span class="sort_link" sort_by="snow_base">snow&nbsp;base</span>
@@ -70,14 +78,21 @@
                 <div id="resorts_results_div" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 </div>
             </div>
+            
+            
+            
+
+
         </div>
 
         <div id="footer_bar" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p>Site by Jay McDaniel. Skis icon created by Anna Weiss from the Noun Project</p>
         </div>
 
     </div>
 
 
+    
 
 </body>
 
