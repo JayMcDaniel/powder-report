@@ -1,6 +1,5 @@
 var insert_Current_Weather = function(json, name){
     
-    console.log(json);
     
     var weather_report = document.createElement("p");
         weather_report.className = "weather_report";
