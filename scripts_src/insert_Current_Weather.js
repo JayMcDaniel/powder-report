@@ -1,3 +1,5 @@
+var utils = require("./utils.js");
+
 /** builds html from weather json and inserts weather report span */
 
 var insertCurrentWeather = function(json, name){
@@ -12,7 +14,7 @@ var insertCurrentWeather = function(json, name){
     
     var description = document.createElement("span");
         description.className = "weather_description";
-        description.textContent = json.weather[0].description;
+        description.textContent = utils.weatherDescriptor(json.weather[0].description) +" ";
     
     var temp = document.createElement("span");
         temp.className ="weather_temp";
@@ -20,7 +22,7 @@ var insertCurrentWeather = function(json, name){
     
     var wind_speed = document.createElement("span");
         wind_speed.className = "weather_wind_speed";
-        wind_speed.textContent = "wind: " + json.wind.speed.toFixed(1) + " mph";
+        wind_speed.textContent = "wind:\u00a0" + json.wind.speed.toFixed(1) + "\u00a0mph";
     
     
     

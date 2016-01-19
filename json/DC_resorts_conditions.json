@@ -14,12 +14,6 @@
                 "snow_base": "",
                 "snow_description": "",
                 "snow_last_24": ""
-            },
-
-            "current_weather": {
-                "temp": "",
-                "wind": "",
-                "visibility": ""
             }
 
 
@@ -38,12 +32,6 @@
                 "snow_base": "",
                 "snow_description": "",
                 "snow_last_24": ""
-            },
-
-            "current_weather": {
-                "temp": "",
-                "wind": "",
-                "visibility": ""
             }
 
 
