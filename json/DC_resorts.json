@@ -35,7 +35,7 @@
            "name": "Canaan Valley",
        
            "contact_info": {
-               "url": "http://www.canaanresort.com/",
+               "url": "www.canaanresort.com/",
                "street_address": "230 Main Lodge Rd",
                "city": "Davis",
                "state": "WV",
@@ -73,7 +73,7 @@
       {  
          "name":"Jack Frost",
          "contact_info":{  
-            "url":"http://www.jfbb.com/",
+            "url":"www.jfbb.com/",
             "street_address":" 434 Jack Frost Mountain Rd",
             "city":"White Haven",
             "state":"PA",
@@ -135,7 +135,7 @@
            "name": "Massanutten",
        
            "contact_info": {
-               "url": "http://www.massresort.com/",
+               "url": "www.massresort.com/",
                "street_address": "1822 Resort Drive",
                "city": "McGaheysville",
                "state": "VA",
@@ -263,7 +263,7 @@
       {  
          "name":"Timberline Four Seasons",
          "contact_info":{  
-            "url":"",
+            "url":"www.timberlineresort.com/",
             "street_address":"254 Four Seasons Dr",
             "city":"Davis",
             "state":"WV",
@@ -323,7 +323,7 @@
       {  
          "name":"Wisp",
          "contact_info":{  
-            "url":"http://www.wispresort.com/",
+            "url":"www.wispresort.com/",
             "street_address":"296 Marsh Hill Rd",
             "city":"McHenry",
             "state":"MD",
