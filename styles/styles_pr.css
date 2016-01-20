@@ -34,6 +34,16 @@ body p {
     margin: 8px;
 }
 
+a {
+    text-decoration: underline;
+    color: #337ab7;
+}
+
+br {
+    display: block;
+    line-height: 1.5em;
+}
+
 #container-fluid {
     position: relative;
     min-height: 100%;
@@ -74,7 +84,7 @@ h3 {
 }
 
 #banner_img {
-    width: 1500px;
+    width: 100%;
     height: 426px;
     background-repeat: no-repeat;
     background-image: url("../images/stock/boarding.jpg");
@@ -84,14 +94,14 @@ h3 {
 
 @media screen and (max-device-width: 480px) {
     #banner_img {
-        width: 480px;
+        width: 100%;
         height: 150px;
     }
 }
 
 @media screen and (max-device-width: 700px) {
     #banner_img {
-        width: 700px;
+        width: 100%;
         height: 200px;
     }
 }
@@ -127,13 +137,6 @@ h3 {
     background-color: #85A3C8;
 }
 
-@media screen and (max-device-width: 480px) {
-    .btn,
-    p {
-        font-size: 16px;
-    }
-}
-
 #resorts_results_div {
     padding-bottom: 20px;
 }
@@ -151,6 +154,13 @@ h3 {
 
 .resort_snippet {
     padding: 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-device-width: 800px) {
+    .resort_snippet {
+        font-size: 3.5vw;
+    }
 }
 
 .resort_snippet:nth-child(even) {
@@ -183,13 +193,30 @@ img.weather_icon {
     margin-left: -10px;
 }
 
-span.report {
-    padding-right: 12px;
+a.rates_url {
+    color: #337ab7;
+    border-left: 1px solid #85A3C8;
     padding-left: 12px;
 }
 
-.lifts, .full_address{
-    border-right: 1px solid #633737;
+
+span.report:not(:first-child) {
+    padding-left: 12px;
+}
+
+span.report {
+    padding-right: 12px;
+}
+
+.report,
+.full_address {
+    border-right: 1px solid #85A3C8;
+}
+
+.vert,
+.toggle_widget_link,
+.rates_junior {
+    border-right: none;
 }
 
 .weather_report span {
@@ -200,18 +227,16 @@ span.report {
     margin-left: 5px;
 }
 
-.trails,
-.acres,
-.toggle_widget_link,
-.weather_temp {
+.report {
     color: #633737;
 }
 
-.toggle_widget_link {
+span.report.toggle_widget_link {
     text-decoration: underline;
     cursor: pointer;
     position: relative;
     top: 7px;
+    padding-left: 0px;
 }
 
 .full_address {
@@ -237,9 +262,8 @@ span.report {
     left: -17px;
 }
 
-
 @media screen and (max-device-width: 480px) {
- .conditions_widget {
+    .conditions_widget {
         -ms-zoom: 0.75;
         -moz-transform: scale(0.75);
         -moz-transform-origin: 0 0;
@@ -249,11 +273,9 @@ span.report {
         -webkit-transform-origin: 0 0;
     }
     .conditions_widget_container {
-        
         height: 225px;
     }
 }
-
 
 .conditions_widget_snowcountry_link {
     position: absolute;
