@@ -39,6 +39,11 @@ a {
     color: #337ab7;
 }
 
+a.resort_name {
+    text-decoration: none;
+}     
+
+
 br {
     display: block;
     line-height: 1.5em;

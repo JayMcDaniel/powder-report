@@ -4,7 +4,7 @@ var utils = require('./utils.js');
 var buildResortBriefDiv = function (resort_obj) {
 
 
-    var name_and_logo = "<a target ='_blank' href ='http://" + resort_obj.contact_info.url + "'><h3><img class ='resort_logo_img' src = 'images/resort_logos/" + resort_obj.images.logo + "'/>" + resort_obj.name + "</h3></a>";
+    var name_and_logo = "<a class='resort_name' target ='_blank' href ='http://" + resort_obj.contact_info.url + "'><h3><img class ='resort_logo_img' src = 'images/resort_logos/" + resort_obj.images.logo + "'/>" + resort_obj.name + "</h3></a>";
 
     var trails = "<span class = 'trails report'>" + resort_obj.stats.trails + "&nbsp;trails </span>";
 
