@@ -17,8 +17,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="build/google_analytics.js"></script>
-    
-   <script src="build/main.js"></script>
+
+    <script src="build/main.js"></script>
 
 
 
@@ -33,12 +33,12 @@
             <div id="navbar"></div>
             <div id="banner_img" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h1 id="logo_pr">Powder<img id="skis_logo" src="images/stock/skis_icon.png"/>Report</h1>
-                
-                
-          
-                
-                
-                
+
+
+
+
+
+
             </div>
         </div>
         <div id="inner_container">
@@ -50,17 +50,15 @@
 
             <div class="row">
                 <div id="sort_bar" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p>Resorts near Washington, DC (other areas coming soon!)</p>
+                    <p>Resorts near Washington, DC</p>
                     <p id="sort_by_p">Sort by:
 
-                        <span class="sort_link" sort_by="snow_base">snow&nbsp;base</span>
-                        <span class="sort_link" sort_by="snow_last_24">snowfall&nbsp;last&nbsp;24&nbsp;hours</span>
-                        <span class="sort_link" sort_by="trails_open">trails&nbsp;open</span>
-                        <span class="sort_link" sort_by="acres_open">acres&nbsp;open</span>
-                        <span class="sort_link" sort_by="lifts_open">lifts&nbsp;open</span>
-                        <span class="sort_link" sort_by="temperature">temperature</span>
-                        <span class="sort_link" sort_by="vertical_drop">vertical&nbsp;drop</span>
-                        <span class="sort_link" sort_by="price">price</span>
+
+                        <span class="sort_link sort_link_selected sort_order_asc" sort_by="name" sort_order="asc">name<span class ='sort_triangle'>&#9650;</span></span>
+                        <span class="sort_link sort_order_asc" sort_by="stats.trails" sort_order="asc">trails<span class ='sort_triangle'>&#9650;</span></span>
+                        <span class="sort_link sort_order_asc" sort_by="stats.skiable_acres" sort_order="asc">acres<span class ='sort_triangle'>&#9650;</span></span>
+                        <span class="sort_link sort_order_asc" sort_by="stats.vertical_drop_ft" sort_order="asc">vertical&nbsp;drop<span class ='sort_triangle'>&#9650;</span></span>
+                        <span class="sort_link sort_order_desc" sort_by="rates.adults_prime" sort_order="desc">price<span class ='sort_triangle'>&#9660;</span></span>
                     </p>
                 </div>
             </div>
@@ -69,9 +67,9 @@
                 <div id="resorts_results_div" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 </div>
             </div>
-            
-            
-            
+
+
+
 
 
         </div>
@@ -83,7 +81,7 @@
     </div>
 
 
-    
+
 
 </body>
 

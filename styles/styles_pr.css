@@ -118,12 +118,11 @@ h3 {
 }
 
 #sort_by_p {
-    display: none;
+    display: block;
 }
 
 #sort_bar p {
     color: #fff;
-    text-align: center;
 }
 
 #sort_bar .sort_link {
@@ -131,6 +130,14 @@ h3 {
     text-decoration: underline;
     color: #633737;
     margin-right: 15px;
+}
+
+#sort_bar .sort_link_selected{
+    color: #C9FF70;
+}
+
+#sort_bar .sort_triangle{
+    font-size: 60%;
 }
 
 .btn {
