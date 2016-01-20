@@ -130,13 +130,20 @@ h3 {
     text-decoration: underline;
     color: #633737;
     margin-right: 15px;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
 }
 
-#sort_bar .sort_link_selected{
+#sort_bar .sort_link_selected {
     color: #C9FF70;
 }
 
-#sort_bar .sort_triangle{
+#sort_bar .sort_triangle {
     font-size: 60%;
 }
 
@@ -205,7 +212,6 @@ a.rates_url {
     border-left: 1px solid #85A3C8;
     padding-left: 12px;
 }
-
 
 span.report:not(:first-child) {
     padding-left: 12px;

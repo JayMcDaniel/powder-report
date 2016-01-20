@@ -3,6 +3,8 @@ var utils = require("./utils.js");
 /** builds html from weather json and inserts weather report span */
 
 var insertCurrentWeather = function (json, resort_obj) {
+    
+    $("#" + resort_obj.id + " .weather_report").remove();
 
     var weather_report = document.createElement("p");
     weather_report.className = "weather_report";
@@ -41,6 +43,8 @@ var insertCurrentWeather = function (json, resort_obj) {
     weather_report.appendChild(five_day_forcast_span);
 
     $(weather_report).insertBefore($("#" + resort_obj.id + " .toggle_widget_link"));
+    
+    
 
 }
 
