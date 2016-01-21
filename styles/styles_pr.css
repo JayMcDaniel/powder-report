@@ -41,8 +41,7 @@ a {
 
 a.resort_name {
     text-decoration: none;
-}     
-
+}
 
 br {
     display: block;
@@ -97,20 +96,6 @@ h3 {
     background-size: 100% 100%;
 }
 
-@media screen and (max-device-width: 480px) {
-    #banner_img {
-        width: 100%;
-        height: 150px;
-    }
-}
-
-@media screen and (max-device-width: 700px) {
-    #banner_img {
-        width: 100%;
-        height: 200px;
-    }
-}
-
 #sort_bar,
 #footer_bar {
     min-height: 30px;
@@ -119,7 +104,7 @@ h3 {
     padding-bottom: 2px;
     padding-top: 2px;
     color: #fff;
-    /*    font-size: 2.2vw;*/
+    font-size: 16px;
 }
 
 #sort_by_p {
@@ -176,12 +161,6 @@ h3 {
     font-size: 16px;
 }
 
-@media screen and (max-device-width: 800px) {
-    .resort_snippet {
-        font-size: 3.5vw;
-    }
-}
-
 .resort_snippet:nth-child(even) {
     background-color: aliceblue;
 }
@@ -192,24 +171,17 @@ h3 {
     top: -10px;
 }
 
-.resort_snippet_text p {
-    margin-top: 0px;
-}
-
 img.resort_logo_img {
     margin-right: 3px;
     width: 30px;
     height: 30px;
+    position: relative;
+    top: -3px;
 }
 
 img.weather_icon {
     width: 40px;
     height: 40px;
-}
-
-.weather_report {
-    margin-bottom: 0px;
-    margin-left: -10px;
 }
 
 a.rates_url {
@@ -237,24 +209,32 @@ span.report {
     border-right: none;
 }
 
+.contact_info {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.weather_report {
+    position: relative;
+    left: -10px;
+    margin-top: 10px;
+}
+
 .weather_report span {
-    margin-left: 23px;
+    margin-right: 23px;
 }
 
-.weather_report .weather_description {
-    margin-left: 5px;
-}
-
-.report {
+.stats_report  {
     color: #633737;
 }
 
-span.report.toggle_widget_link {
+.toggle_widget_link {
     text-decoration: underline;
     cursor: pointer;
     position: relative;
     top: 7px;
     padding-left: 0px;
+    color: #633737;
 }
 
 .full_address {
@@ -280,25 +260,11 @@ span.report.toggle_widget_link {
     left: -17px;
 }
 
-@media screen and (max-device-width: 480px) {
-    .conditions_widget {
-        -ms-zoom: 0.75;
-        -moz-transform: scale(0.75);
-        -moz-transform-origin: 0 0;
-        -o-transform: scale(0.75);
-        -o-transform-origin: 0 0;
-        -webkit-transform: scale(0.75);
-        -webkit-transform-origin: 0 0;
-    }
-    .conditions_widget_container {
-        height: 225px;
-    }
-}
-
 .conditions_widget_snowcountry_link {
     position: absolute;
     left: 150px;
     bottom: 17px;
+    font-size: 14px;
 }
 
 
@@ -311,4 +277,55 @@ span.report.toggle_widget_link {
 #footer_bar {
     position: relative;
     width: 100%;
+}
+
+@media screen and (max-device-width: 800px) {
+    h3 {
+        font-size: 9vw;
+    }
+    h1#logo_pr {
+        font-size: 12vw;
+    }
+    .resort_snippet,
+    #sort_bar,
+    #subhead_pr {
+        font-size: 3.9vw;
+    }
+    img.resort_logo_img {
+        width: 8vw;
+        height: 8vw;
+    }
+    span.report {
+        padding-right: 20px;
+        border-right: 0px;
+    }
+    span.report:not(:first-child) {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-device-width: 700px) {
+    #banner_img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    #banner_img {
+        width: 100%;
+        height: 150px;
+    }
+    .conditions_widget {
+        -ms-zoom: 0.75;
+        -moz-transform: scale(0.75);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.75);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.75);
+        -webkit-transform-origin: 0 0;
+    }
+    .conditions_widget_container {
+        height: 225px;
+    }
 }

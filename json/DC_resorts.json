@@ -42,6 +42,46 @@
             },
         
         {
+            "name": "Bryce",
+        
+            "contact_info": {
+                "url": "www.bryceresort.com/Home.aspx",
+                "street_address": "1982 Fairway Drive",
+                "city": "Basye",
+                "state": "VA",
+                "zip": "22810",
+                "phone": "800-821-1444",
+                "address_url": "https://goo.gl/maps/36KZ3q3UEx42"
+            },
+        
+            "images": {
+                "logo": "bryce_VA.png",
+                "map": "bryce_VA.jpg",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "500",
+                "skiable_acres": "25",
+                "trails": "8",
+                "lifts": "7",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=703001&state=VA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+        
+            "rates": {
+                "adults_midweek": "40",
+                "adults_prime": "64",
+                "juniors_midweek": "37",
+                "juniors_prime": "57",
+                "rentals": "33",
+                "rates_url": "http://www.bryceresort.com/Winter/skiing.aspx#Lift Tickets & Passes"
+        
+                }
+        
+        
+            },
+        
+        {
             "name": "Camelback",
             "contact_info": {
                 "url": "www.skicamelback.com",

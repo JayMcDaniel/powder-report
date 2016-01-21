@@ -19,7 +19,7 @@ var insertCurrentWeather = function (json, resort_obj) {
 
     var temp = document.createElement("span");
     temp.className = "weather_temp";
-    temp.textContent = json.main.temp.toFixed(1) + "\u2109"; //symbol for degrees F
+    temp.textContent = json.main.temp.toFixed(1) + "\u2109 "; //symbol for degrees F
 
     var wind_speed = document.createElement("span");
     wind_speed.className = "weather_wind_speed";
@@ -28,7 +28,7 @@ var insertCurrentWeather = function (json, resort_obj) {
     var five_day_forcast_span = document.createElement("span");
     var five_day_forcast_link = document.createElement("a");
     five_day_forcast_link.className = "five_day_forcast_link";
-    five_day_forcast_link.textContent = "five day forcast";
+    five_day_forcast_link.textContent = "5\u2011day\u00A0forcast";
     five_day_forcast_link.href = "http://www.weather.com/weather/5day/l/" +resort_obj.contact_info.zip+ ":4:US";
     five_day_forcast_link.target = "_blank";
     five_day_forcast_span.appendChild(five_day_forcast_link);
