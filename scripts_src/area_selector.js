@@ -27,9 +27,10 @@ var area_selector = {
 
             /** get the resort json from selected area */
             loadResorts(area, function (json, area) {
-                sorting.sortResortsArray(json, area); //not supplying sort_by and sort_order to use function cache;
+                sorting.setSelected(json, area);
+                sorting.sortResortsArray(); //not supplying sort_by and sort_order to use function cache;
                 
-                printResorts(json, area);
+                
                 toggleWidgetDisplaySetup();
 
 

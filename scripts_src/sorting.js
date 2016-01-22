@@ -4,9 +4,22 @@ var printResorts = require("./print_Resorts.js");
 /** set up the sort bar functionality */
 
 var sorting = {
+    
+    //have a copy of the selected json and area in this object to use in sortResortsArray();
+    selected_json: {},
+    selected_area: {},
+    
+    setSelected: function(json, area){
+        this.selected_json = json;
+        this.selected_area = area;
+    },
+    
+    
+    
+    
 
     //sorts resort json. called when sort link is clicked or region dropdown is changed
-    sortResortsArray: function (json, area, sort_by, sort_order) {
+    sortResortsArray: function (sort_by, sort_order) {
 
         if (typeof sort_by === "undefined") {
             sort_by = this.cached ? this.cached.sort_by : "name";
@@ -15,16 +28,17 @@ var sorting = {
             sort_order = this.cached ? this.cached.sort_order : "desc";
         }
 
-
+        
+        var thisResortArray = this.selected_json[this.selected_area];
         if (sort_by === "name") {
-            json[area].sort(function (a, b) {
+            thisResortArray.sort(function (a, b) {
                 return a[sort_by].localeCompare(b[sort_by]);
             });
         } else { //for numbered sorts in two levels
 
             var sort_spot = sort_by.split(".");
 
-            json[area].sort(function (a, b) {
+            thisResortArray.sort(function (a, b) {
                 return a[sort_spot[0]][sort_spot[1]] - b[sort_spot[0]][sort_spot[1]];
             });
 
@@ -32,7 +46,7 @@ var sorting = {
 
 
         if (sort_order === "asc") {
-            json[area].reverse();
+            thisResortArray.reverse();
         }
 
         this.cached = {
@@ -40,11 +54,12 @@ var sorting = {
             sort_by: sort_by
         }
 
-
+       //rebuild resorts list on screen
+            printResorts(this.selected_json, this.selected_area);
     },
 
     //sort bar initializer - called when page loads
-    sortBarInit: function (json, area) {
+    sortBarInit: function () {
 
         $("#sort_bar .sort_link").click(function () {
 
@@ -64,14 +79,11 @@ var sorting = {
 
 
             // sort the resorts array
-            sorting.sortResortsArray(json, area, sort_by, sort_order);
+            sorting.sortResortsArray(sort_by, sort_order);
 
             $(".sort_triangle", clicked_sort).text(triangle);
 
             clicked_sort.toggleClass("sort_order_asc sort_order_desc").attr("sort_order", new_sort_order);
-
-            //rebuild resorts list on screen
-            printResorts(json, area);
 
 
         });
