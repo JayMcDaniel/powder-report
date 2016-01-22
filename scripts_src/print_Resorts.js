@@ -5,14 +5,18 @@ var insertCurrentWeather = require("./insert_Current_Weather.js");
 /** calls builder and inserts new resort snippets on page */
 
 var printResorts = function (json, area) {
+    
+    $(".region_selected").text(area.toUpperCase().replace(/_/g," "));
+    
     var $resorts_results_div = $("#resorts_results_div");
+
     $resorts_results_div.empty();
 
     var resorts_arr = json[area];
     var allResorts = "";
     for (var i = 0, len = resorts_arr.length; i < len; i++) {
 
-        resorts_arr[i].id = resorts_arr[i].name.toLowerCase().replace(/ /g, "_");
+        resorts_arr[i].id = resorts_arr[i].name.toLowerCase().replace(/ /g, "_").replace(/\./g, "");
 
         var resort_brief_div = buildResortBriefDiv(resorts_arr[i]);
         allResorts = allResorts + resort_brief_div;
@@ -22,7 +26,9 @@ var printResorts = function (json, area) {
         });
     }
 
+    //insert all resorts on page
     $resorts_results_div.append(allResorts);
+    
 }
 
 

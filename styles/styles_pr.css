@@ -85,6 +85,7 @@ h2 {
 
 h3 {
     margin-top: 10px;
+    margin-left: 8px;
 }
 
 #banner_img {
@@ -94,6 +95,11 @@ h3 {
     background-image: url("../images/stock/boarding.jpg");
     background-position-x: 0px;
     background-size: 100% 100%;
+}
+
+label{
+    font-weight: normal;
+    
 }
 
 #sort_bar,
@@ -281,7 +287,7 @@ span.report {
 
 @media screen and (max-device-width: 800px) {
     h3 {
-        font-size: 9vw;
+        font-size: 5vw;
     }
     h1#logo_pr {
         font-size: 12vw;

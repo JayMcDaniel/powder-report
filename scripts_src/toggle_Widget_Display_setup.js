@@ -4,7 +4,7 @@ var toggleWidgetDisplaySetup = function(){
     
     
     $(".toggle_widget_link").click(function(){        
-        if ($(this).text() === "more info"){
+        if ($(this).text() === "show current stats"){
             
             var conditions_widget_container = document.createElement("div");
                 conditions_widget_container.className = "conditions_widget_container";
@@ -30,11 +30,11 @@ var toggleWidgetDisplaySetup = function(){
             conditions_widget_container.appendChild(conditions_widget);
             
             
-            $(this).text("less info")
+            $(this).text("hide current stats")
                 .closest(".resort_snippet").append(conditions_widget_container);
                 
         }else{
-            $(this).text("more info")
+            $(this).text("show current stats")
                 .closest(".resort_snippet").find(".conditions_widget_container").remove();
             
         }

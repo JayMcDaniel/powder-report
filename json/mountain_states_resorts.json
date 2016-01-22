@@ -1,0 +1,163 @@
+{
+    "mountain_states": [
+
+        {
+            "name": "Beaver Creek",
+
+            "contact_info": {
+                "url": "www.beavercreek.com/",
+                "street_address": "26 Avondale Lane",
+                "city": "Avon",
+                "state": "CO",
+                "zip": "81620",
+                "phone": "800-226-0355",
+                "address_url": "https://goo.gl/maps/nqZm6Bkz3712"
+            },
+
+            "images": {
+                "logo": "beaver_creek_CO.jpg",
+                "map": "beaver_creek_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "4040",
+                "skiable_acres": "1832",
+                "trails": "150",
+                "lifts": "25",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303005&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "165",
+                "adults_prime": "165",
+                "juniors_midweek": "114",
+                "juniors_prime": "114",
+                "rentals": "54",
+                "rates_url": "http://www.beavercreek.com/plan-your-trip/lift-tickets/lift-tickets-search.aspx"
+
+            }
+
+
+            },
+        {
+            "name": "Breckenridge",
+
+            "contact_info": {
+                "url": "www.breckenridge.com/",
+                "street_address": "1599 County Rd 3",
+                "city": "Breckenridge",
+                "state": "CO",
+                "zip": "80424",
+                "phone": "800-789-7669",
+                "address_url": "https://goo.gl/maps/Lvex6ve4saG2"
+            },
+
+            "images": {
+                "logo": "breckenridge_CO.png",
+                "map": "breckenridge_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "3398",
+                "skiable_acres": "2908",
+                "trails": "187",
+                "lifts": "34",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303007&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "154",
+                "adults_prime": "154",
+                "juniors_midweek": "100",
+                "juniors_prime": "100",
+                "rentals": "46",
+                "rates_url": "http://www.breckenridge.com/plan-a-trip/lift-tickets/lift-tickets-explorer.aspx"
+
+            }
+
+
+        },
+
+        {
+            "name": "Crested Butte",
+
+            "contact_info": {
+                "url": "www.skicb.com/",
+                "street_address": "500 Gothic Rd",
+                "city": "Crested Butte",
+                "state": "CO",
+                "zip": "81225",
+                "phone": "877-547-5143",
+                "address_url": "https://goo.gl/maps/xqaq7r6vmMu"
+            },
+
+            "images": {
+                "logo": "crested_butte_CO.png",
+                "map": "crested_butte_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "3062",
+                "skiable_acres": "1547",
+                "trails": "121",
+                "lifts": "15",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303010&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "108",
+                "adults_prime": "108",
+                "juniors_midweek": "97",
+                "juniors_prime": "97",
+                "rentals": "25",
+                "rates_url": "http://www.skicb.com/tickets-passes/lift-tickets"
+
+            }
+
+
+            },
+        {
+            "name": "Snowmass",
+
+            "contact_info": {
+                "url": "www.aspensnowmass.com/",
+                "street_address": "45 Village Square",
+                "city": "Snowmass Village",
+                "state": "CO",
+                "zip": "81615",
+                "phone": "800-525-6200",
+                "address_url": "https://goo.gl/maps/6CfACBxdKkD2"
+            },
+
+            "images": {
+                "logo": "aspen_snowmass_CO.png",
+                "map": "snowmass_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "4406",
+                "skiable_acres": "3332",
+                "trails": "94",
+                "lifts": "20",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303020&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "139",
+                "adults_prime": "139",
+                "juniors_midweek": "89",
+                "juniors_prime": "89",
+                "rentals": "54",
+                "rates_url": "https://www.aspensnowmass.com/plan-your-stay/tickets-and-passes/advance-purchase"
+
+            }
+
+
+        }
+
+   ]
+}

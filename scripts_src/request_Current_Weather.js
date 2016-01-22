@@ -2,7 +2,7 @@
 
 var requestCurrentWeather = function(resort_obj, callback){
     
-    var url = "http://api.openweathermap.org/data/2.5/weather?zip=" + resort_obj.contact_info.zip + ",us&units=Imperial&appid=cca701a02541072de8ae89206c9faee9";
+    var url = "http://api.openweathermap.org/data/2.5/weather?q=" + resort_obj.contact_info.city + ",us&units=Imperial&appid=cca701a02541072de8ae89206c9faee9";
         
     $.getJSON(url)
         .done(function (json) {

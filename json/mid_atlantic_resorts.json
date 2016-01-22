@@ -1,0 +1,512 @@
+{
+    "mid_atlantic": [
+        
+        {
+            "name": "Blue Mountain",
+        
+            "contact_info": {
+                "url": "www.skibluemt.com",
+                "street_address": "1660 Blue Mountain Dr",
+                "city": "Palmerton",
+                "state": "PA",
+                "zip": "18071",
+                "phone": "610-826-7700",
+                "address_url": "https://goo.gl/maps/M38EedytjHK2"
+            },
+        
+            "images": {
+                "logo": "blue_mountain_PA.jpg",
+                "map": "blue_mountain_PA.jpg",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "1082",
+                "skiable_acres": "164",
+                "trails": "39",
+                "lifts": "14",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=215002&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+        
+            "rates": {
+                "adults_midweek": "70",
+                "adults_prime": "85",
+                "juniors_midweek": "60",
+                "juniors_prime": "70",
+                "rentals": "",
+                "rates_url": "https://www.shopskibluemt.com/eStore/Content/Commerce/Products/DisplayProducts.aspx?ProductGroupCode=14&ProductCategoryCode=69"
+        
+                }
+        
+        
+            },
+        
+        {
+            "name": "Bryce",
+        
+            "contact_info": {
+                "url": "www.bryceresort.com/Home.aspx",
+                "street_address": "1982 Fairway Drive",
+                "city": "Basye",
+                "state": "VA",
+                "zip": "22810",
+                "phone": "800-821-1444",
+                "address_url": "https://goo.gl/maps/36KZ3q3UEx42"
+            },
+        
+            "images": {
+                "logo": "bryce_VA.png",
+                "map": "bryce_VA.jpg",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "500",
+                "skiable_acres": "25",
+                "trails": "8",
+                "lifts": "7",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=703001&state=VA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+        
+            "rates": {
+                "adults_midweek": "40",
+                "adults_prime": "64",
+                "juniors_midweek": "37",
+                "juniors_prime": "57",
+                "rentals": "33",
+                "rates_url": "http://www.bryceresort.com/Winter/skiing.aspx#Lift Tickets & Passes"
+        
+                }
+        
+        
+            },
+        
+        {
+            "name": "Camelback",
+            "contact_info": {
+                "url": "www.skicamelback.com",
+                "street_address": "301 Resort Dr",
+                "city": "Tannersville",
+                "state": "PA",
+                "zip": "18372",
+                "phone": "570-629-1661",
+                "address_url": "https://goo.gl/maps/SRiSbUSiXPJ2"
+            },
+            "images": {
+                "logo": "camelback_PA.png",
+                "map": "camelback_PA.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "800",
+                "skiable_acres": "160",
+                "trails": "34",
+                "lifts": "16",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717003&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "53",
+                "adults_prime": "67",
+                "juniors_midweek": "45",
+                "juniors_prime": "49",
+                "rentals": "39",
+                "rates_url": "http://www.skicamelback.com/ski-resort-pennsylvania.aspx",
+                "rentals_url": "http://www.skicamelback.com/ski-rentals-poconos.aspx"
+
+            }
+
+      },
+
+        {
+            "name": "Canaan Valley",
+
+            "contact_info": {
+                "url": "www.canaanresort.com/",
+                "street_address": "230 Main Lodge Rd",
+                "city": "Davis",
+                "state": "WV",
+                "zip": "26260",
+                "phone": "304-866-4121",
+                "address_url": "https://goo.gl/maps/VwPAWfLFUHt"
+            },
+
+            "images": {
+                "logo": "canaan_valley_WV.png",
+                "map": "canaan_valley_WV.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "850",
+                "skiable_acres": "91",
+                "trails": "43",
+                "lifts": "4",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=304005&state=WV&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "42",
+                "adults_prime": "59",
+                "juniors_midweek": "25",
+                "juniors_prime": "40",
+                "rentals": "",
+                "rates_url": "http://canaanresort.com/winter/ski/lift-tickets/"
+
+            }
+
+
+        },
+        {
+            "name": "Jack Frost",
+            "contact_info": {
+                "url": "www.jfbb.com/",
+                "street_address": " 434 Jack Frost Mountain Rd",
+                "city": "White Haven",
+                "state": "PA",
+                "zip": "18661",
+                "phone": "570-443-8425",
+                "address_url": "https://goo.gl/maps/iqWmK6sua6E2"
+            },
+            "images": {
+                "logo": "jack_frost_PA.png",
+                "map": "jack_frost_PA.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "600",
+                "skiable_acres": "100",
+                "trails": "24",
+                "lifts": "10",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717006&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "48",
+                "adults_prime": "55",
+                "juniors_midweek": "35",
+                "juniors_prime": "43",
+                "rentals": "35",
+                "rates_url": "http://www.jfbb.com/snow-passes/"
+
+            }
+
+      },
+        {
+            "name": "Liberty",
+            "contact_info": {
+                "url": "www.libertymountainresort.com",
+                "street_address": "78 Country Club Trail",
+                "city": "Carroll Valley",
+                "state": "PA",
+                "zip": "17320",
+                "phone": "717-642-9000",
+                "address_url": "https://goo.gl/maps/eaQmrAkoPvL2"
+            },
+            "images": {
+                "logo": "liberty_PA.png",
+                "map": "liberty_PA.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "620",
+                "skiable_acres": "100",
+                "trails": "16",
+                "lifts": "8",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717009&state=PA&size=large&region=us&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "59",
+                "adults_prime": "71",
+                "juniors_midweek": "53",
+                "juniors_prime": "60",
+                "rentals": "",
+                "rates_url": "http://www.libertymountainresort.com/winter-sports-liberty/tickets-packages/daily-rates"
+
+            }
+
+      },
+
+        {
+            "name": "Massanutten",
+
+            "contact_info": {
+                "url": "www.massresort.com/",
+                "street_address": "1822 Resort Drive",
+                "city": "McGaheysville",
+                "state": "VA",
+                "zip": "22840",
+                "phone": "540-289-9441",
+                "address_url": "https://goo.gl/maps/cA6qhaFxFtN2"
+            },
+
+            "images": {
+                "logo": "massanutten_VA.jpg",
+                "map": "massanutten_VA.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1110",
+                "skiable_acres": "70",
+                "trails": "14",
+                "lifts": "8",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=703003&state=VA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "50",
+                "adults_prime": "70",
+                "juniors_midweek": "42",
+                "juniors_prime": "60",
+                "rentals": "",
+                "rates_url": "http://www.massresort.com/v.php?pg=178"
+
+            }
+
+
+           },
+        {
+            "name": "Roundtop",
+            "contact_info": {
+                "url": "www.skiroundtop.com",
+                "street_address": "925 Roundtop Rd",
+                "city": "Lewisberry",
+                "state": "PA",
+                "zip": "17339",
+                "phone": "717-432-9631",
+                "address_url": "https://goo.gl/maps/5otjSMmqHT62"
+            },
+            "images": {
+                "logo": "roundtop_PA.png",
+                "map": "roundtop_PA.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "600",
+                "skiable_acres": "103",
+                "trails": "20",
+                "lifts": "8",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717015&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "59",
+                "adults_prime": "68",
+                "juniors_midweek": "51",
+                "juniors_prime": "56",
+                "rentals": "",
+                "rates_url": "https://www.skiroundtop.com/winter-rates"
+
+            }
+
+      },
+        {
+            "name": "Seven Springs",
+            "contact_info": {
+                "url": "www.7springs.com",
+                "street_address": "777 Waterwheel Dr",
+                "city": "Seven Springs",
+                "state": "PA",
+                "zip": "15622",
+                "phone": "800-452-2223",
+                "address_url": "https://goo.gl/maps/SpgHaFiMqwP2"
+            },
+            "images": {
+                "logo": "7springs_WV.png",
+                "map": "7springs_WV.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "750",
+                "skiable_acres": "285",
+                "trails": "33",
+                "lifts": "14",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=814002&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "62",
+                "adults_prime": "86",
+                "juniors_midweek": "50",
+                "juniors_prime": "66",
+                "rentals": "",
+                "rates_url": "http://www.7springs.com/ski-and-ride/schedule-rates/"
+
+            }
+
+      },
+        {
+            "name": "Snowshoe",
+            "contact_info": {
+                "url": "www.snowshoemtn.com",
+                "street_address": "10 Snowshoe Drive",
+                "city": "Snowshoe",
+                "state": "WV",
+                "zip": "26209",
+                "phone": "877-441-4386",
+                "address_url": "https://goo.gl/maps/KijoGjQCfgM2"
+            },
+            "images": {
+                "logo": "snowshoe_WV.png",
+                "map": "snowshoe_WV.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "1500",
+                "skiable_acres": "244",
+                "trails": "57",
+                "lifts": "14",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=304001&state=WV&size=large&region=us&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "79",
+                "adults_prime": "89",
+                "juniors_midweek": "66",
+                "juniors_prime": "74",
+                "rentals": "",
+                "rates_url": "http://www.snowshoemtn.com/tickets-and-passes/winter-passes/tickets-and-passes.aspx"
+
+            }
+
+      },
+        {
+            "name": "Timberline Four Seasons",
+            "contact_info": {
+                "url": "www.timberlineresort.com/",
+                "street_address": "254 Four Seasons Dr",
+                "city": "Davis",
+                "state": "WV",
+                "zip": "26260",
+                "phone": "304-866-4801",
+                "address_url": "https://goo.gl/maps/E65Utf9qvVw"
+            },
+            "images": {
+                "logo": "timberline_WV.png",
+                "map": "timberline_WV.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "100",
+                "skiable_acres": "100",
+                "trails": "39",
+                "lifts": "4",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=304002&state=WV&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "54",
+                "adults_prime": "69",
+                "juniors_midweek": "39",
+                "juniors_prime": "49",
+                "rentals": "41",
+                "rates_url": "http://www.timberlineresort.com/pdfs/Rates%20Brochure.pdf"
+
+            }
+
+      },
+        {
+            "name": "Whitetail",
+            "contact_info": {
+                "url": "www.skiwhitetail.com/winter",
+                "street_address": "13805 Blairs Valley Rd",
+                "city": "Mercersburg",
+                "state": "PA",
+                "zip": "17236",
+                "phone": "717-328-9400",
+                "address_url": "https://goo.gl/maps/Jn93CfbyeoT2"
+            },
+            "images": {
+                "logo": "whitetail_PA.png",
+                "map": "whitetail_PA.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "935",
+                "skiable_acres": "120",
+                "trails": "23",
+                "lifts": "9",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=717013&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "62",
+                "adults_prime": "73",
+                "juniors_midweek": "53",
+                "juniors_prime": "60",
+                "rentals": "",
+                "rates_url": "https://www.skiwhitetail.com/winter/hours-rates-information/hours-rates"
+
+            }
+
+      },
+
+        {
+            "name": "Wintergreen",
+
+            "contact_info": {
+                "url": "http://www.wintergreenresort.com/",
+                "street_address": "Wintergreen Resort, Route 664",
+                "city": "Wintergreen",
+                "state": "VA",
+                "zip": "22958",
+                "phone": "855-699-1858",
+                "address_url": "https://goo.gl/maps/qkj4uzsPYND2"
+            },
+
+            "images": {
+                "logo": "wintergreen_VA.png",
+                "map": "wintergreen_VA.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1003",
+                "skiable_acres": "129",
+                "trails": "26",
+                "lifts": "7",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=804001&state=VA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "59",
+                "adults_prime": "79",
+                "juniors_midweek": "49",
+                "juniors_prime": "59",
+                "rentals": "",
+                "rates_url": "http://www.wintergreenresort.com/Lift-Tickets/"
+
+            }
+
+
+            },
+        {
+            "name": "Wisp",
+            "contact_info": {
+                "url": "www.wispresort.com/",
+                "street_address": "296 Marsh Hill Rd",
+                "city": "McHenry",
+                "state": "MD",
+                "zip": "21541",
+                "phone": "301-859-3159",
+                "address_url": "https://goo.gl/maps/xr9cFxyWTC42"
+            },
+            "images": {
+                "logo": "wisp_MD.png",
+                "map": "wisp_MD.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "700",
+                "skiable_acres": "132",
+                "trails": "34",
+                "lifts": "13",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=301001&state=MD&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "59",
+                "adults_prime": "79",
+                "juniors_midweek": "49",
+                "juniors_prime": "59",
+                "rentals": "",
+                "rates_url": "http://www.wispresort.com/ski-board-lift-tickets.php"
+
+            }
+
+      }
+   ]
+}

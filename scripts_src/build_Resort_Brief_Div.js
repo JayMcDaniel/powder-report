@@ -22,7 +22,7 @@ var buildResortBriefDiv = function (resort_obj) {
     var phone = "<span class ='resort_phone_number'>" + resort_obj.contact_info.phone.replace(/-/g, "&#8209;") + "</span>";
 
 
-    var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + ">more info</span>"
+    var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + ">show current stats</span>"
 
     var map_thumbnail = "<div class='map_thumbnail'> <a target ='_blank' href='images/resort_maps/" + resort_obj.images.map + "'><img src='images/resort_maps/" + utils.thumbnailName(resort_obj.images.map) + "'/></a></div>";
 
