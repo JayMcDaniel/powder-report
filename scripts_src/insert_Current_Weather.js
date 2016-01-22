@@ -30,7 +30,6 @@ var insertCurrentWeather = function (json, resort_obj) {
     five_day_forcast_link.className = "five_day_forcast_link";
     five_day_forcast_link.textContent = "5\u2011day\u00A0forcast";
 
-    console.log(resort_obj);
     //if more accurate weather link is available, use that instead of zip code
     if (typeof resort_obj.weather_forcast_url != "undefined" && resort_obj.weather_forcast_url.length > 1) {
         five_day_forcast_link.href = resort_obj.weather_forcast_url;
