@@ -10,7 +10,7 @@ var buildResortBriefDiv = function (resort_obj) {
 
     var lifts = "<span class = 'lifts report'>" + resort_obj.stats.lifts + "&nbsp;lifts </span>";
 
-    var acres = "<span class = 'acres report'>" + resort_obj.stats.skiable_acres + "&nbsp;acres</span>";
+    var acres = "<span class = 'acres report'>" + utils.addCommas(resort_obj.stats.skiable_acres) + "&nbsp;acres</span>";
 
     var vert = "<span class = 'vert report'>" + utils.addCommas(resort_obj.stats.vertical_drop_ft) + "'&nbsp;vertical&nbsp;drop</span>";
 
