@@ -3,7 +3,7 @@ var utils = require("./utils.js");
 /** builds html from weather json and inserts weather report span */
 
 var insertCurrentWeather = function (json, resort_obj) {
-    
+
     $("#" + resort_obj.id + " .weather_report").remove();
 
     var weather_report = document.createElement("p");
@@ -29,7 +29,17 @@ var insertCurrentWeather = function (json, resort_obj) {
     var five_day_forcast_link = document.createElement("a");
     five_day_forcast_link.className = "five_day_forcast_link";
     five_day_forcast_link.textContent = "5\u2011day\u00A0forcast";
-    five_day_forcast_link.href = "http://www.weather.com/weather/5day/l/" +resort_obj.contact_info.zip+ ":4:US";
+
+    console.log(resort_obj);
+    //if more accurate weather link is available, use that instead of zip code
+    if (typeof resort_obj.weather_forcast_url != "undefined" && resort_obj.weather_forcast_url.length > 1) {
+        five_day_forcast_link.href = resort_obj.weather_forcast_url;
+
+    } else {
+        five_day_forcast_link.href = "http://www.weather.com/weather/5day/l/" + resort_obj.contact_info.zip + ":4:US";
+    }
+
+
     five_day_forcast_link.target = "_blank";
     five_day_forcast_span.appendChild(five_day_forcast_link);
 
@@ -43,8 +53,8 @@ var insertCurrentWeather = function (json, resort_obj) {
     weather_report.appendChild(five_day_forcast_span);
 
     $(weather_report).insertBefore($("#" + resort_obj.id + " .toggle_widget_link"));
-    
-    
+
+
 
 }
 

@@ -157,7 +157,51 @@
             }
 
 
-        }
+        },
+        
+        {
+            "name": "Snowbird",
+        
+            "contact_info": {
+                "url": "snowbird.com",
+                "street_address": "9600 Little Cottonwood Canyon Rd",
+                "city": "Sandy",
+                "state": "UT",
+                "zip": "84092",
+                "phone": "801-933-2222",
+                "address_url": "https://goo.gl/maps/32V6cc5uYs72"
+            },
+        
+            "images": {
+                "logo": "snowbird_UT.png",
+                "map": "snowbird_UT.jpg",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "3240",
+                "skiable_acres": "2500",
+                "trails": "169",
+                "lifts": "13",
+                "specials_note": "Includes Tram",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801010&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+        
+            "rates": {
+                "adults_midweek": "98",
+                "adults_prime": "98",
+                "juniors_midweek": "46",
+                "juniors_prime": "46",
+                "rentals": "30",
+                "rates_url": "http://www.snowbird.com/tickets-and-season-passes/",
+                "specials_note": "Get an Alta/Snowbird ticket for $114"
+        
+                },
+            
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0235:1:US"
+        
+        
+            }
 
    ]
 }
