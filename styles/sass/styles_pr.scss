@@ -1,5 +1,6 @@
 /*theme color: #85A3C8  (blue) second color: #633737 (red)*/
 $primary-color: #85A3C8;
+$highlight-color: #633737;
 
 /*
 #navbar{
@@ -134,7 +135,7 @@ label {
   .sort_link {
     cursor: pointer;
     text-decoration: underline;
-    color: #633737;
+    color: $highlight-color;
     margin-right: 15px;
     -webkit-user-select: none;
     /* Chrome all / Safari all */
@@ -240,7 +241,7 @@ span.report {
 }
 
 .stats_report {
-  color: #633737;
+  color: $highlight-color;
 }
 
 .toggle_widget_link {
@@ -249,7 +250,7 @@ span.report {
   position: relative;
   top: 7px;
   padding-left: 0px;
-  color: #633737;
+  color: $highlight-color;
 }
 
 .full_address {
