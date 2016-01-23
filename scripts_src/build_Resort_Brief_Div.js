@@ -4,7 +4,7 @@ var utils = require('./utils.js');
 var buildResortBriefDiv = function (resort_obj) {
 
 
-    var name_and_logo = "<a class = 'resort_name' target ='_blank' href ='http://" + resort_obj.contact_info.url + "'><h3><img class ='resort_logo_img' src = 'images/resort_logos/" + resort_obj.images.logo + "'/>" + resort_obj.name + "</h3></a>";
+    var name_and_logo = "<a class = 'resort_name' target ='_blank' href ='" + utils.urlFormat(resort_obj.contact_info.url) + "'><h3><img class ='resort_logo_img' src = 'images/resort_logos/" + resort_obj.images.logo + "'/>" + resort_obj.name + "</h3></a>";
 
     var trails = "<span class = 'trails report'>" + resort_obj.stats.trails + "&nbsp;trails </span>";
 
@@ -19,7 +19,7 @@ var buildResortBriefDiv = function (resort_obj) {
     var rates = "Rates (midweek / weekend): <span class = 'rates_adult report'>Adult:&nbsp;$" + resort_obj.rates.adults_midweek + "&nbsp;/&nbsp;$" + resort_obj.rates.adults_prime + "&nbsp;</span>\
                 <span class = 'rates_junior report'>Junior:&nbsp;$" + resort_obj.rates.juniors_midweek + "&nbsp;/&nbsp;$" + resort_obj.rates.juniors_prime + "</span> <a class = 'rates_url' target ='_blank' href ='" + resort_obj.rates.rates_url + "'>Tickets</a>";
 
-    var phone = "<span class ='resort_phone_number'>" + resort_obj.contact_info.phone.replace(/-/g, "&#8209;") + "</span>";
+    var phone = "<span class ='resort_phone_number'>" + utils.phoneFormat(resort_obj.contact_info.phone) + "</span>";
 
 
     var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + ">show current stats</span>"

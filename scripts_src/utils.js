@@ -21,6 +21,17 @@
           /** return modded language for weather description */
           weatherDescriptor: function (string) {
               return string.replace("overcast clouds", "overcast").replace("sky is clear", "clear skies");
+          },
+          
+          phoneFormat: function (string){
+              return string.replace(/\(|\)/g,"").replace(/-| /g, "&#8209;");
+          },
+          
+          urlFormat: function (string){
+              if (string.slice(0,3) === "www"){
+                  string = "http://" + string;
+              }
+              return string;
           }
 
       }

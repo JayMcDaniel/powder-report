@@ -1,9 +1,9 @@
 {
     "mid_atlantic": [
-        
+
         {
             "name": "Blue Mountain",
-        
+
             "contact_info": {
                 "url": "www.skibluemt.com",
                 "street_address": "1660 Blue Mountain Dr",
@@ -13,13 +13,13 @@
                 "phone": "610-826-7700",
                 "address_url": "https://goo.gl/maps/M38EedytjHK2"
             },
-        
+
             "images": {
                 "logo": "blue_mountain_PA.jpg",
                 "map": "blue_mountain_PA.jpg",
                 "stock": ""
             },
-        
+
             "stats": {
                 "vertical_drop_ft": "1082",
                 "skiable_acres": "164",
@@ -27,7 +27,7 @@
                 "lifts": "14",
                 "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=215002&state=PA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
-        
+
             "rates": {
                 "adults_midweek": "70",
                 "adults_prime": "85",
@@ -35,15 +35,15 @@
                 "juniors_prime": "70",
                 "rentals": "",
                 "rates_url": "https://www.shopskibluemt.com/eStore/Content/Commerce/Products/DisplayProducts.aspx?ProductGroupCode=14&ProductCategoryCode=69"
-        
-                }
-        
-        
+
+            }
+
+
             },
-        
+
         {
             "name": "Bryce",
-        
+
             "contact_info": {
                 "url": "www.bryceresort.com/Home.aspx",
                 "street_address": "1982 Fairway Drive",
@@ -53,13 +53,13 @@
                 "phone": "800-821-1444",
                 "address_url": "https://goo.gl/maps/36KZ3q3UEx42"
             },
-        
+
             "images": {
                 "logo": "bryce_VA.png",
                 "map": "bryce_VA.jpg",
                 "stock": ""
             },
-        
+
             "stats": {
                 "vertical_drop_ft": "500",
                 "skiable_acres": "25",
@@ -67,7 +67,7 @@
                 "lifts": "7",
                 "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=703001&state=VA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
-        
+
             "rates": {
                 "adults_midweek": "40",
                 "adults_prime": "64",
@@ -75,12 +75,12 @@
                 "juniors_prime": "57",
                 "rentals": "33",
                 "rates_url": "http://www.bryceresort.com/Winter/skiing.aspx#Lift Tickets & Passes"
-        
-                }
-        
-        
+
+            }
+
+
             },
-        
+
         {
             "name": "Camelback",
             "contact_info": {

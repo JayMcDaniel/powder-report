@@ -35,7 +35,9 @@
                 "rentals": "29",
                 "rates_url": "http://www.mtashland.com/lift-tickets/"
 
-            }
+            },
+
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/264:11:US"
 
 
             },
@@ -75,8 +77,9 @@
                 "rentals": "42",
                 "rates_url": "http://www.mtbachelor.com/tickets-passes/lift-tickets/"
 
-            }
+            },
 
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/265:11:US"
 
             },
 
@@ -115,7 +118,9 @@
                 "rentals": "38",
                 "rates_url": "https://www.skihood.com/store/lift-tickets"
 
-            }
+            },
+
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USOR0232:1:US"
 
 
             },
@@ -155,14 +160,14 @@
                 "rentals": "37",
                 "rates_url": "http://www.skibowl.com/winter/mt-hood-ski-lift-tickets"
 
-            }
-
-
             },
-        
+
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/275:11:US"
+            },
+
         {
             "name": "Willamette Pass",
-        
+
             "contact_info": {
                 "url": "www.willamettepass.com/",
                 "street_address": "Milepost 62",
@@ -172,13 +177,13 @@
                 "phone": "541-345-SNOW",
                 "address_url": "https://goo.gl/maps/te35GZmG4Pk"
             },
-        
+
             "images": {
                 "logo": "willamette_pass_OR.gif",
                 "map": "willamette_pass_OR.jpg",
                 "stock": ""
             },
-        
+
             "stats": {
                 "vertical_drop_ft": "1563",
                 "skiable_acres": "555",
@@ -186,7 +191,7 @@
                 "lifts": "29",
                 "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503010&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
-        
+
             "rates": {
                 "adults_midweek": "49",
                 "adults_prime": "49",
@@ -195,10 +200,12 @@
                 "rentals": "26",
                 "rates_url": "http://www.willamettepass.com/passport/",
                 "specials_note": "hourly skiing tickets available"
-        
-                }
-        
-        
+
+            },
+            
+             "weather_forcast_url": "http://www.weather.com/weather/5day/l/502:11:US"
+
+
             }
 
 
