@@ -206,6 +206,49 @@
              "weather_forcast_url": "http://www.weather.com/weather/5day/l/502:11:US"
 
 
+            },
+        
+        {
+            "name": "Crystal Mountain",
+        
+            "contact_info": {
+                "url": "http://crystalmountainresort.com/",
+                "street_address": "33914 Crystal Mountain Blvd",
+                "city": "Crystal Mountain",
+                "state": "WA",
+                "zip": "98022",
+                "phone": "888-754-6199",
+                "address_url": "https://goo.gl/maps/utzxjvh54HQ2"
+            },
+        
+            "images": {
+                "logo": "crystal_mountain_WA.png",
+                "map": "crystal_mountain_WA.png",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "3104",
+                "skiable_acres": "2600",
+                "trails": "57",
+                "lifts": "11",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=206002&state=WA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+        
+            "rates": {
+                "adults_midweek": "72",
+                "adults_prime": "72",
+                "juniors_midweek": "48",
+                "juniors_prime": "48",
+                "rentals": "",
+                "rates_url": "http://crystalmountainresort.com/lift-tickets/daily-lift-tickets/",
+                "specials_note": "Non-skiers are welcome to take a scenic ride on the Mt.Rainier Gondola! ($20)"
+        
+            },
+                
+             "weather_forcast_url": "http://www.weather.com/weather/5day/l/124:11:US"
+        
+        
             }
 
 
