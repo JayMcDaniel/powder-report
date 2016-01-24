@@ -335,6 +335,46 @@
              "weather_forcast_url": "http://www.weather.com/weather/5day/l/1:11:US"
         
         
+            },
+        
+        {
+            "name": "Timberline Lodge",
+        
+            "contact_info": {
+                "url": "http://www.timberlinelodge.com/",
+                "full_address": "27500 W Leg Rd, Timberline Lodge, OR 97028",
+                "phone": "503-272-3311",
+                "address_url": "https://goo.gl/maps/Ghgo6Gv7PUp"
+            },
+        
+            "images": {
+                "logo": "timberline_OR.png",
+                "map": "timberline_OR.jpg",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "3690",
+                "skiable_acres": "1416",
+                "trails": "43",
+                "lifts": "9",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503009&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+        
+            "rates": {
+                "adults_midweek": "66",
+                "adults_prime": "72",
+                "juniors_midweek": "44",
+                "juniors_prime": "44",
+                "rentals": "",
+                "rates_url": "http://www.timberlinelodge.com/lift-tickets-passes/",
+                "specials_note": "Teen rates (15-17) also available"
+        
+            },
+                
+             "weather_forcast_url": "http://www.weather.com/weather/today/l/470:11:US"
+        
+        
             }
 
 
