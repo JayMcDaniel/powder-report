@@ -249,6 +249,92 @@
              "weather_forcast_url": "http://www.weather.com/weather/5day/l/124:11:US"
         
         
+            },
+        
+        {
+            "name": "The Summit at Snoqualmie",
+        
+            "contact_info": {
+                "url": "http://www.summitatsnoqualmie.com/",
+                "street_address": "1001 Washington 906",
+                "city": "Snoqualmie Pass",
+                "state": "WA",
+                "zip": "98068",
+                "phone": "(425) 434-7669",
+                "address_url": "https://goo.gl/maps/obNB8Bcp58x"
+            },
+        
+            "images": {
+                "logo": "the_summit_at_snoqualmie_WA.png",
+                "map": "the_summit_at_snoqualmie_WA.jpg",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "2275",
+                "skiable_acres": "1994",
+                "trails": "113",
+                "lifts": "25",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=425715&state=WA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+        
+            "rates": {
+                "adults_midweek": "66",
+                "adults_prime": "66",
+                "juniors_midweek": "45",
+                "juniors_prime": "45",
+                "rentals": "",
+                "rates_url": "http://www.summitatsnoqualmie.com/tickets-and-passes/daily-lift-tickets",
+                "specials_note": "One pass gives access to four mountains."
+        
+            },
+                
+             "weather_forcast_url": "http://www.weather.com/weather/5day/l/466:11:US"
+        
+        
+            },
+        
+        {
+            "name": "49 Degrees North",
+        
+            "contact_info": {
+                "url": "http://www.ski49n.com/",
+                "street_address": "3311 Flowery Trail Rd",
+                "city": "Chewelah",
+                "state": "WA",
+                "zip": "99109",
+                "phone": "(509) 935-6649",
+                "address_url": "https://goo.gl/maps/6zLa98aZjyR2"
+            },
+        
+            "images": {
+                "logo": "49_degrees_north.png",
+                "map": "49_degrees_north.jpg",
+                "stock": ""
+            },
+        
+            "stats": {
+                "vertical_drop_ft": "1851",
+                "skiable_acres": "2325",
+                "trails": "82",
+                "lifts": "7",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=509001&state=WA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+        
+            "rates": {
+                "adults_midweek": "55",
+                "adults_prime": "55",
+                "juniors_midweek": "46",
+                "juniors_prime": "46",
+                "rentals": "",
+                "rates_url": "http://www.ski49n.com/content.php?id=36",
+                "specials_note": ""
+        
+            },
+                
+             "weather_forcast_url": "http://www.weather.com/weather/5day/l/1:11:US"
+        
+        
             }
 
 
