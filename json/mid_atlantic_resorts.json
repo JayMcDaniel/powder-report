@@ -6,10 +6,8 @@
 
             "contact_info": {
                 "url": "www.skibluemt.com",
-                "street_address": "1660 Blue Mountain Dr",
-                "city": "Palmerton",
-                "state": "PA",
-                "zip": "18071",
+                "full_address": "1660 Blue Mountain Dr, Palmerton, PA 18071",
+                
                 "phone": "610-826-7700",
                 "address_url": "https://goo.gl/maps/M38EedytjHK2"
             },

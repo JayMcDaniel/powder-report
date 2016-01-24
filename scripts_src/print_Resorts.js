@@ -1,6 +1,7 @@
 var buildResortBriefDiv = require("./build_Resort_Brief_Div.js");
 var requestCurrentWeather = require("./request_Current_Weather.js");
 var insertCurrentWeather = require("./insert_Current_Weather.js");
+var utils = require("./utils.js");
 
 /** calls builder and inserts new resort snippets on page */
 
@@ -17,11 +18,13 @@ var printResorts = function (json, area) {
     for (var i = 0, len = resorts_arr.length; i < len; i++) {
 
         resorts_arr[i].id = resorts_arr[i].name.toLowerCase().replace(/ /g, "_").replace(/\./g, "");
-
-        var resort_brief_div = buildResortBriefDiv(resorts_arr[i]);
+        
+        var parsed_address = utils.parseAddress(resorts_arr[i]);
+        
+        var resort_brief_div = buildResortBriefDiv(resorts_arr[i], parsed_address);
         allResorts = allResorts + resort_brief_div;
 
-        requestCurrentWeather(resorts_arr[i], function (json, name) {
+        requestCurrentWeather(resorts_arr[i], parsed_address, function (json, name) {
             insertCurrentWeather(json, name);
         });
     }

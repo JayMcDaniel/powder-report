@@ -22,13 +22,42 @@
           weatherDescriptor: function (string) {
               return string.replace("overcast clouds", "overcast").replace("sky is clear", "clear skies");
           },
-          
-          phoneFormat: function (string){
-              return string.replace(/\(|\)/g,"").replace(/-| /g, "&#8209;");
+
+          phoneFormat: function (string) {
+              return string.replace(/\(|\)/g, "").replace(/-| /g, "&#8209;");
+          },
+
+
+          parseAddress: function (resort_obj) {
+              var parsed_address = {};
+
+              //if parts are there, use those
+              parsed_address.street_adress = resort_obj.contact_info.street_address || "";
+              parsed_address.city = resort_obj.contact_info.city || "";
+              parsed_address.state = resort_obj.contact_info.state || "";
+              parsed_address.zip = resort_obj.contact_info.zip || "";
+
+              //full address uses full if its there, or a combination if it's not
+              parsed_address.full_address = resort_obj.contact_info.full_address || resort_obj.contact_info.street_address + ", " + resort_obj.contact_info.city + ", " + resort_obj.contact_info.state + " " + resort_obj.contact_info.zip;
+
+              //if full address is there, parse it for parts of the address
+              if (typeof resort_obj.contact_info.full_address !== "undefined") {
+                  var address_arr = resort_obj.contact_info.full_address.split(",");
+
+                  parsed_address.zip = address_arr[address_arr.length - 1].slice(3);
+                  parsed_address.state = address_arr[address_arr.length - 1].slice(1, 3);
+                  parsed_address.city = address_arr[address_arr.length - 2];
+                  parsed_address.street_adress = address_arr.slice(0, address_arr.length - 2).join(",");
+
+              }
+
+              return parsed_address;
+
           },
           
-          urlFormat: function (string){
-              if (string.slice(0,3) === "www"){
+
+          urlFormat: function (string) {
+              if (string.slice(0, 3) === "www") {
                   string = "http://" + string;
               }
               return string;
