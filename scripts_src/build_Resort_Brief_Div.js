@@ -12,6 +12,8 @@ var buildResortBriefDiv = function (resort_obj, parsed_address) {
     var lifts = "<span class = 'lifts report'>" + resort_obj.stats.lifts + "&nbsp;lifts </span>";
 
     var acres = "<span class = 'acres report'>" + utils.addCommas(resort_obj.stats.skiable_acres) + "&nbsp;acres</span>";
+    
+    var peak = "<span class = 'peak report'>" + utils.addCommas(resort_obj.stats.peak) + "'&nbsp;peak</span>";
 
     var vert = "<span class = 'vert report'>" + utils.addCommas(resort_obj.stats.vertical_drop_ft) + "'&nbsp;vertical&nbsp;drop</span>";
 
@@ -30,7 +32,7 @@ var buildResortBriefDiv = function (resort_obj, parsed_address) {
 
     var snippet = "<div class='resort_snippet' id ='" + resort_obj.id + "' >" + name_and_logo + "\
         " + map_thumbnail + "<div class='resort_snippet_text'>\
-        <span class='stats_report'>" + trails + lifts + acres + vert + "</span><br/>\
+        <span class='stats_report'>" + trails + lifts + acres + peak + vert + "</span><br/>\
         " + rates + "<br><p class='contact_info'>\
         " + full_address + phone + "</p>\
         " + toggle_widget_link + "</div>\
