@@ -1,302 +1,343 @@
 {
     "northwest": [{
-        "name": "49 Degrees North",
-        "contact_info": {
-            "url": "http://www.ski49n.com/",
-            "street_address": "3311 Flowery Trail Rd",
-            "city": "Chewelah",
-            "state": "WA",
-            "zip": "99109",
-            "phone": "(509) 935-6649",
-            "address_url": "https://goo.gl/maps/6zLa98aZjyR2",
-            "lat_lon": "48.301106,-117.562943,"
-        },
-        "images": {
-            "logo": "49_degrees_north.png",
-            "map": "49_degrees_north.jpg",
-            "stock": ""
-        },
-        "stats": {
-            "vertical_drop_ft": "1851",
-            "skiable_acres": "2325",
-            "trails": "82",
-            "lifts": "7",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=509001&state=WA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-        },
-        "rates": {
-            "adults_midweek": "55",
-            "adults_prime": "55",
-            "juniors_midweek": "46",
-            "juniors_prime": "46",
-            "rentals": "",
-            "rates_url": "http://www.ski49n.com/content.php?id=36",
-            "specials_note": ""
-        },
-        "weather_forcast_url": "http://www.weather.com/weather/5day/l/1:11:US"
+            "name": "49 Degrees North",
+            "contact_info": {
+                "url": "http://www.ski49n.com/",
+                "street_address": "3311 Flowery Trail Rd",
+                "city": "Chewelah",
+                "state": "WA",
+                "zip": "99109",
+                "phone": "(509) 935-6649",
+                "address_url": "https://goo.gl/maps/6zLa98aZjyR2",
+                "lat_lon": "48.301106,-117.562943,"
+            },
+            "images": {
+                "logo": "49_degrees_north.png",
+                "map": "49_degrees_north.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "1851",
+                "skiable_acres": "2325",
+                "trails": "82",
+                "lifts": "7",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=509001&state=WA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "55",
+                "adults_prime": "55",
+                "juniors_midweek": "46",
+                "juniors_prime": "46",
+                "rentals": "",
+                "rates_url": "http://www.ski49n.com/content.php?id=36",
+                "specials_note": ""
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/1:11:US"
     }, {
-        "name": "Crystal Mountain",
-        "contact_info": {
-            "url": "http://crystalmountainresort.com/",
-            "street_address": "33914 Crystal Mountain Blvd",
-            "city": "Crystal Mountain",
-            "state": "WA",
-            "zip": "98022",
-            "phone": "888-754-6199",
-            "address_url": "https://goo.gl/maps/utzxjvh54HQ2",
-            "lat_lon": "46.9281647,-121.5220445"
-        },
-        "images": {
-            "logo": "crystal_mountain_WA.png",
-            "map": "crystal_mountain_WA.png",
-            "stock": ""
-        },
-        "stats": {
-            "vertical_drop_ft": "3104",
-            "skiable_acres": "2600",
-            "trails": "57",
-            "lifts": "11",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=206002&state=WA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-        },
-        "rates": {
-            "adults_midweek": "72",
-            "adults_prime": "72",
-            "juniors_midweek": "48",
-            "juniors_prime": "48",
-            "rentals": "",
-            "rates_url": "http://crystalmountainresort.com/lift-tickets/daily-lift-tickets/",
-            "specials_note": "Non-skiers are welcome to take a scenic ride on the Mt.Rainier Gondola! ($20)"
-        },
-        "weather_forcast_url": "http://www.weather.com/weather/5day/l/124:11:US"
+            "name": "Crystal Mountain",
+            "contact_info": {
+                "url": "http://crystalmountainresort.com/",
+                "street_address": "33914 Crystal Mountain Blvd",
+                "city": "Crystal Mountain",
+                "state": "WA",
+                "zip": "98022",
+                "phone": "888-754-6199",
+                "address_url": "https://goo.gl/maps/utzxjvh54HQ2",
+                "lat_lon": "46.9281647,-121.5220445"
+            },
+            "images": {
+                "logo": "crystal_mountain_WA.png",
+                "map": "crystal_mountain_WA.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "3104",
+                "skiable_acres": "2600",
+                "trails": "57",
+                "lifts": "11",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=206002&state=WA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "72",
+                "adults_prime": "72",
+                "juniors_midweek": "48",
+                "juniors_prime": "48",
+                "rentals": "",
+                "rates_url": "http://crystalmountainresort.com/lift-tickets/daily-lift-tickets/",
+                "specials_note": "Non-skiers are welcome to take a scenic ride on the Mt.Rainier Gondola! ($20)"
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/124:11:US"
     }, {
-        "name": "Mt. Ashland",
-        "contact_info": {
-            "url": "www.mtashland.com/",
-            "street_address": "11 Mt Ashland Ski Rd",
-            "city": "Ashland",
-            "state": "OR",
-            "zip": "97520",
-            "phone": "541-482-2897",
-            "address_url": "https://goo.gl/maps/Aw9ZQgQLM6M2",
-            "lat_lon": "42.081685,-122.704754"
-        },
-        "images": {
-            "logo": "mt_ashland_OR.png",
-            "map": "mt_ashland_OR.png",
-            "stock": ""
-        },
-        "stats": {
-            "vertical_drop_ft": "1150",
-            "skiable_acres": "220",
-            "trails": "23",
-            "lifts": "5",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503008&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-        },
-        "rates": {
-            "adults_midweek": "39",
-            "adults_prime": "46",
-            "juniors_midweek": "29",
-            "juniors_prime": "36",
-            "rentals": "29",
-            "rates_url": "http://www.mtashland.com/lift-tickets/"
-        },
-        "weather_forcast_url": "http://www.weather.com/weather/5day/l/264:11:US"
+            "name": "Mt. Ashland",
+            "contact_info": {
+                "url": "www.mtashland.com/",
+                "street_address": "11 Mt Ashland Ski Rd",
+                "city": "Ashland",
+                "state": "OR",
+                "zip": "97520",
+                "phone": "541-482-2897",
+                "address_url": "https://goo.gl/maps/Aw9ZQgQLM6M2",
+                "lat_lon": "42.081685,-122.704754"
+            },
+            "images": {
+                "logo": "mt_ashland_OR.png",
+                "map": "mt_ashland_OR.png",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "1150",
+                "skiable_acres": "220",
+                "trails": "23",
+                "lifts": "5",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503008&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "39",
+                "adults_prime": "46",
+                "juniors_midweek": "29",
+                "juniors_prime": "36",
+                "rentals": "29",
+                "rates_url": "http://www.mtashland.com/lift-tickets/"
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/264:11:US"
     }, {
-        "name": "Mt. Bachelor",
-        "contact_info": {
-            "url": "www.mtbachelor.com/",
-            "street_address": "13000 Century Drive",
-            "city": "Bend",
-            "state": "OR",
-            "zip": "97702",
-            "phone": "541-382-2442",
-            "address_url": "https://goo.gl/maps/zuRRnvdt8S92",
-            "lat_lon": "43.9897951,-121.6868661"
-        },
-        "images": {
-            "logo": "mt_bachelor_OR.jpg",
-            "map": "mt_bachelor_OR.jpg",
-            "stock": ""
-        },
-        "stats": {
-            "vertical_drop_ft": "3365",
-            "skiable_acres": "3700",
-            "trails": "88",
-            "lifts": "12",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503004&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-        },
-        "rates": {
-            "adults_midweek": "84",
-            "adults_prime": "84",
-            "juniors_midweek": "71",
-            "juniors_prime": "71",
-            "rentals": "42",
-            "rates_url": "http://www.mtbachelor.com/tickets-passes/lift-tickets/"
-        },
-        "weather_forcast_url": "http://www.weather.com/weather/5day/l/265:11:US"
+            "name": "Mt. Bachelor",
+            "contact_info": {
+                "url": "www.mtbachelor.com/",
+                "street_address": "13000 Century Drive",
+                "city": "Bend",
+                "state": "OR",
+                "zip": "97702",
+                "phone": "541-382-2442",
+                "address_url": "https://goo.gl/maps/zuRRnvdt8S92",
+                "lat_lon": "43.9897951,-121.6868661"
+            },
+            "images": {
+                "logo": "mt_bachelor_OR.jpg",
+                "map": "mt_bachelor_OR.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "3365",
+                "skiable_acres": "3700",
+                "trails": "88",
+                "lifts": "12",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503004&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "84",
+                "adults_prime": "84",
+                "juniors_midweek": "71",
+                "juniors_prime": "71",
+                "rentals": "42",
+                "rates_url": "http://www.mtbachelor.com/tickets-passes/lift-tickets/"
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/265:11:US"
     }, {
-        "name": "Mt. Hood Meadows",
-        "contact_info": {
-            "url": "https://www.skihood.com/",
-            "street_address": "14040 Hwy 35",
-            "city": "Mt Hood",
-            "state": "OR",
-            "zip": "97041",
-            "phone": "503-337-2222",
-            "address_url": "https://goo.gl/maps/nofpa5Cdt1x",
-            "lat_lon": "45.3317452,-121.6652055"
-        },
-        "images": {
-            "logo": "mt_hood_meadows_OR.png",
-            "map": "mt_hood_meadows_OR.jpg",
-            "stock": ""
-        },
-        "stats": {
-            "vertical_drop_ft": "2777",
-            "skiable_acres": "2150",
-            "trails": "85",
-            "lifts": "11",
-            "widget_link": "Mt Hood Meadows"
-        },
-        "rates": {
-            "adults_midweek": "59",
-            "adults_prime": "71",
-            "juniors_midweek": "36",
-            "juniors_prime": "36",
-            "rentals": "38",
-            "rates_url": "https://www.skihood.com/store/lift-tickets"
-        },
-        "weather_forcast_url": "http://www.weather.com/weather/5day/l/USOR0232:1:US"
+            "name": "Mt. Hood Meadows",
+            "contact_info": {
+                "url": "https://www.skihood.com/",
+                "street_address": "14040 Hwy 35",
+                "city": "Mt Hood",
+                "state": "OR",
+                "zip": "97041",
+                "phone": "503-337-2222",
+                "address_url": "https://goo.gl/maps/nofpa5Cdt1x",
+                "lat_lon": "45.3317452,-121.6652055"
+            },
+            "images": {
+                "logo": "mt_hood_meadows_OR.png",
+                "map": "mt_hood_meadows_OR.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "2777",
+                "skiable_acres": "2150",
+                "trails": "85",
+                "lifts": "11",
+                "widget_link": "Mt Hood Meadows"
+            },
+            "rates": {
+                "adults_midweek": "59",
+                "adults_prime": "71",
+                "juniors_midweek": "36",
+                "juniors_prime": "36",
+                "rentals": "38",
+                "rates_url": "https://www.skihood.com/store/lift-tickets"
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USOR0232:1:US"
     }, {
-        "name": "Mt. Hood Skibowl",
-        "contact_info": {
-            "url": "http://www.skibowl.com/winter/",
-            "street_address": "87000 US-26",
-            "city": "Government Camp",
-            "state": "OR",
-            "zip": "97028",
-            "phone": "503-272-3206",
-            "address_url": "https://goo.gl/maps/GG7uCUwfFR42",
-            "lat_lon": "45.3019576,-121.7755723,17"
-        },
-        "images": {
-            "logo": "mt_hood_skibowl_OR.png",
-            "map": "mt_hood_skibowl_OR.jpg",
-            "stock": ""
-        },
-        "stats": {
-            "vertical_drop_ft": "1500",
-            "skiable_acres": "960",
-            "trails": "34",
-            "lifts": "9",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503007&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-        },
-        "rates": {
-            "adults_midweek": "50",
-            "adults_prime": "53",
-            "juniors_midweek": "31",
-            "juniors_prime": "32",
-            "rentals": "37",
-            "rates_url": "http://www.skibowl.com/winter/mt-hood-ski-lift-tickets"
-        },
-        "weather_forcast_url": "http://www.weather.com/weather/5day/l/275:11:US"
+            "name": "Mt. Hood Skibowl",
+            "contact_info": {
+                "url": "http://www.skibowl.com/winter/",
+                "street_address": "87000 US-26",
+                "city": "Government Camp",
+                "state": "OR",
+                "zip": "97028",
+                "phone": "503-272-3206",
+                "address_url": "https://goo.gl/maps/GG7uCUwfFR42",
+                "lat_lon": "45.3019576,-121.7755723,17"
+            },
+            "images": {
+                "logo": "mt_hood_skibowl_OR.png",
+                "map": "mt_hood_skibowl_OR.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "1500",
+                "skiable_acres": "960",
+                "trails": "34",
+                "lifts": "9",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503007&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "50",
+                "adults_prime": "53",
+                "juniors_midweek": "31",
+                "juniors_prime": "32",
+                "rentals": "37",
+                "rates_url": "http://www.skibowl.com/winter/mt-hood-ski-lift-tickets"
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/275:11:US"
     }, {
-        "name": "The Summit at Snoqualmie",
-        "contact_info": {
-            "url": "http://www.summitatsnoqualmie.com/",
-            "street_address": "1001 Washington 906",
-            "city": "Snoqualmie Pass",
-            "state": "WA",
-            "zip": "98068",
-            "phone": "(425) 434-7669",
-            "address_url": "https://goo.gl/maps/obNB8Bcp58x",
-            "lat_lon": "47.5619165,-122.3340246"
-        },
-        "images": {
-            "logo": "the_summit_at_snoqualmie_WA.png",
-            "map": "the_summit_at_snoqualmie_WA.jpg",
-            "stock": ""
-        },
-        "stats": {
-            "vertical_drop_ft": "2275",
-            "skiable_acres": "1994",
-            "trails": "113",
-            "lifts": "25",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=425715&state=WA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-        },
-        "rates": {
-            "adults_midweek": "66",
-            "adults_prime": "66",
-            "juniors_midweek": "45",
-            "juniors_prime": "45",
-            "rentals": "",
-            "rates_url": "http://www.summitatsnoqualmie.com/tickets-and-passes/daily-lift-tickets",
-            "specials_note": "One pass gives access to four mountains."
-        },
-        "weather_forcast_url": "http://www.weather.com/weather/5day/l/466:11:US"
+            "name": "The Summit at Snoqualmie",
+            "contact_info": {
+                "url": "http://www.summitatsnoqualmie.com/",
+                "street_address": "1001 Washington 906",
+                "city": "Snoqualmie Pass",
+                "state": "WA",
+                "zip": "98068",
+                "phone": "(425) 434-7669",
+                "address_url": "https://goo.gl/maps/obNB8Bcp58x",
+                "lat_lon": "47.5619165,-122.3340246"
+            },
+            "images": {
+                "logo": "the_summit_at_snoqualmie_WA.png",
+                "map": "the_summit_at_snoqualmie_WA.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "2275",
+                "skiable_acres": "1994",
+                "trails": "113",
+                "lifts": "25",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=425715&state=WA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "66",
+                "adults_prime": "66",
+                "juniors_midweek": "45",
+                "juniors_prime": "45",
+                "rentals": "",
+                "rates_url": "http://www.summitatsnoqualmie.com/tickets-and-passes/daily-lift-tickets",
+                "specials_note": "One pass gives access to four mountains."
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/466:11:US"
     }, {
-        "name": "Timberline Lodge",
-        "contact_info": {
-            "url": "http://www.timberlinelodge.com/",
-            "full_address": "27500 W Leg Rd, Timberline Lodge, OR 97028",
-            "phone": "503-272-3311",
-            "address_url": "https://goo.gl/maps/Ghgo6Gv7PUp",
-            "lat_lon": "45.3311813,-121.7134115"
-        },
-        "images": {
-            "logo": "timberline_OR.png",
-            "map": "timberline_OR.jpg",
-            "stock": ""
-        },
-        "stats": {
-            "vertical_drop_ft": "3690",
-            "skiable_acres": "1416",
-            "trails": "43",
-            "lifts": "9",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503009&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-        },
-        "rates": {
-            "adults_midweek": "66",
-            "adults_prime": "72",
-            "juniors_midweek": "44",
-            "juniors_prime": "44",
-            "rentals": "",
-            "rates_url": "http://www.timberlinelodge.com/lift-tickets-passes/",
-            "specials_note": "Teen rates (15-17) also available"
-        },
-        "weather_forcast_url": "http://www.weather.com/weather/today/l/470:11:US"
+            "name": "Timberline Lodge",
+            "contact_info": {
+                "url": "http://www.timberlinelodge.com/",
+                "full_address": "27500 W Leg Rd, Timberline Lodge, OR 97028",
+                "phone": "503-272-3311",
+                "address_url": "https://goo.gl/maps/Ghgo6Gv7PUp",
+                "lat_lon": "45.3311813,-121.7134115"
+            },
+            "images": {
+                "logo": "timberline_OR.png",
+                "map": "timberline_OR.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "3690",
+                "skiable_acres": "1416",
+                "trails": "43",
+                "lifts": "9",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503009&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "66",
+                "adults_prime": "72",
+                "juniors_midweek": "44",
+                "juniors_prime": "44",
+                "rentals": "",
+                "rates_url": "http://www.timberlinelodge.com/lift-tickets-passes/",
+                "specials_note": "Teen rates (15-17) also available"
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/today/l/470:11:US"
     }, {
-        "name": "Willamette Pass",
-        "contact_info": {
-            "url": "www.willamettepass.com/",
-            "street_address": "Milepost 62",
-            "city": "Crescent",
-            "state": "OR",
-            "zip": "97733",
-            "phone": "541-345-SNOW",
-            "address_url": "https://goo.gl/maps/te35GZmG4Pk",
-            "lat_lon": "43.6006584,-122.0364654"
-        },
-        "images": {
-            "logo": "willamette_pass_OR.gif",
-            "map": "willamette_pass_OR.jpg",
-            "stock": ""
-        },
-        "stats": {
-            "vertical_drop_ft": "1563",
-            "skiable_acres": "555",
-            "trails": "6",
-            "lifts": "29",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503010&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-        },
-        "rates": {
-            "adults_midweek": "49",
-            "adults_prime": "49",
-            "juniors_midweek": "30",
-            "juniors_prime": "30",
-            "rentals": "26",
-            "rates_url": "http://www.willamettepass.com/passport/",
-            "specials_note": "hourly skiing tickets available"
-        },
-        "weather_forcast_url": "http://www.weather.com/weather/5day/l/502:11:US"
-    }]
+            "name": "Willamette Pass",
+            "contact_info": {
+                "url": "www.willamettepass.com/",
+                "street_address": "Milepost 62",
+                "city": "Crescent",
+                "state": "OR",
+                "zip": "97733",
+                "phone": "541-345-SNOW",
+                "address_url": "https://goo.gl/maps/te35GZmG4Pk",
+                "lat_lon": "43.6006584,-122.0364654"
+            },
+            "images": {
+                "logo": "willamette_pass_OR.gif",
+                "map": "willamette_pass_OR.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "1563",
+                "skiable_acres": "555",
+                "trails": "6",
+                "lifts": "29",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503010&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "49",
+                "adults_prime": "49",
+                "juniors_midweek": "30",
+                "juniors_prime": "30",
+                "rentals": "26",
+                "rates_url": "http://www.willamettepass.com/passport/",
+                "specials_note": "hourly skiing tickets available"
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/502:11:US"
+    },
+
+        {
+            "name": "Hoodoo",
+
+            "contact_info": {
+                "url": "http://skihoodoo.com/",
+                "full_address": "Hwy 20 Box 20, Sisters, OR 97759",
+                "phone": "(541) 822-3799",
+                "address_url": "https://goo.gl/maps/2EenQd5xJCF2",
+                "lat_lon": "44.406929,-121.8769597"
+            },
+
+            "images": {
+                "logo": "hoodoo_OR.png",
+                "map": "hoodoo_OR.png",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1035",
+                "skiable_acres": "800",
+                "trails": "34",
+                "lifts": "5",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=503003&state=OR&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "48",
+                "adults_prime": "48",
+                "juniors_midweek": "31",
+                "juniors_prime": "31",
+                "rentals": "",
+                "rates_url": "http://skihoodoo.com/lift-ticket-deals/",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "http://www.weather.com/weather/today/l/180:11:US"
+
+
+                     }]
 }

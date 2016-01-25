@@ -2,7 +2,7 @@ var utils = require("./utils.js");
 
 /** builds html from weather json and inserts weather report span */
 
-var insertCurrentWeather = function (json, resort_obj) {
+var insertCurrentWeather = function (json, resort_obj, parsed_address) {
     
 
     $("#" + resort_obj.id + " .weather_report").remove();
@@ -32,11 +32,11 @@ var insertCurrentWeather = function (json, resort_obj) {
     five_day_forcast_link.textContent = "5\u2011day\u00A0forcast";
 
     //if more accurate weather link is available, use that instead of zip code
-    if (typeof resort_obj.weather_forcast_url != "undefined" && resort_obj.weather_forcast_url.length > 1) {
+    if (typeof resort_obj.weather_forcast_url != "undefined" && resort_obj.weather_forcast_url.length > 0) {
         five_day_forcast_link.href = resort_obj.weather_forcast_url;
 
     } else {
-        five_day_forcast_link.href = "http://www.weather.com/weather/5day/l/" + resort_obj.contact_info.zip + ":4:US";
+        five_day_forcast_link.href = "http://www.weather.com/weather/5day/l/" + parsed_address.zip + ":4:US";
     }
 
 

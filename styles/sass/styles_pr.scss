@@ -332,8 +332,13 @@ span.report:not(:first-child) {
     }
     span.report {
         padding-right: 20px;
+        padding-left: 0px;
         border-right: 0px;
     }
+    span.report:not(:first-child) {
+    padding-left: 0px;
+    }
+    
     span.report:first-child {
         padding-left: 0px;
     }

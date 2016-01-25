@@ -25,7 +25,7 @@ var printResorts = function (json, area) {
         allResorts = allResorts + resort_brief_div;
 
         requestCurrentWeather(resorts_arr[i], parsed_address, function (json, name) {
-            insertCurrentWeather(json, name);
+            insertCurrentWeather(json, name, parsed_address);
         });
     }
 
