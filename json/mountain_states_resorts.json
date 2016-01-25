@@ -21,7 +21,8 @@
             "skiable_acres": "2200",
             "trails": "116",
             "lifts": "12",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801001&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801001&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "10550"
         },
         "rates": {
             "adults_midweek": "89",
@@ -55,7 +56,8 @@
             "skiable_acres": "1832",
             "trails": "150",
             "lifts": "25",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303005&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303005&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "11440"
         },
         "rates": {
             "adults_midweek": "165",
@@ -88,7 +90,8 @@
             "skiable_acres": "828",
             "trails": "48",
             "lifts": "5",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801002&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801002&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "8600"
         },
         "rates": {
             "adults_midweek": "48",
@@ -122,7 +125,8 @@
             "skiable_acres": "2908",
             "trails": "187",
             "lifts": "34",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303007&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303007&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "12998"
         },
         "rates": {
             "adults_midweek": "154",
@@ -155,7 +159,8 @@
             "skiable_acres": "1547",
             "trails": "121",
             "lifts": "15",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303010&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303010&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "12162"
         },
         "rates": {
             "adults_midweek": "108",
@@ -188,7 +193,8 @@
             "skiable_acres": "2000",
             "trails": "101",
             "lifts": "21",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801004&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801004&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "9570"
         },
         "rates": {
             "adults_midweek": "120",
@@ -222,7 +228,8 @@
             "skiable_acres": "7300",
             "trails": "314",
             "lifts": "40",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801006&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801006&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "10000"
         },
         "rates": {
             "adults_midweek": "107",
@@ -257,7 +264,8 @@
             "trails": "169",
             "lifts": "13",
             "specials_note": "Includes Tram",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801010&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801010&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "11000"
         },
         "rates": {
             "adults_midweek": "98",
@@ -291,7 +299,8 @@
             "skiable_acres": "3332",
             "trails": "94",
             "lifts": "20",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303020&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303020&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "12510"
         },
         "rates": {
             "adults_midweek": "139",
@@ -324,7 +333,8 @@
             "skiable_acres": "1200",
             "trails": "77",
             "lifts": "8",
-            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801011&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801011&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE",
+            "peak": "10035"
         },
         "rates": {
             "adults_midweek": "79",
