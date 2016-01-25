@@ -3,6 +3,7 @@ var utils = require("./utils.js");
 /** builds html from weather json and inserts weather report span */
 
 var insertCurrentWeather = function (json, resort_obj) {
+    
 
     $("#" + resort_obj.id + " .weather_report").remove();
 

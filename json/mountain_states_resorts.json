@@ -1,429 +1,340 @@
 {
-    "mountain_states": [
-
-        {
-            "name": "Beaver Creek",
-
-            "contact_info": {
-                "url": "www.beavercreek.com/",
-                "street_address": "26 Avondale Lane",
-                "city": "Avon",
-                "state": "CO",
-                "zip": "81620",
-                "phone": "800-226-0355",
-                "address_url": "https://goo.gl/maps/nqZm6Bkz3712"
-            },
-
-            "images": {
-                "logo": "beaver_creek_CO.jpg",
-                "map": "beaver_creek_CO.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "4040",
-                "skiable_acres": "1832",
-                "trails": "150",
-                "lifts": "25",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303005&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "165",
-                "adults_prime": "165",
-                "juniors_midweek": "114",
-                "juniors_prime": "114",
-                "rentals": "54",
-                "rates_url": "http://www.beavercreek.com/plan-your-trip/lift-tickets/lift-tickets-search.aspx"
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/36:11:US"
-
-
-            },
-        {
-            "name": "Breckenridge",
-
-            "contact_info": {
-                "url": "www.breckenridge.com/",
-                "street_address": "1599 County Rd 3",
-                "city": "Breckenridge",
-                "state": "CO",
-                "zip": "80424",
-                "phone": "800-789-7669",
-                "address_url": "https://goo.gl/maps/Lvex6ve4saG2"
-            },
-
-            "images": {
-                "logo": "breckenridge_CO.png",
-                "map": "breckenridge_CO.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "3398",
-                "skiable_acres": "2908",
-                "trails": "187",
-                "lifts": "34",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303007&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "154",
-                "adults_prime": "154",
-                "juniors_midweek": "100",
-                "juniors_prime": "100",
-                "rentals": "46",
-                "rates_url": "http://www.breckenridge.com/plan-a-trip/lift-tickets/lift-tickets-explorer.aspx"
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0041:1:US"
-
-
+    "mountain_states": [{
+        "name": "Alta",
+        "contact_info": {
+            "url": "http://www.alta.com/",
+            "street_address": "Highway 210, Little Cottonwood Canyon",
+            "city": "Alta",
+            "state": "UT",
+            "zip": "84092",
+            "phone": "(801) 359-1078",
+            "address_url": "https://goo.gl/maps/xx2nhKk3eaD2",
+            "lat_lon": "40.590821, -111.628395"
         },
-
-        {
-            "name": "Crested Butte",
-
-            "contact_info": {
-                "url": "www.skicb.com/",
-                "street_address": "500 Gothic Rd",
-                "city": "Crested Butte",
-                "state": "CO",
-                "zip": "81225",
-                "phone": "877-547-5143",
-                "address_url": "https://goo.gl/maps/xqaq7r6vmMu"
-            },
-
-            "images": {
-                "logo": "crested_butte_CO.png",
-                "map": "crested_butte_CO.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "3062",
-                "skiable_acres": "1547",
-                "trails": "121",
-                "lifts": "15",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303010&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "108",
-                "adults_prime": "108",
-                "juniors_midweek": "97",
-                "juniors_prime": "97",
-                "rentals": "25",
-                "rates_url": "http://www.skicb.com/tickets-passes/lift-tickets"
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0094:1:US"
-
-
-            },
-        {
-            "name": "Snowmass",
-
-            "contact_info": {
-                "url": "www.aspensnowmass.com/",
-                "street_address": "45 Village Square",
-                "city": "Snowmass Village",
-                "state": "CO",
-                "zip": "81615",
-                "phone": "800-525-6200",
-                "address_url": "https://goo.gl/maps/6CfACBxdKkD2"
-            },
-
-            "images": {
-                "logo": "aspen_snowmass_CO.png",
-                "map": "snowmass_CO.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "4406",
-                "skiable_acres": "3332",
-                "trails": "94",
-                "lifts": "20",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303020&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "139",
-                "adults_prime": "139",
-                "juniors_midweek": "89",
-                "juniors_prime": "89",
-                "rentals": "54",
-                "rates_url": "https://www.aspensnowmass.com/plan-your-stay/tickets-and-passes/advance-purchase"
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0362:1:US"
-
-
+        "images": {
+            "logo": "alta_UT.png",
+            "map": "alta_UT.jpg",
+            "stock": ""
         },
-
-        {
-            "name": "Snowbird",
-
-            "contact_info": {
-                "url": "www.snowbird.com",
-                "street_address": "9600 Little Cottonwood Canyon Rd",
-                "city": "Sandy",
-                "state": "UT",
-                "zip": "84092",
-                "phone": "801-933-2222",
-                "address_url": "https://goo.gl/maps/32V6cc5uYs72"
-            },
-
-            "images": {
-                "logo": "snowbird_UT.png",
-                "map": "snowbird_UT.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "3240",
-                "skiable_acres": "2500",
-                "trails": "169",
-                "lifts": "13",
-                "specials_note": "Includes Tram",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801010&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "98",
-                "adults_prime": "98",
-                "juniors_midweek": "46",
-                "juniors_prime": "46",
-                "rentals": "30",
-                "rates_url": "http://www.snowbird.com/tickets-and-season-passes/",
-                "specials_note": "Get an Alta/Snowbird ticket for $114"
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0235:1:US"
-
-
-            },
-        {
-            "name": "Park City",
-
-            "contact_info": {
-                "url": "www.parkcitymountain.com",
-                "street_address": "1345 Lowell Ave",
-                "city": "Park City",
-                "state": "UT",
-                "zip": "84060",
-                "phone": "(800) 222-7275",
-                "address_url": "https://goo.gl/maps/Xympci1VSVv"
-            },
-
-            "images": {
-                "logo": "park_city_UT.png",
-                "map": "park_city_UT.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "3200",
-                "skiable_acres": "7300",
-                "trails": "314",
-                "lifts": "40",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801006&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "107",
-                "adults_prime": "122",
-                "juniors_midweek": "68",
-                "juniors_prime": "78",
-                "rentals": "46",
-                "rates_url": "http://www.parkcitymountain.com/plan-your-trip/lift-tickets/lift-tickets-search.aspx",
-                "specials_note": ""
-
-            },
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0196:1:US"
-
-
-            },
-        {
-            "name": "Beaver Mountain",
-
-            "contact_info": {
-                "url": "www.skithebeav.com",
-                "street_address": "40000 East Highway 89",
-                "city": "Garden City",
-                "state": "UT",
-                "zip": "84023",
-                "phone": "(435) 753-0921",
-                "address_url": "https://goo.gl/maps/PtBkQwPa6oN2"
-            },
-
-            "images": {
-                "logo": "beaver_mountain_UT.png",
-                "map": "beaver_mountain_UT.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "1700",
-                "skiable_acres": "828",
-                "trails": "48",
-                "lifts": "5",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801002&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "48",
-                "adults_prime": "48",
-                "juniors_midweek": "38",
-                "juniors_prime": "38",
-                "rentals": "32",
-                "rates_url": "http://www.skithebeav.com/c/mountain/ticket-prices",
-                "specials_note": ""
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0015:1:US"
-
-
+        "stats": {
+            "vertical_drop_ft": "2020",
+            "skiable_acres": "2200",
+            "trails": "116",
+            "lifts": "12",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801001&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
         },
-
-        {
-            "name": "Alta",
-
-            "contact_info": {
-                "url": "http://www.alta.com/",
-                "street_address": "Highway 210, Little Cottonwood Canyon",
-                "city": "Alta",
-                "state": "UT",
-                "zip": "84092",
-                "phone": "(801) 359-1078",
-                "address_url": "https://goo.gl/maps/xx2nhKk3eaD2"
-            },
-
-            "images": {
-                "logo": "alta_UT.png",
-                "map": "alta_UT.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "2020",
-                "skiable_acres": "2200",
-                "trails": "116",
-                "lifts": "12",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801001&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "89",
-                "adults_prime": "89",
-                "juniors_midweek": "89",
-                "juniors_prime": "89",
-                "rentals": "25",
-                "rates_url": "http://www.alta.com/visit/tickets/ticket-info-pricing",
-                "specials_note": "No snowboarders allowed"
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/10:11:US"
-
-
-            },
-
-        {
-            "name": "Solitude",
-
-            "contact_info": {
-                "url": "http://skisolitude.com/",
-                "street_address": "12000 Big Cottonwood Canyon Rd",
-                "city": "Solitude",
-                "state": "UT",
-                "zip": "84121",
-                "phone": "(801) 534-1400",
-                "address_url": "https://goo.gl/maps/XUJWfuakKNq"
-            },
-
-            "images": {
-                "logo": "solitude_UT.png",
-                "map": "solitude_UT.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "2047",
-                "skiable_acres": "1200",
-                "trails": "77",
-                "lifts": "8",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801011&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "79",
-                "adults_prime": "79",
-                "juniors_midweek": "50",
-                "juniors_prime": "50",
-                "rentals": "35",
-                "rates_url": "http://tickets.skisolitude.com/",
-                "specials_note": ""
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0237:1:US"
-
-
-            },
-
-        {
-            "name": "Deer Valley",
-
-            "contact_info": {
-                "url": "http://www.deervalley.com",
-                "street_address": "2250 Deer Valley Dr S",
-                "city": "Park City",
-                "state": "UT",
-                "zip": "84060",
-                "phone": "(435) 649-1000",
-                "address_url": "https://goo.gl/maps/rxsvnXU1M762"
-            },
-
-            "images": {
-                "logo": "deer_valley_UT.png",
-                "map": "deer_valley_UT.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "3000",
-                "skiable_acres": "2000",
-                "trails": "101",
-                "lifts": "21",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801004&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "120",
-                "adults_prime": "120",
-                "juniors_midweek": "76",
-                "juniors_prime": "76",
-                "rentals": "",
-                "rates_url": "http://www.deervalley.com/Tickets/Ticket/TicketLanding",
-                "specials_note": ""
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0056:1:US"
-
-
-            }
-
-
-
-   ]
+        "rates": {
+            "adults_midweek": "89",
+            "adults_prime": "89",
+            "juniors_midweek": "89",
+            "juniors_prime": "89",
+            "rentals": "25",
+            "rates_url": "http://www.alta.com/visit/tickets/ticket-info-pricing",
+            "specials_note": "No snowboarders allowed"
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/10:11:US"
+    }, {
+        "name": "Beaver Creek",
+        "contact_info": {
+            "url": "www.beavercreek.com/",
+            "street_address": "26 Avondale Lane",
+            "city": "Avon",
+            "state": "CO",
+            "zip": "81620",
+            "phone": "800-226-0355",
+            "address_url": "https://goo.gl/maps/nqZm6Bkz3712",
+            "lat_lon": "39.604095, -106.518115"
+        },
+        "images": {
+            "logo": "beaver_creek_CO.jpg",
+            "map": "beaver_creek_CO.jpg",
+            "stock": ""
+        },
+        "stats": {
+            "vertical_drop_ft": "4040",
+            "skiable_acres": "1832",
+            "trails": "150",
+            "lifts": "25",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303005&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+        },
+        "rates": {
+            "adults_midweek": "165",
+            "adults_prime": "165",
+            "juniors_midweek": "114",
+            "juniors_prime": "114",
+            "rentals": "54",
+            "rates_url": "http://www.beavercreek.com/plan-your-trip/lift-tickets/lift-tickets-search.aspx"
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/36:11:US"
+    }, {
+        "name": "Beaver Mountain",
+        "contact_info": {
+            "url": "www.skithebeav.com",
+            "street_address": "40000 East Highway 89",
+            "city": "Garden City",
+            "state": "UT",
+            "zip": "84023",
+            "phone": "(435) 753-0921",
+            "address_url": "https://goo.gl/maps/PtBkQwPa6oN2",
+            "lat_lon": "41.9681429,-111.5434155"
+        },
+        "images": {
+            "logo": "beaver_mountain_UT.png",
+            "map": "beaver_mountain_UT.jpg",
+            "stock": ""
+        },
+        "stats": {
+            "vertical_drop_ft": "1700",
+            "skiable_acres": "828",
+            "trails": "48",
+            "lifts": "5",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801002&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+        },
+        "rates": {
+            "adults_midweek": "48",
+            "adults_prime": "48",
+            "juniors_midweek": "38",
+            "juniors_prime": "38",
+            "rentals": "32",
+            "rates_url": "http://www.skithebeav.com/c/mountain/ticket-prices",
+            "specials_note": ""
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0015:1:US"
+    }, {
+        "name": "Breckenridge",
+        "contact_info": {
+            "url": "www.breckenridge.com/",
+            "street_address": "1599 County Rd 3",
+            "city": "Breckenridge",
+            "state": "CO",
+            "zip": "80424",
+            "phone": "800-789-7669",
+            "address_url": "https://goo.gl/maps/Lvex6ve4saG2",
+            "lat_lon": "39.4805061,-106.0668799"
+        },
+        "images": {
+            "logo": "breckenridge_CO.png",
+            "map": "breckenridge_CO.jpg",
+            "stock": ""
+        },
+        "stats": {
+            "vertical_drop_ft": "3398",
+            "skiable_acres": "2908",
+            "trails": "187",
+            "lifts": "34",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303007&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+        },
+        "rates": {
+            "adults_midweek": "154",
+            "adults_prime": "154",
+            "juniors_midweek": "100",
+            "juniors_prime": "100",
+            "rentals": "46",
+            "rates_url": "http://www.breckenridge.com/plan-a-trip/lift-tickets/lift-tickets-explorer.aspx"
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0041:1:US"
+    }, {
+        "name": "Crested Butte",
+        "contact_info": {
+            "url": "www.skicb.com/",
+            "street_address": "500 Gothic Rd",
+            "city": "Crested Butte",
+            "state": "CO",
+            "zip": "81225",
+            "phone": "877-547-5143",
+            "address_url": "https://goo.gl/maps/xqaq7r6vmMu",
+            "lat_lon": "38.8936246,-106.9590116"
+        },
+        "images": {
+            "logo": "crested_butte_CO.png",
+            "map": "crested_butte_CO.jpg",
+            "stock": ""
+        },
+        "stats": {
+            "vertical_drop_ft": "3062",
+            "skiable_acres": "1547",
+            "trails": "121",
+            "lifts": "15",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303010&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+        },
+        "rates": {
+            "adults_midweek": "108",
+            "adults_prime": "108",
+            "juniors_midweek": "97",
+            "juniors_prime": "97",
+            "rentals": "25",
+            "rates_url": "http://www.skicb.com/tickets-passes/lift-tickets"
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0094:1:US"
+    }, {
+        "name": "Deer Valley",
+        "contact_info": {
+            "url": "http://www.deervalley.com",
+            "street_address": "2250 Deer Valley Dr S",
+            "city": "Park City",
+            "state": "UT",
+            "zip": "84060",
+            "phone": "(435) 649-1000",
+            "address_url": "https://goo.gl/maps/rxsvnXU1M762",
+            "lat_lon": "40.6373764,-111.4805081"
+        },
+        "images": {
+            "logo": "deer_valley_UT.png",
+            "map": "deer_valley_UT.jpg",
+            "stock": ""
+        },
+        "stats": {
+            "vertical_drop_ft": "3000",
+            "skiable_acres": "2000",
+            "trails": "101",
+            "lifts": "21",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801004&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+        },
+        "rates": {
+            "adults_midweek": "120",
+            "adults_prime": "120",
+            "juniors_midweek": "76",
+            "juniors_prime": "76",
+            "rentals": "",
+            "rates_url": "http://www.deervalley.com/Tickets/Ticket/TicketLanding",
+            "specials_note": ""
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0056:1:US"
+    }, {
+        "name": "Park City",
+        "contact_info": {
+            "url": "www.parkcitymountain.com",
+            "street_address": "1345 Lowell Ave",
+            "city": "Park City",
+            "state": "UT",
+            "zip": "84060",
+            "phone": "(800) 222-7275",
+            "address_url": "https://goo.gl/maps/Xympci1VSVv",
+            "lat_lon": ""
+        },
+        "images": {
+            "logo": "park_city_UT.png",
+            "map": "park_city_UT.jpg",
+            "stock": "40.65108,-111.5104787"
+        },
+        "stats": {
+            "vertical_drop_ft": "3200",
+            "skiable_acres": "7300",
+            "trails": "314",
+            "lifts": "40",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801006&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+        },
+        "rates": {
+            "adults_midweek": "107",
+            "adults_prime": "122",
+            "juniors_midweek": "68",
+            "juniors_prime": "78",
+            "rentals": "46",
+            "rates_url": "http://www.parkcitymountain.com/plan-your-trip/lift-tickets/lift-tickets-search.aspx",
+            "specials_note": ""
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0196:1:US"
+    }, {
+        "name": "Snowbird",
+        "contact_info": {
+            "url": "www.snowbird.com",
+            "street_address": "9600 Little Cottonwood Canyon Rd",
+            "city": "Sandy",
+            "state": "UT",
+            "zip": "84092",
+            "phone": "801-933-2222",
+            "address_url": "https://goo.gl/maps/32V6cc5uYs72",
+            "lat_lon": "40.581035,-111.6589648"
+        },
+        "images": {
+            "logo": "snowbird_UT.png",
+            "map": "snowbird_UT.jpg",
+            "stock": ""
+        },
+        "stats": {
+            "vertical_drop_ft": "3240",
+            "skiable_acres": "2500",
+            "trails": "169",
+            "lifts": "13",
+            "specials_note": "Includes Tram",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801010&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+        },
+        "rates": {
+            "adults_midweek": "98",
+            "adults_prime": "98",
+            "juniors_midweek": "46",
+            "juniors_prime": "46",
+            "rentals": "30",
+            "rates_url": "http://www.snowbird.com/tickets-and-season-passes/",
+            "specials_note": "Get an Alta/Snowbird ticket for $114"
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0235:1:US"
+    }, {
+        "name": "Snowmass",
+        "contact_info": {
+            "url": "www.aspensnowmass.com/",
+            "street_address": "45 Village Square",
+            "city": "Snowmass Village",
+            "state": "CO",
+            "zip": "81615",
+            "phone": "800-525-6200",
+            "address_url": "https://goo.gl/maps/6CfACBxdKkD2",
+            "lat_lon": "39.1746582,-107.0332897"
+        },
+        "images": {
+            "logo": "aspen_snowmass_CO.png",
+            "map": "snowmass_CO.jpg",
+            "stock": ""
+        },
+        "stats": {
+            "vertical_drop_ft": "4406",
+            "skiable_acres": "3332",
+            "trails": "94",
+            "lifts": "20",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303020&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+        },
+        "rates": {
+            "adults_midweek": "139",
+            "adults_prime": "139",
+            "juniors_midweek": "89",
+            "juniors_prime": "89",
+            "rentals": "54",
+            "rates_url": "https://www.aspensnowmass.com/plan-your-stay/tickets-and-passes/advance-purchase"
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0362:1:US"
+    }, {
+        "name": "Solitude",
+        "contact_info": {
+            "url": "http://skisolitude.com/",
+            "street_address": "12000 Big Cottonwood Canyon Rd",
+            "city": "Solitude",
+            "state": "UT",
+            "zip": "84121",
+            "phone": "(801) 534-1400",
+            "address_url": "https://goo.gl/maps/XUJWfuakKNq",
+            "lat_lon": "40.61907,-111.5941987"
+        },
+        "images": {
+            "logo": "solitude_UT.png",
+            "map": "solitude_UT.jpg",
+            "stock": ""
+        },
+        "stats": {
+            "vertical_drop_ft": "2047",
+            "skiable_acres": "1200",
+            "trails": "77",
+            "lifts": "8",
+            "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801011&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+        },
+        "rates": {
+            "adults_midweek": "79",
+            "adults_prime": "79",
+            "juniors_midweek": "50",
+            "juniors_prime": "50",
+            "rentals": "35",
+            "rates_url": "http://tickets.skisolitude.com/",
+            "specials_note": ""
+        },
+        "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0237:1:US"
+    }]
 }
