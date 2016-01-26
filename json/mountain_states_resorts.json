@@ -388,5 +388,48 @@
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0388:1:US"
 
 
-                           }]
+        },
+
+        {
+            "name": "Brighton",
+
+            "contact_info": {
+                "url": "http://www.brightonresort.com/",
+                "full_address": "8302 S Brighton Loop Rd, Brighton, UT 84121",
+                "phone": "(801) 532-4731",
+                "address_url": "https://goo.gl/maps/Vxuz5yktqjS2",
+                "lat_lon": "40.598019,-111.5831874"
+            },
+
+            "images": {
+                "logo": "brighton_UT.png",
+                "map": "brighton_UT.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1760",
+                "peak": "10500",
+                "skiable_acres": "1050",
+                "trails": "66",
+                "lifts": "6",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801003&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "75",
+                "adults_prime": "75",
+                "juniors_midweek": "45",
+                "juniors_prime": "45",
+                "rentals": "",
+                "rates_url": "http://www.brightonresort.com/buy-tickets/",
+                "specials_note": "Go Card reload for $67"
+
+            },
+
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0028:1:US"
+
+
+        }
+                       ]
 }
