@@ -3,6 +3,7 @@ var printResorts = require("./print_Resorts.js");
 var toggleWidgetDisplaySetup = require("./toggle_Widget_Display_setup.js");
 var sorting = require("./sorting.js");
 var area_selector = require("./area_selector.js");
+var filterResortsSetup = require("./filter_Resorts_Setup.js");
 
 $(document).ready(function () {
 
@@ -23,7 +24,7 @@ $(document).ready(function () {
     });
 
 
-
+    filterResortsSetup();
 
 
 });

@@ -63,7 +63,9 @@
 
                         <span class="sort_link sort_order_asc" sort_by="stats.vertical_drop_ft" sort_order="asc">vertical&nbsp;drop<span class ='sort_triangle'>&#9650;</span></span>
                         <span class="sort_link sort_order_desc" sort_by="rates.adults_prime" sort_order="desc">price<span class ='sort_triangle'>&#9660;</span></span>
-
+                        <br>
+                        
+                         <span id="resort_selection_dropdown_span">
                         <label for="resort_selection_dropdown">Other areas:</label>
                         <select id="resort_selection_dropdown">
                             <option value="mid_atlantic">Mid Atlantic</option>
@@ -73,6 +75,13 @@
                             <!--                            <option value="southwest">Southwest</option>-->
 
                         </select>
+                             
+                        </span>
+                        
+                        <span id="filter_resorts_span">
+                        <label for="filter_resorts">Filter by name:</label>
+                        <input type="search" id= "filter_resorts" autofocus>
+                        </span>
                     </p>
                 </div>
             </div>
@@ -82,7 +91,7 @@
                 </div>
             </div>
 
-<!--
+            <!--
             <link href="//www.snow-forecast.com/stylesheets/feed.css" media="screen" rel="stylesheet" type="text/css" />
             <div id="wf-weatherfeed">
                 <iframe style="overflow:hidden;border:none;" allowtransparency="true" height="272" width="469" src="//www.snow-forecast.com/resorts/Solitude-Mountain-Resort/forecasts/feed/mid/i" scrolling="no" frameborder="0" marginwidth="0" marginheight="0">

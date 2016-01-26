@@ -54,6 +54,11 @@ br {
     min-height: 100%;
 }
 
+#filter_resorts_span, #resort_selection_dropdown_span{
+        white-space: nowrap;
+}
+
+
 #inner_container {
     min-height: 400px;
     margin-bottom: 20px;
@@ -218,6 +223,14 @@ a.rates_url {
     padding-left: 12px;
 }
 
+
+select{
+    margin-right: 15px;
+}
+
+input[type="search"]{
+    color: $highlight-color;
+} 
 span.report {
     padding-right: 12px;
 }
@@ -299,6 +312,8 @@ span.report:not(:first-child) {
 }
 
 @media screen and (max-device-width: 800px) {
+    
+    
     h3 {
         font-size: 4vw;
     }
