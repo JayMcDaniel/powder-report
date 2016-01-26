@@ -60,7 +60,7 @@ br {
 }
 
 #skis_logo {
-    width: 5vw;
+    width: 7vw;
     margin-left: -5px;
     margin-right: -5px;
 }
@@ -183,7 +183,7 @@ label {
         background-color: aliceblue;
     }
     &:nth-child(odd) {
-        background-color: #fff;
+        background-color: rgba(240, 248, 255, 0.2);
     }
 }
 
@@ -288,9 +288,9 @@ span.report:not(:first-child) {
 
 .conditions_widget_snowcountry_link {
     position: absolute;
-    left: 150px;
-    bottom: 17px;
-    font-size: 14px;
+    left: 140px;
+    bottom: 20px;
+    font-size: 12px;
 }
 
 #footer_bar {

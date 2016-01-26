@@ -19,6 +19,7 @@ var requestCurrentWeather = function (resort_obj, parsed_address, callback) {
     $.getJSON(url)
         .done(function (json) {
             callback(json, resort_obj);
+//        console.log(json);
         })
         .fail(function (jqxhr, textStatus, error) {
             var err = textStatus + ", " + error;
