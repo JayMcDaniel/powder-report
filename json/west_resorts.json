@@ -381,5 +381,47 @@
                  "weather_forcast_url": "https://weather.com/weather/5day/l/169:11:US"
             
             
+                },
+            
+            {
+                "name": "Squaw Valley",
+            
+                "contact_info": {
+                    "url": "http://squawalpine.com/skiing-riding/mountains/squaw-valley-ski-resort",
+                    "full_address": "1960 Squaw Valley Rd, Olympic Valley, CA 96146",
+                    "phone": "(800) 403-0206",
+                    "address_url": "https://goo.gl/maps/UfVEzeTKYyQ2",
+                    "lat_lon": "39.1954436,-120.2354652"
+                },
+            
+                "images": {
+                    "logo": "sqaw_valley_CA.jpg",
+                    "map": "sqaw_valley_CA.jpg",
+                    "stock": ""
+                },
+            
+                "stats": {
+                    "vertical_drop_ft": "2850",
+                    "peak": "9050",
+                    "skiable_acres": "3600",
+                    "trails": "197",
+                    "lifts": "42",
+                    "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=916011&state=CA&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+                },
+            
+                "rates": {
+                    "adults_midweek": "99",
+                    "adults_prime": "99",
+                    "juniors_midweek": "87",
+                    "juniors_prime": "87",
+                    "rentals": "",
+                    "rates_url": "https://store.squawalpine.com/eStore/Content/Commerce/Products/DisplayProducts.aspx?ProductGroupCode=80&ProductCategoryCode=23",
+                    "specials_note": ""
+            
+                },
+                    
+                 "weather_forcast_url": "https://weather.com/weather/5day/l/USCA1090:1:US"
+            
+            
                 }]
 }
