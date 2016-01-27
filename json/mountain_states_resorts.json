@@ -430,6 +430,48 @@
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0028:1:US"
 
 
+        },
+
+        {
+            "name": "Keystone",
+
+            "contact_info": {
+                "url": "http://www.keystoneresort.com/",
+                "full_address": "1200 Co Rd 8, Dillon, CO 80435",
+                "phone": "970-496-1470",
+                "address_url": "https://goo.gl/maps/DczvaJ4Vkjo",
+                "lat_lon": "39.6001548,-105.9647805"
+            },
+
+            "images": {
+                "logo": "keystone_CO.png",
+                "map": "keystone_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "3128",
+                "peak": "12408",
+                "skiable_acres": "3148",
+                "trails": "131",
+                "lifts": "20",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303014&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "101",
+                "adults_prime": "101",
+                "juniors_midweek": "59",
+                "juniors_prime": "59",
+                "rentals": "",
+                "rates_url": "http://www.keystoneresort.com/plan-a-vacation/lift-tickets/lift-tickets-search.aspx",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0215:1:US"
+
+
         }
                        ]
 }
