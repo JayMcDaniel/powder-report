@@ -9,9 +9,8 @@ var printResorts = function (json, area) {
     
     $(".region_selected").text(area.toUpperCase().replace(/_/g," "));
     
-    var $resorts_results_div = $("#resorts_results_div");
-
-    $resorts_results_div.empty();
+    
+    var resorts_results_div = document.getElementById("resorts_results_div");
 
     var resorts_arr = json[area];
     var allResorts = "";
@@ -28,9 +27,8 @@ var printResorts = function (json, area) {
             insertCurrentWeather(json, name, parsed_address);
         });
     }
-
     //insert all resorts on page
-    $resorts_results_div.append(allResorts);
+    resorts_results_div.innerHTML = allResorts;
     
 }
 
