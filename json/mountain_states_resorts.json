@@ -138,6 +138,38 @@
             },
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0041:1:US"
     }, {
+            "name": "Brighton",
+            "contact_info": {
+                "url": "http://www.brightonresort.com/",
+                "full_address": "8302 S Brighton Loop Rd, Brighton, UT 84121",
+                "phone": "(801) 532-4731",
+                "address_url": "https://goo.gl/maps/Vxuz5yktqjS2",
+                "lat_lon": "40.598019,-111.5831874"
+            },
+            "images": {
+                "logo": "brighton_UT.png",
+                "map": "brighton_UT.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "1760",
+                "peak": "10500",
+                "skiable_acres": "1050",
+                "trails": "66",
+                "lifts": "6",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801003&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "75",
+                "adults_prime": "75",
+                "juniors_midweek": "45",
+                "juniors_prime": "45",
+                "rentals": "",
+                "rates_url": "http://www.brightonresort.com/buy-tickets/",
+                "specials_note": "Go Card reload for $67"
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0028:1:US"
+    }, {
             "name": "Crested Butte",
             "contact_info": {
                 "url": "www.skicb.com/",
@@ -206,6 +238,38 @@
                 "specials_note": ""
             },
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0056:1:US"
+    }, {
+            "name": "Keystone",
+            "contact_info": {
+                "url": "http://www.keystoneresort.com/",
+                "full_address": "1200 Co Rd 8, Dillon, CO 80435",
+                "phone": "970-496-1470",
+                "address_url": "https://goo.gl/maps/DczvaJ4Vkjo",
+                "lat_lon": "39.6001548,-105.9647805"
+            },
+            "images": {
+                "logo": "keystone_CO.png",
+                "map": "keystone_CO.jpg",
+                "stock": ""
+            },
+            "stats": {
+                "vertical_drop_ft": "3128",
+                "peak": "12408",
+                "skiable_acres": "3148",
+                "trails": "131",
+                "lifts": "20",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303014&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+            "rates": {
+                "adults_midweek": "101",
+                "adults_prime": "101",
+                "juniors_midweek": "59",
+                "juniors_prime": "59",
+                "rentals": "",
+                "rates_url": "http://www.keystoneresort.com/plan-a-vacation/lift-tickets/lift-tickets-search.aspx",
+                "specials_note": ""
+            },
+            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0215:1:US"
     }, {
             "name": "Park City",
             "contact_info": {
@@ -346,11 +410,8 @@
                 "specials_note": ""
             },
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0237:1:US"
-    },
-
-        {
+    }, {
             "name": "Vail",
-
             "contact_info": {
                 "url": "http://www.vail.com/",
                 "full_address": "Vail, CO 81657",
@@ -358,13 +419,11 @@
                 "address_url": "https://goo.gl/maps/kJRkkHeAqv62",
                 "lat_lon": "39.6061444,-106.3549717"
             },
-
             "images": {
                 "logo": "vail_CO.png",
                 "map": "vail_CO.jpg",
                 "stock": ""
             },
-
             "stats": {
                 "vertical_drop_ft": "3450",
                 "peak": "11570",
@@ -373,7 +432,6 @@
                 "lifts": "31",
                 "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303023&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
-
             "rates": {
                 "adults_midweek": "165",
                 "adults_prime": "165",
@@ -382,96 +440,555 @@
                 "rentals": "49",
                 "rates_url": "http://www.vail.com/plan-your-trip/lift-tickets/lift-tickets-explorer.aspx",
                 "specials_note": ""
-
             },
-
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0388:1:US"
-
-
-        },
+    },
 
         {
-            "name": "Brighton",
+            "name": "Powderhorn",
 
             "contact_info": {
-                "url": "http://www.brightonresort.com/",
-                "full_address": "8302 S Brighton Loop Rd, Brighton, UT 84121",
-                "phone": "(801) 532-4731",
-                "address_url": "https://goo.gl/maps/Vxuz5yktqjS2",
-                "lat_lon": "40.598019,-111.5831874"
+                "url": "http://www.powderhorn.com/",
+                "full_address": "8338 Powderhorn Rd, Mesa, CO 81643",
+                "phone": "(970) 268-5700",
+                "address_url": "https://goo.gl/maps/gC3Te1oaTxp",
+                "lat_lon": "39.0693962,-108.1529224"
             },
 
             "images": {
-                "logo": "brighton_UT.png",
-                "map": "brighton_UT.jpg",
+                "logo": "powderhorn_CO.png",
+                "map": "powderhorn_CO.pdf",
                 "stock": ""
             },
 
             "stats": {
-                "vertical_drop_ft": "1760",
-                "peak": "10500",
-                "skiable_acres": "1050",
-                "trails": "66",
-                "lifts": "6",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801003&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+                "vertical_drop_ft": "1650",
+                "peak": "9850",
+                "skiable_acres": "1600",
+                "trails": "42",
+                "lifts": "4",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303016&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
-                "adults_midweek": "75",
-                "adults_prime": "75",
-                "juniors_midweek": "45",
-                "juniors_prime": "45",
+                "adults_midweek": "69",
+                "adults_prime": "69",
+                "juniors_midweek": "34",
+                "juniors_prime": "34",
                 "rentals": "",
-                "rates_url": "http://www.brightonresort.com/buy-tickets/",
-                "specials_note": "Go Card reload for $67"
-
-            },
-
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USUT0028:1:US"
-
-
-        },
-
-        {
-            "name": "Keystone",
-
-            "contact_info": {
-                "url": "http://www.keystoneresort.com/",
-                "full_address": "1200 Co Rd 8, Dillon, CO 80435",
-                "phone": "970-496-1470",
-                "address_url": "https://goo.gl/maps/DczvaJ4Vkjo",
-                "lat_lon": "39.6001548,-105.9647805"
-            },
-
-            "images": {
-                "logo": "keystone_CO.png",
-                "map": "keystone_CO.jpg",
-                "stock": ""
-            },
-
-            "stats": {
-                "vertical_drop_ft": "3128",
-                "peak": "12408",
-                "skiable_acres": "3148",
-                "trails": "131",
-                "lifts": "20",
-                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303014&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
-            },
-
-            "rates": {
-                "adults_midweek": "101",
-                "adults_prime": "101",
-                "juniors_midweek": "59",
-                "juniors_prime": "59",
-                "rentals": "",
-                "rates_url": "http://www.keystoneresort.com/plan-a-vacation/lift-tickets/lift-tickets-search.aspx",
+                "rates_url": "http://www.powderhorn.com/lift-tickets",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": "http://www.weather.com/weather/5day/l/USCO0215:1:US"
+            "weather_forcast_url": "https://weather.com/weather/5day/l/329:11:US"
 
 
-        }
+                           },
+
+        {
+            "name": "Steamboat",
+
+            "contact_info": {
+                "url": "http://www.steamboat.com/",
+                "full_address": "2305 Mt Werner Cir, Steamboat Springs, CO 80487",
+                "phone": "(877) 783-2628",
+                "address_url": "https://goo.gl/maps/z5dNUUNm8qM2",
+                "lat_lon": "40.4572768,-106.8066365"
+            },
+
+            "images": {
+                "logo": "steamboat_CO.png",
+                "map": "steamboat_CO.pdf",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "3668",
+                "peak": "10568",
+                "skiable_acres": "2965",
+                "trails": "165",
+                "lifts": "18",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303021&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "149",
+                "adults_prime": "159",
+                "juniors_midweek": "123",
+                "juniors_prime": "132",
+                "rentals": "",
+                "rates_url": "https://book.steamboat.com/CorisSF/Storefront/ProductLanding.aspx?Group=ACTVGRP12",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USCO0369:1:US"
+
+
+                           },
+
+        {
+            "name": "Loveland",
+
+            "contact_info": {
+                "url": "http://skiloveland.com/",
+                "full_address": "Exit 216 Interstate 70, Georgetown, CO 80444",
+                "phone": "(303) 571-5580",
+                "address_url": "https://goo.gl/maps/ocCizAFkU6s",
+                "lat_lon": "39.6802731,-105.898107"
+            },
+
+            "images": {
+                "logo": "loveland_CO.png",
+                "map": "loveland_CO.pdf",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "2210",
+                "peak": "13010",
+                "skiable_acres": "1800",
+                "trails": "94",
+                "lifts": "9",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303015&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "53",
+                "adults_prime": "65",
+                "juniors_midweek": "28",
+                "juniors_prime": "25",
+                "rentals": "",
+                "rates_url": "http://skiloveland.com/tickets-passes/lift-tickets/",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USCO0246:1:US"
+
+
+                           },
+
+        {
+            "name": "Winter Park",
+
+            "contact_info": {
+                "url": "http://www.winterparkresort.com",
+                "full_address": "85 Parsenn Rd, Winter Park, CO 80482",
+                "phone": "(303) 316-1564",
+                "address_url": "https://goo.gl/maps/5rmDuhCRDWw",
+                "lat_lon": "39.886789,-105.7646247"
+            },
+
+            "images": {
+                "logo": "winterpark.gif",
+                "map": "winter_park_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "2220",
+                "peak": "11220",
+                "skiable_acres": "1212",
+                "trails": "143",
+                "lifts": "25",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303024&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "144",
+                "adults_prime": "144",
+                "juniors_midweek": "84",
+                "juniors_prime": "84",
+                "rentals": "",
+                "rates_url": "http://www.winterparkresort.com/tickets-and-passes/lift-tickets.aspx",
+                "specials_note": "By 7 days ahead of time for 20% discount."
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USCO0413:1:US"
+
+
+                           },
+
+        {
+            "name": "Monarch",
+
+            "contact_info": {
+                "url": "http://www.skimonarch.com",
+                "full_address": "23715 US-50, Monarch, CO 81227",
+                "phone": "(719) 530-5000",
+                "address_url": "https://goo.gl/maps/ezr7KzjwJMt",
+                "lat_lon": "38.5127009,-106.3337045"
+            },
+
+            "images": {
+                "logo": "monarch_CO.png",
+                "map": "monarch_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1162",
+                "peak": "11952",
+                "skiable_acres": "800",
+                "trails": "62",
+                "lifts": "6",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=719002&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "64",
+                "adults_prime": "74",
+                "juniors_midweek": "24",
+                "juniors_prime": "30",
+                "rentals": "",
+                "rates_url": "http://www.skimonarch.com/ticket-pricing/",
+                "specials_note": "Buy online to save $10."
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USCO0273:1:US"
+
+
+                           },
+
+        {
+            "name": "Telluride",
+
+            "contact_info": {
+                "url": "http://www.tellurideskiresort.com/",
+                "full_address": "565 Mountain Village Blvd, Telluride, CO 81435",
+                "phone": "(800) 778-8581",
+                "address_url": "https://goo.gl/maps/U9zC5igvGUS2",
+                "lat_lon": "37.9365493,-107.8485258"
+            },
+
+            "images": {
+                "logo": "telluride_CO.png",
+                "map": "telluride_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "4425",
+                "peak": "13150",
+                "skiable_acres": "2000",
+                "trails": "147",
+                "lifts": "18",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303022&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "114",
+                "adults_prime": "122",
+                "juniors_midweek": "68",
+                "juniors_prime": "72",
+                "rentals": "",
+                "rates_url": "http://www.tellurideskiresort.com/pricing-products/lift-tickets/",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USCO0379:1:US"
+
+
+                           },
+
+        {
+            "name": "Copper Mountain",
+
+            "contact_info": {
+                "url": "http://www.coppercolorado.com/winter/index.html",
+                "full_address": "0509 Copper road, Copper Mountain, CO 80443",
+                "phone": "(970) 968-2318",
+                "address_url": "https://goo.gl/maps/XwzXRrXpTsv",
+                "lat_lon": "39.4854672,-106.172045"
+            },
+
+            "images": {
+                "logo": "copper_mountain_CO.png",
+                "map": "copper_mountain_CO.pdf",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "2601",
+                "peak": "12313",
+                "skiable_acres": "2465",
+                "trails": "142",
+                "lifts": "23",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303009&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+
+
+            },
+
+            "rates": {
+                "adults_midweek": "74",
+                "adults_prime": "144",
+                "juniors_midweek": "94",
+                "juniors_prime": "60",
+                "rentals": "",
+                "rates_url": "http://www.coppercolorado.com/winter/plan_and_buy/lift_tickets",
+                "specials_note": "Buy online in advance to save $50!"
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USCO0085:1:US"
+
+
+                           },
+
+        {
+            "name": "Aspen Mountain",
+
+            "contact_info": {
+                "url": "https://www.aspensnowmass.com/our-mountains/aspen-mountain",
+                "full_address": "601 E Dean St, Aspen, CO 81611",
+                "phone": "(970) 925-1220",
+                "address_url": "https://goo.gl/maps/UoCycrpUJ4K2",
+                "lat_lon": "39.186805,-106.8208361"
+            },
+
+            "images": {
+                "logo": "aspen_snowmass_CO.png",
+                "map": "aspen_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "3267",
+                "peak": "11212",
+                "skiable_acres": "675",
+                "trails": "76",
+                "lifts": "8",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303003&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "139",
+                "adults_prime": "139",
+                "juniors_midweek": "89",
+                "juniors_prime": "89",
+                "rentals": "",
+                "rates_url": "https://www.aspensnowmass.com/plan-your-stay/tickets-and-passes/advance-purchase",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/25:11:US"
+
+
+                           },
+
+        {
+            "name": "Sunlight",
+
+            "contact_info": {
+                "url": "http://sunlightmtn.com/",
+                "full_address": "10901 Co Rd 117, Glenwood Springs, CO 81601",
+                "phone": "(970) 945-7491",
+                "address_url": "https://goo.gl/maps/ntFXotaECPT2",
+                "lat_lon": "39.39978,-107.3409507"
+            },
+
+            "images": {
+                "logo": "sunlight_CO.png",
+                "map": "sunlight_SO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "2010",
+                "peak": "9895",
+                "skiable_acres": "470",
+                "trails": "67",
+                "lifts": "3",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303019&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "60",
+                "adults_prime": "60",
+                "juniors_midweek": "45",
+                "juniors_prime": "45",
+                "rentals": "",
+                "rates_url": "http://sunlightmtn.com/plan-your-trip/tickets-passes/buy-lift-tickets-shop-menus-below",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/445:11:US"
+
+
+                           },
+
+        {
+            "name": "Purgatory",
+
+            "contact_info": {
+                "url": "https://www.purgatoryresort.com/",
+                "full_address": "24 Sheol St, Durango, CO 81301",
+                "phone": "(970) 247-9000",
+                "address_url": "https://goo.gl/maps/fJwzgkRJTQt",
+                "lat_lon": "37.251585,-107.880301"
+            },
+
+            "images": {
+                "logo": "purgatory_CO.png",
+                "map": "purgatory_CO.pdf",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "2029",
+                "peak": "10822",
+                "skiable_acres": "1200",
+                "trails": "91",
+                "lifts": "9",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303017&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "85",
+                "adults_prime": "85",
+                "juniors_midweek": "68",
+                "juniors_prime": "68",
+                "rentals": "",
+                "rates_url": "https://www.purgatoryresort.com/the-mountain/lift-tickets-passes/lift-tickets/",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USCO0324:1:US"
+
+
+                           },
+
+        {
+            "name": "Wolf Creek",
+
+            "contact_info": {
+                "url": "http://wolfcreekski.com/",
+                "full_address": "US-160, Pagosa Springs, CO 81147",
+                "phone": "(970) 264-5639",
+                "address_url": "https://goo.gl/maps/gDWANU7qBXt",
+                "lat_lon": "37.4720825,-106.7956559"
+            },
+
+            "images": {
+                "logo": "wolf_creek_CO.png",
+                "map": "wolf_creek_CO.pdf",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1604",
+                "peak": "11904",
+                "skiable_acres": "1600",
+                "trails": "77",
+                "lifts": "8",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303025&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "65",
+                "adults_prime": "65",
+                "juniors_midweek": "34",
+                "juniors_prime": "34",
+                "rentals": "",
+                "rates_url": "http://www.wolfcreekski.com/wolf-creek-lift-tickets.php",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USCO0415:1:US"
+
+
+                           },
+
+        {
+            "name": "Ski Cooper",
+
+            "contact_info": {
+                "url": "http://skicooper.com/",
+                "full_address": "232 County Road 29, Leadville, CO 80461",
+                "phone": "(719) 486-2277",
+                "address_url": "https://goo.gl/maps/9noZMVeCTuE2",
+                "lat_lon": "39.360788,-106.3049977"
+            },
+
+            "images": {
+                "logo": "ski_cooper_CO.png",
+                "map": "ski_cooper_CO.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1200",
+                "peak": "11700",
+                "skiable_acres": "400",
+                "trails": "39",
+                "lifts": "4",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=719003&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "50",
+                "adults_prime": "50",
+                "juniors_midweek": "30",
+                "juniors_prime": "30",
+                "rentals": "",
+                "rates_url": "http://skicooper.com/affordable-lift-tickets/",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/372:11:US"
+
+
+                           },
+        {
+            "name": "Arapahoe Basin",
+
+            "contact_info": {
+                "url": "http://arapahoebasin.com/Abasin/Default.aspx",
+                "full_address": "28194 US-6, Keystone, CO 80435",
+                "phone": "(888) 272-7246",
+                "address_url": "https://goo.gl/maps/rghGbJLv1Xr",
+                "lat_lon": "39.6423118,-105.8738741"
+            },
+
+            "images": {
+                "logo": "arapahoe_basin_CO.png",
+                "map": "arapahoe_basin_CO.pdf",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "2270",
+                "peak": "13050",
+                "skiable_acres": "960",
+                "trails": "107",
+                "lifts": "8",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=303001&state=CO&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "75",
+                "adults_prime": "85",
+                "juniors_midweek": "58",
+                "juniors_prime": "69",
+                "rentals": "",
+                "rates_url": "http://tickets.arapahoebasin.com/",
+                "specials_note": "Snocat skiing priced at $299 per person opens up a ton more runs."
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/20:11:US"
+
+
+                           }
                        ]
 }

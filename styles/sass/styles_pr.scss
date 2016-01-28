@@ -183,7 +183,7 @@ label {
 
 .resort_snippet {
     padding: 10px;
-    font-size: 16px;
+    font-size: 14px;
     &:nth-child(even) {
         background-color: aliceblue;
     }
@@ -311,6 +311,7 @@ span.report:not(:first-child) {
 #footer_bar {
     position: relative;
     width: 100%;
+    padding-right: 10%;
 }
 
 @media screen and (max-device-width: 800px) {

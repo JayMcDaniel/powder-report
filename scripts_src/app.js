@@ -11,11 +11,14 @@ $(document).ready(function () {
 
     /** get the resort json from selected area */
     loadResorts(area, function (json, area) {
-
-        printResorts(json, area);
+        
+        
         toggleWidgetDisplaySetup();
         sorting.setSelected(json, area);
         sorting.sortBarInit();
+        sorting.sortResortsArray();
+        
+        printResorts(json, area);
 
         //initialize are dropdown menu;
 

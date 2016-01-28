@@ -15,7 +15,7 @@
 
           /** return _sm for image name */
           thumbnailName: function (image_name) {
-              return image_name.replace('.png', '_sm.png').replace('.jpg', '_sm.jpg').replace('.jpeg', '_sm.jpeg');
+              return image_name.replace('.png', '_sm.png').replace('.jpg', '_sm.jpg').replace('.jpeg', '_sm.jpeg').replace('.pdf', '_sm.png');
           },
 
           /** return modded language for weather description */
