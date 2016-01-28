@@ -5,7 +5,7 @@ var buildResortBriefDiv = function (resort_obj, parsed_address) {
     
 
 
-    var name_and_logo = "<a class = 'resort_name' target ='_blank' href ='" + utils.urlFormat(resort_obj.contact_info.url) + "'><h3><img class ='resort_logo_img' src = 'images/resort_logos/" + resort_obj.images.logo + "'/>" + resort_obj.name + " <span class='resort_state'>" + parsed_address.state + "</span></h3></a>";
+    var name_and_logo = "<a class = 'resort_name' target ='_blank' href ='" + utils.urlFormat(resort_obj.contact_info.url) + "'><h3><img title='" + resort_obj.name + " logo' alt='" + resort_obj.name + " logo' class ='resort_logo_img' src = 'images/resort_logos/" + resort_obj.images.logo + "'/>" + resort_obj.name + " <span class='resort_state'>" + parsed_address.state + "</span></h3></a>";
 
     var trails = "<span class = 'trails report'>" + resort_obj.stats.trails + "&nbsp;trails </span>";
 
@@ -27,10 +27,10 @@ var buildResortBriefDiv = function (resort_obj, parsed_address) {
 
     var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + ">show current stats</span>"
 
-    var map_thumbnail = "<div class='map_thumbnail'> <a target ='_blank' href='images/resort_maps/" + resort_obj.images.map + "'><img src='images/resort_maps/" + utils.thumbnailName(resort_obj.images.map) + "'/></a></div>";
+    var map_thumbnail = "<div title='" + resort_obj.name + " trail map' alt='" + resort_obj.name + " trail map' class='map_thumbnail'> <a target ='_blank' href='images/resort_maps/" + resort_obj.images.map + "'><img src='images/resort_maps/" + utils.thumbnailName(resort_obj.images.map) + "'/></a></div>";
 
 
-    var snippet = "<div class='resort_snippet' id ='" + resort_obj.id + "' >" + name_and_logo + "\
+    var snippet = "<div class='resort_snippet' id ='" + resort_obj.id + "' alt='" + resort_obj.name + "  stats and prices'>" + name_and_logo + "\
         " + map_thumbnail + "<div class='resort_snippet_text'>\
         <span class='stats_report'>" + trails + lifts + acres + peak + vert + "</span><br/>\
         " + rates + "<br><p class='contact_info'>\
