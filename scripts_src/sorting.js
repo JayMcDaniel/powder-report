@@ -1,24 +1,25 @@
 var printResorts = require("./print_Resorts.js");
 var toggleWidgetDisplaySetup = require("./toggle_Widget_Display_setup.js");
+var utils = require("./utils.js");
 
 
 
 /** set up the sort bar functionality */
 
 var sorting = {
-    
+
     //have a copy of the selected json and area in this object to use in sortResortsArray();
     selected_json: {},
     selected_area: {},
-    
-    setSelected: function(json, area){
+
+    setSelected: function (json, area) {
         this.selected_json = json;
         this.selected_area = area;
     },
-    
-    
-    
-    
+
+
+
+
 
     //sorts resort json. called when sort link is clicked or region dropdown is changed
     sortResortsArray: function (sort_by, sort_order) {
@@ -30,12 +31,26 @@ var sorting = {
             sort_order = this.cached ? this.cached.sort_order : "desc";
         }
 
-        
+
         var thisResortArray = this.selected_json[this.selected_area];
+
+        //sort by name
+
         if (sort_by === "name") {
             thisResortArray.sort(function (a, b) {
                 return a[sort_by].localeCompare(b[sort_by]);
             });
+            
+        //sort by state
+
+        } else if (sort_by === "state") {
+
+            thisResortArray.sort(function (a, b) {
+
+                return utils.parseAddress(a).state.localeCompare(utils.parseAddress(b).state);
+            });
+
+
         } else { //for numbered sorts in two levels
 
             var sort_spot = sort_by.split(".");
@@ -56,14 +71,14 @@ var sorting = {
             sort_by: sort_by
         }
 
-       //rebuild resorts list on screen
-            printResorts(this.selected_json, this.selected_area);
+        //rebuild resorts list on screen
+        printResorts(this.selected_json, this.selected_area);
         // enable widget display links on each snippet
-            toggleWidgetDisplaySetup();
+        toggleWidgetDisplaySetup();
 
     },
-    
-    
+
+
 
     //sort bar initializer - called when page loads
     sortBarInit: function () {

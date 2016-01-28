@@ -52,7 +52,7 @@ gulp.task("default", ['sass','sass:watch'], function () {
             .bundle()
             .on("error", gutil.log.bind(gutil, "Browserify Error"))
             .pipe(source("build/main.js"))
-            .pipe(streamify(uglify()))
+         //   .pipe(streamify(uglify()))
             .pipe(gulp.dest("./"));
     };
     build();
