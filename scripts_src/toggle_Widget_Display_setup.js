@@ -2,8 +2,8 @@
 
 var toggleWidgetDisplaySetup = function(){
     
-    
-    $(".toggle_widget_link").click(function(){        
+    $(".toggle_widget_link").click(function(){    
+        
         if ($(this).text() === "show current stats"){
             
             var conditions_widget_container = document.createElement("div");

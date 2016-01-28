@@ -30,7 +30,6 @@ var area_selector = {
                 sorting.setSelected(json, area);
                 sorting.sortResortsArray(); //not supplying sort_by and sort_order to use function cache;
                 
-                
                 toggleWidgetDisplaySetup();
 
 

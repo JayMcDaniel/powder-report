@@ -1,4 +1,6 @@
 var printResorts = require("./print_Resorts.js");
+var toggleWidgetDisplaySetup = require("./toggle_Widget_Display_setup.js");
+
 
 
 /** set up the sort bar functionality */
@@ -56,7 +58,12 @@ var sorting = {
 
        //rebuild resorts list on screen
             printResorts(this.selected_json, this.selected_area);
+        // enable widget display links on each snippet
+            toggleWidgetDisplaySetup();
+
     },
+    
+    
 
     //sort bar initializer - called when page loads
     sortBarInit: function () {
