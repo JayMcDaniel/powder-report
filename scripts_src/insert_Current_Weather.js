@@ -9,7 +9,7 @@ var insertCurrentWeather = function (json, resort_obj, parsed_address) {
 
     var weather_report = document.createElement("p");
     weather_report.className = "weather_report";
-    weather_report.setAttribute("alt","Weather conditions for " + resort_obj.name);
+  //  weather_report.setAttribute("alt","Weather conditions for " + resort_obj.name);
 
     var icon = document.createElement("img");
     icon.className = "weather_icon";
