@@ -10,7 +10,7 @@ var printResorts = function (json, area) {
     $(".region_selected").text(area.toUpperCase().replace(/_/g," "));
     
     
-    var resorts_results_div = document.getElementById("resorts_results_div");
+    var resorts_results_div = $("#resorts_results_div");
 
     var resorts_arr = json[area];
     var allResorts = "";
@@ -28,7 +28,8 @@ var printResorts = function (json, area) {
         });
     }
     //insert all resorts on page
-    resorts_results_div.innerHTML = allResorts;
+  
+    resorts_results_div.append(allResorts);
     
 }
 
