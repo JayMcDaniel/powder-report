@@ -11,6 +11,7 @@ var printResorts = function (json, area) {
     
     
     var resorts_results_div = $("#resorts_results_div");
+        resorts_results_div.empty();
 
     var resorts_arr = json[area];
     var allResorts = "";
