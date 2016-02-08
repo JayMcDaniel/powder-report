@@ -58,6 +58,10 @@ br {
         white-space: nowrap;
 }
 
+#resort_selection_dropdown option{
+    color: $highlight-color;
+}
+
 
 #inner_container {
     min-height: 400px;

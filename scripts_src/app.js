@@ -13,12 +13,13 @@ $(document).ready(function () {
     loadResorts(area, function (json, area) {
         
         
-        toggleWidgetDisplaySetup();
+        printResorts(json, area);
+        
         sorting.setSelected(json, area);
         sorting.sortBarInit();
         sorting.sortResortsArray();
         
-        printResorts(json, area);
+        
 
         //initialize are dropdown menu;
 
