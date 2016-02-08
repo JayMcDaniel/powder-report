@@ -1,9 +1,7 @@
 /** when "more" link is clicked, gets widget for that resort and appends it to resort snippet */
 
 var toggleWidgetDisplaySetup = function(){
-    
-    console.log("toggled");
-    
+        
     $(".toggle_widget_link").click(function(){    
         
         if ($(this).text() === "show current stats"){

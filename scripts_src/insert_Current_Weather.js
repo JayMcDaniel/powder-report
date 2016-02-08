@@ -9,7 +9,7 @@ var insertCurrentWeather = function (json, resort_obj, parsed_address) {
 
     var weather_report = document.createElement("p");
     weather_report.className = "weather_report";
-  //  weather_report.setAttribute("alt","Weather conditions for " + resort_obj.name);
+    weather_report.setAttribute("alt","Weather conditions for " + resort_obj.name);
 
     var icon = document.createElement("img");
     icon.className = "weather_icon";
@@ -21,7 +21,8 @@ var insertCurrentWeather = function (json, resort_obj, parsed_address) {
 
     var temp = document.createElement("span");
     temp.className = "weather_temp";
-    temp.textContent = json.main.temp.toFixed(1) + "\u2109 "; //symbol for degrees F
+    var currentTemp = json.main.temp > 150 ? ((json.main.temp - 273.15) * 1.8) + 32 : json.main.temp; //symbol for degrees F. Sometimes the temp from openweather comes back in kelvin even if I ask for it in F, so I need to convert.    
+    temp.textContent = currentTemp.toFixed(1) + "\u2109 "; 
 
     var wind_speed = document.createElement("span");
     wind_speed.className = "weather_wind_speed";

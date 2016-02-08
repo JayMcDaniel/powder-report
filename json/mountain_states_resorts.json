@@ -989,6 +989,48 @@
             "weather_forcast_url": "https://weather.com/weather/5day/l/20:11:US"
 
 
-                           }
+                           },
+
+        {
+            "name": "Snowbasin",
+
+            "contact_info": {
+                "url": "https://www.snowbasin.com/",
+                "full_address": "3925 Snow Basin Rd, Huntsville, UT 84317",
+                "phone": "(801) 620-1000",
+                "address_url": "https://goo.gl/maps/XgVW4L2knj22",
+                "lat_lon": "41.216045,-111.856897"
+            },
+
+            "images": {
+                "logo": "snowbasin_UT.png",
+                "map": "snowbasin_UT.pdf",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "2950",
+                "peak": "9350",
+                "skiable_acres": "3000",
+                "trails": "106",
+                "lifts": "11",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=801009&state=UT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "99",
+                "adults_prime": "105",
+                "juniors_midweek": "49",
+                "juniors_prime": "55",
+                "rentals": "45",
+                "rates_url": "https://www.snowbasin.com/tickets-passes/lift-tickets/",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USUT0234:1:US"
+
+
+        }
                        ]
 }
