@@ -267,6 +267,10 @@ span.report:not(:first-child) {
     padding-left: 12px;
 }
 
+span.rates_adult{
+    padding-left: 0px !important;
+}
+
 .report,
 .full_address {
     border-right: 1px solid $primary-color;
@@ -447,4 +451,10 @@ span.report:not(:first-child) {
     .conditions_widget_container {
         height: 225px;
     }
+    
+    a.rates_url {
+    border-left: 0px;
+    padding-left: 0px;
+    white-space: nowrap;
+}
 }
