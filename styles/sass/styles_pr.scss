@@ -66,6 +66,7 @@ br {
 #inner_container {
     min-height: 400px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 #skis_logo {
@@ -112,7 +113,7 @@ label {
 
 #sort_bar {
     min-height: 30px;
-    background-color: $primary-color;
+    background-color: rgba(133, 163, 200, 0.94);
     padding: 10px;
     padding-bottom: 2px;
     padding-top: 2px;
@@ -120,6 +121,23 @@ label {
     font-size: 16px;
     padding-left: 11%;
 }
+
+
+
+#sort_bar.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+#sort_bar_anchor{
+    margin-bottom: 0px;
+}
+
+#sort_bar_anchor.stuck{
+    margin-bottom: 120px !important;
+}
+
 
 #footer_bar {
     min-height: 30px;
@@ -347,6 +365,7 @@ span.report:not(:first-child) {
     #sort_bar {
         padding: 15px;
     }
+    
     #subhead_pr {
         padding: 5px;
         margin: 0px;

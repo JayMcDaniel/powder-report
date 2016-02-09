@@ -4,6 +4,8 @@ var toggleWidgetDisplaySetup = require("./toggle_Widget_Display_setup.js");
 var sorting = require("./sorting.js");
 var area_selector = require("./area_selector.js");
 var filterResortsSetup = require("./filter_Resorts_Setup.js");
+var stickySortBarSetup = require("./sticky_SortBar_setup.js");
+
 
 $(document).ready(function () {
 
@@ -19,16 +21,14 @@ $(document).ready(function () {
         sorting.sortBarInit();
         sorting.sortResortsArray();
         
-        
 
-        //initialize are dropdown menu;
-
-        area_selector.dropdownInit();
+        area_selector.dropdownInit();  //initialize are dropdown menu;
 
     });
 
 
-    filterResortsSetup();
+    filterResortsSetup(); //inits the filter box
+    stickySortBarSetup(); //sets up the sort bar sticking to the top when page is scrolled
 
 
 });
