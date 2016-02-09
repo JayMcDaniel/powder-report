@@ -366,6 +366,20 @@ span.report:not(:first-child) {
         padding: 15px;
     }
     
+    #sort_bar.stick {
+        position: relative;
+        top: 0;
+        z-index: 1;
+    }
+
+    #sort_bar_anchor{
+        margin-bottom: 0px;
+    }
+
+    #sort_bar_anchor.stuck{
+        margin-bottom: 0px !important;
+    }
+    
     #subhead_pr {
         padding: 5px;
         margin: 0px;
