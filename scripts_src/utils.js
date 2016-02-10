@@ -18,10 +18,6 @@
               return image_name.replace('.png', '_sm.png').replace('.jpg', '_sm.jpg').replace('.jpeg', '_sm.jpeg').replace('.pdf', '_sm.png');
           },
 
-          /** return modded language for weather description */
-          weatherDescriptor: function (string) {
-              return string.replace("overcast clouds", "overcast").replace(/sky is clear/i, "clear skies");
-          },
 
           phoneFormat: function (string) {
               return string.replace(/\(|\)/g, "").replace(/-| /g, "&#8209;");
@@ -54,13 +50,36 @@
               return parsed_address;
 
           },
-          
+
 
           urlFormat: function (string) {
               if (string.slice(0, 3) === "www") {
                   string = "http://" + string;
               }
               return string;
+          },
+
+
+          /** return modded language for weather description */
+          weatherDescriptor: function (string) {
+              return string.replace("overcast clouds", "overcast").replace(/sky is clear/i, "clear skies");
+          },
+
+
+          /** swap with appropriate custom weather icon */
+          getWeatherIcon: function (icon) {
+
+              var openWeatherIcons = ["01d", "02d", "03d", "04d", "09d", "10d", "11d", "13d", "50d", "01n", "02n", "03n", "04n", "09n", "10n", "11n", "13n", "50n"]; //18 icons, 9 day / 9 night from openWeatherMap.org
+              var customWeatherIcons = ["B", "H", "N", "Y", "R", "R", "P", "W", "M", "C", "I", "N", "Y", "8", "8", "6", "#", "M"]; //custom icons using http://www.alessioatzeni.com/meteocons/  (C starts night)
+              var foundIndex = $.inArray(icon, openWeatherIcons);
+
+              if (foundIndex > 0) {
+                  return customWeatherIcons[foundIndex];
+
+              } else {
+                  return "";
+              };
+
           }
 
       }

@@ -1,34 +1,43 @@
 var utils = require("./utils.js");
 
+
+
 /** builds html from weather json and inserts weather report span */
 
-var insertCurrentWeather = function (json, resort_obj, parsed_address) {
-    
+
+var insertCurrentWeather = function insertCurrentWeather(json, resort_obj, parsed_address) {
+
 
     $("#" + resort_obj.id + " .weather_report").remove();
 
+    //outer weather report span
     var weather_report = document.createElement("p");
     weather_report.className = "weather_report";
-    weather_report.setAttribute("alt","Weather conditions for " + resort_obj.name);
-    weather_report.setAttribute("title","Weather conditions for " + resort_obj.name);
+    weather_report.setAttribute("alt", "Weather conditions for " + resort_obj.name);
+    weather_report.setAttribute("title", "Weather conditions for " + resort_obj.name);
 
-    var icon = document.createElement("img");
+    //weather icon
+    var icon = document.createElement("span");
     icon.className = "weather_icon";
-    icon.src = "http://openweathermap.org/img/w/" + json.weather[0].icon + ".png";
+    icon.textContent = utils.getWeatherIcon(json.weather[0].icon);
 
+    //description
     var description = document.createElement("span");
     description.className = "weather_description";
     description.textContent = utils.weatherDescriptor(json.weather[0].description) + " ";
 
+    //temp
     var temp = document.createElement("span");
     temp.className = "weather_temp";
     var currentTemp = json.main.temp > 150 ? ((json.main.temp - 273.15) * 1.8) + 32 : json.main.temp; //symbol for degrees F. Sometimes the temp from openweather comes back in kelvin even if I ask for it in F, so I need to convert.    
-    temp.textContent = currentTemp.toFixed(1) + "\u2109 "; 
+    temp.textContent = currentTemp.toFixed(1) + "\u2109 ";
 
+    //wind
     var wind_speed = document.createElement("span");
     wind_speed.className = "weather_wind_speed";
     wind_speed.textContent = "wind:\u00a0" + json.wind.speed.toFixed(1) + "\u00a0mph";
 
+    //5-day forecast link
     var five_day_forcast_span = document.createElement("span");
     var five_day_forcast_link = document.createElement("a");
     five_day_forcast_link.className = "five_day_forcast_link";
@@ -46,9 +55,7 @@ var insertCurrentWeather = function (json, resort_obj, parsed_address) {
     five_day_forcast_link.target = "_blank";
     five_day_forcast_span.appendChild(five_day_forcast_link);
 
-
-
-
+    //put it all together
     weather_report.appendChild(icon);
     weather_report.appendChild(description);
     weather_report.appendChild(temp);

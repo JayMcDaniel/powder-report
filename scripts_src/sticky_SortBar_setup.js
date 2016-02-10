@@ -8,10 +8,11 @@ var stickySortBarSetup = function stickySortBarSetup(){
         if (window_top > div_top) {
             $('#sort_bar').addClass('stick');
             $("#sort_bar_anchor").addClass('stuck');
-            
+            $("#sort_by_p").slideUp(100);
         } else {
             $('#sort_bar').removeClass('stick');
             $("#sort_bar_anchor").removeClass('stuck');
+            $("#sort_by_p").slideDown(100);
         }
     }
 

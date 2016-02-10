@@ -21,6 +21,16 @@ $highlight-color: #633737;
 
 */
 
+/* weather icons */
+@font-face {
+    font-family: 'MeteoconsRegular';
+    src: url('../fonts/meteocons-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 html {
     position: relative;
     height: 100%;
@@ -299,7 +309,7 @@ span.rates_adult{
     position: relative;
     left: -10px;
     margin-top: 10px;
-    span {
+    span:not(:first-child)  {
         margin-right: 23px;
     }
 }
@@ -352,6 +362,17 @@ span.rates_adult{
     padding-right: 10%;
 }
 
+
+.weather_icon{
+    font-family: 'MeteoconsRegular';
+    font-size: 200%;
+    margin-left: -6px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+
+
 @media screen and (max-device-width: 800px) {
     
     h2 {
@@ -387,7 +408,7 @@ span.rates_adult{
         top: 0;
         z-index: 1;
     }
-
+    
     #sort_bar_anchor{
         margin-bottom: 0px;
     }
