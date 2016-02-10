@@ -27,7 +27,7 @@ var buildResortBriefDiv = function (resort_obj, parsed_address) {
 
     var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + ">show current stats</span>"
 
-    var map_thumbnail = "<div title='" + resort_obj.name + " trail map' alt='" + resort_obj.name + " trail map' class='map_thumbnail'> <a target ='_blank' href='images/resort_maps/" + resort_obj.images.map + "'><img src='images/resort_maps/" + utils.thumbnailName(resort_obj.images.map) + "'/></a></div>";
+    var map_thumbnail = "<div class='map_thumbnail'> <a target ='_blank' href='images/resort_maps/" + resort_obj.images.map + "'><img title='" + resort_obj.name + " trail map' alt='" + resort_obj.name + " trail map' src='images/resort_maps/" + utils.thumbnailName(resort_obj.images.map) + "'/></a></div>";
 
 
     var snippet = "<div class='resort_snippet' id ='" + resort_obj.id + "' alt='" + resort_obj.name + "  stats and prices'>" + name_and_logo + "\

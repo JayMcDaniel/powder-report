@@ -1,6 +1,6 @@
 /*theme color: #85A3C8  (blue) second color: #633737 (red)*/
 
-$primary-color: #85A3C8;
+$primary-color: rgb(51, 122, 183);
 $highlight-color: #633737;
 
 /*
@@ -90,12 +90,19 @@ h2 {
     font-size: 3vw;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 10.5%;
+    margin-left: 11.5%;
+    color: $highlight-color;
 }
 
 h3 {
     margin-top: 10px;
     margin-left: 8px;
+}
+
+h4 {
+    margin-left: 11.5%;
+    color: rgb(51, 122, 183);
+
 }
 
 #banner_img {
@@ -141,7 +148,7 @@ label {
 
 #footer_bar {
     min-height: 30px;
-    background-color: $primary-color;
+    background-color: rgba(133, 163, 200, 0.94);
     padding: 10px;
     padding-bottom: 2px;
     padding-top: 2px;
@@ -206,6 +213,7 @@ label {
 .resort_snippet {
     padding: 10px;
     font-size: 14px;
+    border-bottom: 1px solid;
     &:nth-child(even) {
         background-color: aliceblue;
     }
@@ -346,14 +354,18 @@ span.rates_adult{
 
 @media screen and (max-device-width: 800px) {
     
-    
-    h3 {
-        font-size: 4vw;
-    }
     h2 {
         font-size: 5vw;
         margin-left: 1%;
     }
+    h3 {
+        font-size: 4vw;
+    }
+    h4{
+        font-size: 3vw;
+        margin-left: 4%;
+    }
+
     h1#logo_pr {
         font-size: 12vw;
     }
@@ -388,6 +400,7 @@ span.rates_adult{
         padding: 5px;
         margin: 0px;
         width: 100%;
+        margin-left: 10px;
     }
     img.resort_logo_img {
         width: 8vw;
