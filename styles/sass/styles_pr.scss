@@ -362,9 +362,9 @@ span.rates_adult{
 .weather_icon{
     font-family: 'MeteoconsRegular';
     font-size: 200%;
-    margin-left: -6px;
     position: relative;
     top: 5px;
+    left: -6px;
     margin-right: 5px;
     color: $highlight-color;
 }
