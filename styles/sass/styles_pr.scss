@@ -255,10 +255,6 @@ img {
         position: relative;
         top: -3px;
     }
-    &.weather_icon {
-        width: 40px;
-        height: 40px;
-    }
 }
 
 a.rates_url {
@@ -370,6 +366,7 @@ span.rates_adult{
     position: relative;
     top: 5px;
     margin-right: 5px;
+    color: $highlight-color;
 }
 
 
