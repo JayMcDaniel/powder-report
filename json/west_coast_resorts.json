@@ -98,7 +98,7 @@
                 "juniors_prime": "48",
                 "rentals": "",
                 "rates_url": "http://crystalmountainresort.com/lift-tickets/daily-lift-tickets/",
-                "specials_note": "Non-skiers are welcome to take a scenic ride on the Mt.Rainier Gondola! ($20)"
+                "specials_note": "Non-skiers are welcome to take a scenic ride on the Mount Rainier Gondola! ($20)"
             },
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/124:11:US"
     }, {
@@ -294,7 +294,7 @@
             },
             "weather_forcast_url": "https://weather.com/weather/5day/l/USCA0551:1:US"
     }, {
-            "name": "Mt. Ashland",
+            "name": "Mount Ashland",
             "contact_info": {
                 "url": "www.mtashland.com/",
                 "street_address": "11 Mt Ashland Ski Rd",
@@ -328,7 +328,7 @@
             },
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/264:11:US"
     }, {
-            "name": "Mt. Bachelor",
+            "name": "Mount Bachelor",
             "contact_info": {
                 "url": "www.mtbachelor.com/",
                 "street_address": "13000 Century Drive",
@@ -362,7 +362,7 @@
             },
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/265:11:US"
     }, {
-            "name": "Mt. Hood Meadows",
+            "name": "Mount Hood Meadows",
             "contact_info": {
                 "url": "https://www.skihood.com/",
                 "street_address": "14040 Hwy 35",
@@ -396,7 +396,7 @@
             },
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/USOR0232:1:US"
     }, {
-            "name": "Mt. Hood Skibowl",
+            "name": "Mount Hood Skibowl",
             "contact_info": {
                 "url": "http://www.skibowl.com/winter/",
                 "street_address": "87000 US-26",
@@ -430,7 +430,7 @@
             },
             "weather_forcast_url": "http://www.weather.com/weather/5day/l/275:11:US"
     }, {
-            "name": "Mt. Rose Ski Tahoe",
+            "name": "Mount Rose Ski Tahoe",
             "contact_info": {
                 "url": "http://skirose.com/",
                 "full_address": "22222 Mt Rose Hwy, New Washoe City, NV 89704",

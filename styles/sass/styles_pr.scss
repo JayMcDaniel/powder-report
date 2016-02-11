@@ -440,6 +440,11 @@ span.rates_adult{
     #footer_bar {
         padding-left: 1%;
     }
+    
+    .weather_icon{
+        margin-right: 15px !important;
+        color: $highlight-color;
+    }
 }
 
 @media screen and (max-device-width: 700px) {

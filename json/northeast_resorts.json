@@ -1,0 +1,619 @@
+{
+    "northeast": [
+        {
+            "name": "Q Burke",
+
+            "contact_info": {
+                "url": "http://qburke.com/",
+                "full_address": "223 Sherburne Lodge Rd, East Burke, VT 05832",
+                "phone": "(802) 626-7300",
+                "address_url": "https://goo.gl/maps/8uspc1Yr1EL2",
+                "lat_lon": "44.587827,-71.916064"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+    },
+        {
+            "name": "Stowe",
+
+            "contact_info": {
+                "url": "http://www.stowe.com/",
+                "full_address": "7416 Mountain Rd, Stowe, VT 05672",
+                "phone": "(802) 253-3000",
+                "address_url": "https://goo.gl/maps/w37YFp2qnG12",
+                "lat_lon": "44.5297321,-72.7814626"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            }, {
+            "name": "Sugarbush",
+
+            "contact_info": {
+                "url": "http://www.sugarbush.com/mountain/",
+                "full_address": "102 Forest Dr, Warren, VT 05674",
+                "phone": "800-53-SUGAR",
+                "address_url": "https://goo.gl/maps/7UU5UPxbmtp",
+                "lat_lon": "44.1749397,-72.9167821"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+                }, {
+            "name": "Jay Peak",
+
+            "contact_info": {
+                "url": "http://jaypeakresort.com/",
+                "full_address": "830 Jay Peak Rd, Jay, VT 05859",
+                "phone": "(802) 988-2611",
+                "address_url": "https://goo.gl/maps/U43Qmq9K2P52",
+                "lat_lon": "44.9341998,-72.5085991"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+                    },
+        {
+            "name": "Smugglers' Notch",
+
+            "contact_info": {
+                "url": "http://www.smuggs.com/",
+                "full_address": "4323 Vermont 108 S, Jeffersonsville, VT 05464",
+                "phone": "(802) 370-3186",
+                "address_url": "https://goo.gl/maps/TWC8n3mw3kS2",
+                "lat_lon": "44.588465,-72.7922337"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Stratton",
+
+            "contact_info": {
+                "url": "http://www.stratton.com/",
+                "full_address": "5 Village Lodge Rd, South Londonderry, VT 05155",
+                "phone": "(802) 297-4000",
+                "address_url": "https://goo.gl/maps/Pcug8YanKLF2",
+                "lat_lon": "43.1134419,-72.9103171"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Bromley",
+
+            "contact_info": {
+                "url": "https://www.bromley.com/winter/",
+                "full_address": "3984 VT-11, Peru, VT 05152",
+                "phone": "(802) 824-5522",
+                "address_url": "https://goo.gl/maps/1J3WJeMM3Cw",
+                "lat_lon": "43.2143444,-72.9376388"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Mount Snow",
+
+            "contact_info": {
+                "url": "http://www.mountsnow.com/",
+                "full_address": "39 Mount Snow Road, West Dover, VT 05356",
+                "phone": "(802) 464-3333",
+                "address_url": "https://goo.gl/maps/k9G1sjQ7Npw",
+                "lat_lon": "42.9638454,-72.9227316"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Okemo",
+
+            "contact_info": {
+                "url": "http://www.okemo.com/",
+                "full_address": "77 Okemo Ridge Rd, Ludlow, VT 05149",
+                "phone": "(802) 228-4041",
+                "address_url": "https://goo.gl/maps/1A3k7Ys5Gxy",
+                "lat_lon": "43.4017484,-72.7190154"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Suicide Six",
+
+            "contact_info": {
+                "url": "http://www.woodstockinn.com/ski-area",
+                "full_address": "247 Stage Rd, Pomfret, VT 05067",
+                "phone": "(802) 457-6666",
+                "address_url": "https://goo.gl/maps/gZ63w4VHHim",
+                "lat_lon": "43.6530899,-72.5386774"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Killington",
+
+            "contact_info": {
+                "url": "http://www.killington.com/site/index.html",
+                "full_address": "4763 Killington Rd, Killington, VT 05751",
+                "phone": "(802) 422-3333",
+                "address_url": "https://goo.gl/maps/uReXnVAff5N2",
+                "lat_lon": "43.619844,-72.801271"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Bolton Valley",
+
+            "contact_info": {
+                "url": "http://www.boltonvalley.com/",
+                "full_address": "4302 Bolton Valley Access Rd, Richmond, VT 05477",
+                "phone": "(877) 926-5866",
+                "address_url": "https://goo.gl/maps/Jtq6b5Dq1ZK2",
+                "lat_lon": "44.4212431,-72.8515564"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Mad River Glen",
+
+            "contact_info": {
+                "url": "http://www.madriverglen.com/",
+                "full_address": "57 Schuss Pass, Waitsfield, VT 05673",
+                "phone": "(802) 496-3551",
+                "address_url": "https://goo.gl/maps/h8NLEWjFJ3A2",
+                "lat_lon": "44.2023893,-72.9197059"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Pico Mountain",
+
+            "contact_info": {
+                "url": "http://www.picomountain.com/site/",
+                "full_address": "73 Alpine Dr, Mendon, VT 05751",
+                "phone": "(802) 422-6200",
+                "address_url": "https://goo.gl/maps/zPLawdufiaz",
+                "lat_lon": "43.6625942,-72.8456424"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            },
+        {
+            "name": "Magic Mountain",
+
+            "contact_info": {
+                "url": "http://www.magicmtn.com/",
+                "full_address": "495 Magic Mountain Acc, Londonderry, VT 05148",
+                "phone": "(802) 824-5645",
+                "address_url": "https://goo.gl/maps/yUUVTnqLLpJ2",
+                "lat_lon": "43.2017201,-72.7744435"
+            },
+
+            "images": {
+                "logo": "",
+                "map": "",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "",
+                "peak": "",
+                "skiable_acres": "",
+                "trails": "",
+                "lifts": "",
+                "widget_link": ""
+            },
+
+            "rates": {
+                "adults_midweek": "",
+                "adults_prime": "",
+                "juniors_midweek": "",
+                "juniors_prime": "",
+                "rentals": "",
+                "rates_url": "",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+            }
+
+
+        ]
+}
