@@ -50,9 +50,7 @@ var toggles = {
 
     contactInfoDisplaySetup: function () {
 
-        console.log("dsa");
         $(".toggle_contact_info_link").click(function () {
-            console.log("dsa");
             if ($(this).text() === "contact info +") {
 
                 $(this).html("<span class='underline'>contact info</span> <span class = 'hide_show_caret'>&minus;</span>")
