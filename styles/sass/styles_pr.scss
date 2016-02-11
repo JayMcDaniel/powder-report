@@ -218,7 +218,7 @@ label {
 .map_thumbnail {
     float: left;
     margin-right: 20px;
-    margin-bottom: 0px;
+    padding-bottom:  10px;
     img {
         max-width: 150px;
         max-height: 150px;
@@ -450,7 +450,7 @@ span.rates_adult{
     }
     
     .weather_icon{
-        margin-right: 15px !important;
+        margin-right: 20px !important;
         color: $highlight-color;
     }
 }
@@ -470,6 +470,11 @@ span.rates_adult{
 }
 
 @media screen and (max-device-width: 480px) {
+    
+    .contact_info {
+        margin-left: 0px;
+    }
+    
     h3 {
         font-size: 8vw;
     }
