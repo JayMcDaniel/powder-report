@@ -73,7 +73,7 @@
               var customWeatherIcons = ["B", "H", "N", "Y", "R", "R", "P", "W", "M", "C", "I", "N", "Y", "8", "8", "6", "#", "M"]; //custom icons using http://www.alessioatzeni.com/meteocons/  (C starts night)
               var foundIndex = $.inArray(icon, openWeatherIcons);
 
-              if (foundIndex > 0) {
+              if (foundIndex > -1) {
                   return customWeatherIcons[foundIndex];
 
               } else {

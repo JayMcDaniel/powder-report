@@ -128,6 +128,11 @@ label {
     font-weight: normal;
 }
 
+.hide_show_caret{
+    font-size: 140%;
+    text-decoration: none !important;
+}
+
 #sort_bar {
     min-height: 30px;
     background-color: rgba(133, 163, 200, 0.94);
@@ -213,7 +218,7 @@ label {
 .map_thumbnail {
     float: left;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     img {
         max-width: 150px;
         max-height: 150px;
@@ -297,14 +302,16 @@ span.rates_adult{
 }
 
 .contact_info {
-    margin-top: 10px;
-    margin-left: 0px;
+    margin-top: 0px;
+    margin-left: 170px;
+    display: none;
 }
 
 .weather_report {
     position: relative;
     left: -10px;
-    margin-top: 10px;    
+    margin-top: 0px; 
+    margin-bottom: 0px;
 }
 
 .weather_report span{
@@ -315,12 +322,9 @@ span.rates_adult{
     color: $highlight-color;
 }
 
-.toggle_widget_link {
-    text-decoration: underline;
+.toggle_widget_link, .toggle_contact_info_link {
     cursor: pointer;
-    position: relative;
-    top: 7px;
-    padding-left: 0px;
+    padding-left: 0px !important;
     color: $highlight-color;
 }
 
@@ -357,6 +361,10 @@ span.rates_adult{
     position: relative;
     width: 100%;
     padding-right: 10%;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 

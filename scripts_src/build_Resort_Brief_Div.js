@@ -25,7 +25,9 @@ var buildResortBriefDiv = function (resort_obj, parsed_address) {
     var phone = "<span class ='resort_phone_number'>" + utils.phoneFormat(resort_obj.contact_info.phone) + "</span>";
 
 
-    var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + ">show current stats</span>"
+    var toggle_widget_link = "<span class = 'toggle_widget_link report' widget_link = " + resort_obj.stats.widget_link + "><span class='underline'>current stats</span> <span class = 'hide_show_caret'>+</span></span>";
+    
+    var toggle_contact_info_link ="<span class = 'toggle_contact_info_link'><span class='underline'>contact info</span> <span class = 'hide_show_caret'>+</span></span> "
 
     var map_thumbnail = "<div class='map_thumbnail'> <a target ='_blank' href='images/resort_maps/" + resort_obj.images.map + "'><img title='" + resort_obj.name + " trail map' alt='" + resort_obj.name + " trail map' src='images/resort_maps/" + utils.thumbnailName(resort_obj.images.map) + "'/></a></div>";
 
@@ -33,10 +35,10 @@ var buildResortBriefDiv = function (resort_obj, parsed_address) {
     var snippet = "<div class='resort_snippet' id ='" + resort_obj.id + "' alt='" + resort_obj.name + "  stats and prices'>" + name_and_logo + "\
         " + map_thumbnail + "<div class='resort_snippet_text'>\
         <span class='stats_report'>" + trails + lifts + acres + peak + vert + "</span><br/>\
-        " + rates + "<br><p class='contact_info'>\
-        " + full_address + phone + "</p>\
-        " + toggle_widget_link + "</div>\
+        " + rates + "<br>\
+        " + toggle_widget_link + " " + toggle_contact_info_link + "</div>\
             <div class='clear_float'></div>\
+        <p class='contact_info'>" + full_address + phone + "\
         </div>";
 
 
