@@ -12,8 +12,8 @@
             },
 
             "images": {
-                "logo": "",
-                "map": "",
+                "logo": "q_burke_VT.png",
+                "map": "q_burke_VT.pdf",
                 "stock": ""
             },
 
@@ -53,8 +53,8 @@
             },
 
             "images": {
-                "logo": "",
-                "map": "",
+                "logo": "stowe_VT.jpg",
+                "map": "stowe_VT.pdf",
                 "stock": ""
             },
 
@@ -85,7 +85,7 @@
             "name": "Sugarbush",
 
             "contact_info": {
-                "url": "http://www.sugarbush.com/mountain/",
+                "url": "http://www.sugarbush.com",
                 "full_address": "102 Forest Dr, Warren, VT 05674",
                 "phone": "800-53-SUGAR",
                 "address_url": "https://goo.gl/maps/7UU5UPxbmtp",
@@ -93,7 +93,7 @@
             },
 
             "images": {
-                "logo": "",
+                "logo": "sugarbush_VT.png",
                 "map": "",
                 "stock": ""
             },
@@ -133,7 +133,7 @@
             },
 
             "images": {
-                "logo": "",
+                "logo": "jay_peak_VT.png",
                 "map": "",
                 "stock": ""
             },
@@ -174,7 +174,7 @@
             },
 
             "images": {
-                "logo": "",
+                "logo": "smugglers_notch_VT.png",
                 "map": "",
                 "stock": ""
             },
@@ -215,7 +215,7 @@
             },
 
             "images": {
-                "logo": "",
+                "logo": "stratton_VT.png",
                 "map": "",
                 "stock": ""
             },
@@ -256,7 +256,7 @@
             },
 
             "images": {
-                "logo": "",
+                "logo": "bromley_VT.png",
                 "map": "",
                 "stock": ""
             },
@@ -297,7 +297,7 @@
             },
 
             "images": {
-                "logo": "",
+                "logo": "mount_snow_VT.png",
                 "map": "",
                 "stock": ""
             },
@@ -338,7 +338,7 @@
             },
 
             "images": {
-                "logo": "",
+                "logo": "okemo_VT.png",
                 "map": "",
                 "stock": ""
             },
@@ -379,7 +379,7 @@
             },
 
             "images": {
-                "logo": "",
+                "logo": "suicide_six_VT.png",
                 "map": "",
                 "stock": ""
             },
@@ -420,7 +420,7 @@
             },
 
             "images": {
-                "logo": "",
+                "logo": "killington_VT.png",
                 "map": "",
                 "stock": ""
             },
@@ -461,8 +461,8 @@
             },
 
             "images": {
-                "logo": "",
-                "map": "",
+                "logo": "bolton_valley_VT.png",
+                "map": "bolton_valley_VT.pdf",
                 "stock": ""
             },
 
@@ -502,8 +502,8 @@
             },
 
             "images": {
-                "logo": "",
-                "map": "",
+                "logo": "mad_river_glen_VT.png",
+                "map": "mad_river_glen_VT.pdf",
                 "stock": ""
             },
 
@@ -543,8 +543,8 @@
             },
 
             "images": {
-                "logo": "",
-                "map": "",
+                "logo": "pico_mountain_VT.png",
+                "map": "pico_mountain_VT.pdf",
                 "stock": ""
             },
 
@@ -584,8 +584,8 @@
             },
 
             "images": {
-                "logo": "",
-                "map": "",
+                "logo": "magic_mountain_VT.png",
+                "map": "magic_mountain_VT.pdf",
                 "stock": ""
             },
 
