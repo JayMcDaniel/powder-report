@@ -17,7 +17,7 @@ var printResorts = function (json, area) {
     var allResorts = "";
     for (var i = 0, len = resorts_arr.length; i < len; i++) {
 
-        resorts_arr[i].id = resorts_arr[i].name.toLowerCase().replace(/ /g, "_").replace(/\./g, "");
+        resorts_arr[i].id = resorts_arr[i].name.toLowerCase().replace(/ /g, "_").replace(/\./g, "").replace(/'/g, "");
         
         var parsed_address = utils.parseAddress(resorts_arr[i]);
         

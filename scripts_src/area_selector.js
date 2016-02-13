@@ -8,7 +8,7 @@ var area_selector = {
 
         //look at initial page url and q string to get area
 
-        var area = window.location.hash.slice(1) || "mid_atlantic";
+        var area = window.location.hash.slice(1) || "mountain_states";
 
         //set initial value of resort_selection_dropdown 
         $("#resort_selection_dropdown").val(area);
