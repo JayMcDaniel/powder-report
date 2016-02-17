@@ -50,6 +50,7 @@
               return parsed_address;
 
           },
+          
 
           /** if url doesn't start with http, add it */
           urlFormat: function (string) {
