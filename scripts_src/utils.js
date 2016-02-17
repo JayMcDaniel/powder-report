@@ -51,7 +51,7 @@
 
           },
 
-
+          /** if url doesn't start with http, add it */
           urlFormat: function (string) {
               if (string.slice(0, 3) === "www") {
                   string = "http://" + string;
@@ -69,15 +69,15 @@
 
           /** swap with appropriate custom weather icon */
           getWeatherIcon: function (icon) {
-              var description = ["rain", "clear", "cloudy", "mostly cloudy", "fog", "wind", "blustery", "snow", "wintry", "thunder"];
-              var customWeatherIcons = ["R", "B", "H", "Y", "M", "F", "F", "W", "X", "Z"]; //custom icons using http://www.alessioatzeni.com/meteocons/  
+              var description = ["rain", "clear", "sunny", "mostly cloudy", "cloudy", "fog", "wind", "blustery", "snow", "wintry", "thunder"];
+              var customWeatherIcons = ["R", "B", "B", "Y", "H", "M", "F", "F", "W", "X", "Z"]; //custom icons using http://www.alessioatzeni.com/meteocons/  
 
               var foundIndex = -1;
 
               description.forEach(function (e, i) {
                   var e_re = new RegExp(e, "i");
                   if (icon.match(e_re)) {
-                      foundIndex = i;
+                      return foundIndex = i;
                   }
               });
 

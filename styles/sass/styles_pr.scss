@@ -224,11 +224,15 @@ label {
 .map_thumbnail {
     float: left;
     margin-right: 20px;
-    padding-bottom:  10px;
+    padding:  3px;
     img {
         max-width: 150px;
         max-height: 150px;
     }
+}
+
+.map_thumbnail:hover{
+    background-color: $highlight-color;
 }
 
 .resort_snippet {
