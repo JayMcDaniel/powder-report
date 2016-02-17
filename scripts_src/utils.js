@@ -63,24 +63,24 @@
           /** return modded language for weather description */
           weatherDescriptor: function (string) {
               //return string.replace("overcast clouds", "overcast").replace(/sky is clear/i, "clear skies");
-              return string.slice(0, 1) + string.slice(1).toLowerCase();
+              return string.slice(0, 1) + string.slice(1).toLowerCase().replace(".", ";");
           },
 
 
           /** swap with appropriate custom weather icon */
           getWeatherIcon: function (icon) {
-              var description = ["rain", "clear", "sunny", "mostly cloudy", "cloudy", "fog", "wind", "blustery", "snow", "wintry", "thunder"];
-              var customWeatherIcons = ["R", "B", "B", "Y", "H", "M", "F", "F", "W", "X", "Z"]; //custom icons using http://www.alessioatzeni.com/meteocons/  
+              var description = ["showers", "clear", "sunny", "mostly cloudy", "cloudy", "fog", "blustery", "snow", "wintry", "thunder", "wind", "rain"];
+              var customWeatherIcons = ["R", "B", "B", "Y", "N", "M", "F", "W", "X", "Z", "F", "R"]; //custom icons using http://www.alessioatzeni.com/meteocons/  
 
               var foundIndex = -1;
 
               description.forEach(function (e, i) {
                   var e_re = new RegExp(e, "i");
                   if (icon.match(e_re)) {
+
                       return foundIndex = i;
                   }
               });
-
               if (foundIndex > -1) {
                   return customWeatherIcons[foundIndex];
 

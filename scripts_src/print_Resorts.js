@@ -21,9 +21,11 @@ var printResorts = function (json, area) {
         
         var parsed_address = utils.parseAddress(resorts_arr[i]);
         
-        var resort_brief_div = buildResortBriefDiv(resorts_arr[i], parsed_address);
+        //call buildResortBriefDiv
+        var resort_brief_div = buildResortBriefDiv(resorts_arr[i], parsed_address); 
         allResorts = allResorts + resort_brief_div;
-
+        
+        //call requestCurrentWeather
         requestCurrentWeather(resorts_arr[i], parsed_address, function (json, name) {
             insertCurrentWeather(json, name, parsed_address);
         });

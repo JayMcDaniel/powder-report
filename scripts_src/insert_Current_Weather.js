@@ -8,6 +8,7 @@ var utils = require("./utils.js");
 var insertCurrentWeather = function insertCurrentWeather(json, resort_obj, parsed_address) {
 
 
+    
     $("#" + resort_obj.id + " .weather_report").remove();
 
     //outer weather report span
