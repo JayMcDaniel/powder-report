@@ -69,8 +69,8 @@
 
           /** swap with appropriate custom weather icon */
           getWeatherIcon: function (icon) {
-              var description = ["rain", "clear", "cloudy", "fog", "wind", "blustery", "snow", "wintry", "thunder"];
-              var customWeatherIcons = ["R", "B", "H", "M", "F", "F", "W", "X", "Z"]; //custom icons using http://www.alessioatzeni.com/meteocons/  
+              var description = ["rain", "clear", "cloudy", "mostly cloudy", "fog", "wind", "blustery", "snow", "wintry", "thunder"];
+              var customWeatherIcons = ["R", "B", "H", "Y", "M", "F", "F", "W", "X", "Z"]; //custom icons using http://www.alessioatzeni.com/meteocons/  
 
               var foundIndex = -1;
 
