@@ -62,16 +62,24 @@
 
           /** return modded language for weather description */
           weatherDescriptor: function (string) {
-              return string.replace("overcast clouds", "overcast").replace(/sky is clear/i, "clear skies");
+              //return string.replace("overcast clouds", "overcast").replace(/sky is clear/i, "clear skies");
+              return string.slice(0, 1) + string.slice(1).toLowerCase();
           },
 
 
           /** swap with appropriate custom weather icon */
           getWeatherIcon: function (icon) {
+              var description = ["rain", "clear", "cloudy", "fog", "wind", "blustery", "snow", "wintry", "thunder"];
+              var customWeatherIcons = ["R", "B", "H", "M", "F", "F", "W", "X", "Z"]; //custom icons using http://www.alessioatzeni.com/meteocons/  
 
-              var openWeatherIcons = ["01d", "02d", "03d", "04d", "09d", "10d", "11d", "13d", "50d", "01n", "02n", "03n", "04n", "09n", "10n", "11n", "13n", "50n"]; //18 icons, 9 day / 9 night from openWeatherMap.org
-              var customWeatherIcons = ["B", "H", "N", "Y", "R", "R", "P", "W", "M", "C", "I", "N", "Y", "8", "8", "6", "#", "M"]; //custom icons using http://www.alessioatzeni.com/meteocons/  (C starts night)
-              var foundIndex = $.inArray(icon, openWeatherIcons);
+              var foundIndex = -1;
+
+              description.forEach(function (e, i) {
+                  var e_re = new RegExp(e, "i");
+                  if (icon.match(e_re)) {
+                      foundIndex = i;
+                  }
+              });
 
               if (foundIndex > -1) {
                   return customWeatherIcons[foundIndex];

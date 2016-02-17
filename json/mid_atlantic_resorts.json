@@ -6,7 +6,7 @@
             "full_address": "1660 Blue Mountain Dr, Palmerton, PA 18071",
             "phone": "610-826-7700",
             "address_url": "https://goo.gl/maps/M38EedytjHK2",
-            "lat_lon": ""
+            "lat_lon": "40.8108865,-75.522846"
         },
         "images": {
             "logo": "blue_mountain_PA.jpg",
@@ -39,7 +39,7 @@
             "zip": "22810",
             "phone": "800-821-1444",
             "address_url": "https://goo.gl/maps/36KZ3q3UEx42",
-            "lat_lon": ""
+            "lat_lon": "38.817498, -78.765638"
         },
         "images": {
             "logo": "bryce_VA.png",
@@ -72,7 +72,7 @@
             "zip": "18372",
             "phone": "570-629-1661",
             "address_url": "https://goo.gl/maps/SRiSbUSiXPJ2",
-            "lat_lon": ""
+            "lat_lon": "41.051817, -75.354987"
         },
         "images": {
             "logo": "camelback_PA.png",
@@ -106,7 +106,7 @@
             "zip": "26260",
             "phone": "304-866-4121",
             "address_url": "https://goo.gl/maps/VwPAWfLFUHt",
-            "lat_lon": ""
+            "lat_lon": "39.034736, -79.463819"
         },
         "images": {
             "logo": "canaan_valley_WV.png",
@@ -139,7 +139,7 @@
             "zip": "18661",
             "phone": "570-443-8425",
             "address_url": "https://goo.gl/maps/iqWmK6sua6E2",
-            "lat_lon": ""
+            "lat_lon": "41.107457, -75.652349"
         },
         "images": {
             "logo": "jack_frost_PA.png",
@@ -172,7 +172,7 @@
             "zip": "17320",
             "phone": "717-642-9000",
             "address_url": "https://goo.gl/maps/eaQmrAkoPvL2",
-            "lat_lon": ""
+            "lat_lon": "39.763583, -77.374949"
         },
         "images": {
             "logo": "liberty_PA.png",
@@ -205,7 +205,7 @@
             "zip": "22840",
             "phone": "540-289-9441",
             "address_url": "https://goo.gl/maps/cA6qhaFxFtN2",
-            "lat_lon": ""
+            "lat_lon": "38.406555, -78.715618"
         },
         "images": {
             "logo": "massanutten_VA.jpg",
@@ -238,7 +238,7 @@
             "zip": "17339",
             "phone": "717-432-9631",
             "address_url": "https://goo.gl/maps/5otjSMmqHT62",
-            "lat_lon": ""
+            "lat_lon": "40.109418, -76.926916"
         },
         "images": {
             "logo": "roundtop_PA.png",
@@ -271,7 +271,7 @@
             "zip": "15622",
             "phone": "800-452-2223",
             "address_url": "https://goo.gl/maps/SpgHaFiMqwP2",
-            "lat_lon": ""
+            "lat_lon": "40.023243, -79.297603"
         },
         "images": {
             "logo": "7springs_WV.png",
@@ -304,7 +304,7 @@
             "zip": "26209",
             "phone": "877-441-4386",
             "address_url": "https://goo.gl/maps/KijoGjQCfgM2",
-            "lat_lon": ""
+            "lat_lon": "38.410788, -79.993813"
         },
         "images": {
             "logo": "snowshoe_WV.png",
@@ -337,7 +337,7 @@
             "zip": "26260",
             "phone": "304-866-4801",
             "address_url": "https://goo.gl/maps/E65Utf9qvVw",
-            "lat_lon": ""
+            "lat_lon": "39.042286, -79.397228"
         },
         "images": {
             "logo": "timberline_WV.png",
@@ -370,7 +370,7 @@
             "zip": "17236",
             "phone": "717-328-9400",
             "address_url": "https://goo.gl/maps/Jn93CfbyeoT2",
-            "lat_lon": ""
+            "lat_lon": "39.741823, -77.932532"
         },
         "images": {
             "logo": "whitetail_PA.png",
@@ -403,7 +403,7 @@
             "zip": "22958",
             "phone": "855-699-1858",
             "address_url": "https://goo.gl/maps/qkj4uzsPYND2",
-            "lat_lon": ""
+            "lat_lon": "37.931440, -78.941912"
         },
         "images": {
             "logo": "wintergreen_VA.png",
@@ -436,7 +436,7 @@
             "zip": "21541",
             "phone": "301-859-3159",
             "address_url": "https://goo.gl/maps/xr9cFxyWTC42",
-            "lat_lon": ""
+            "lat_lon": "39.556868, -79.363404"
         },
         "images": {
             "logo": "wisp_MD.png",

@@ -16,26 +16,30 @@ var insertCurrentWeather = function insertCurrentWeather(json, resort_obj, parse
     weather_report.setAttribute("alt", "Weather conditions for " + resort_obj.name);
     weather_report.setAttribute("title", "Weather conditions for " + resort_obj.name);
 
-    //weather icon
-    var icon = document.createElement("span");
-    icon.className = "weather_icon";
-    icon.textContent = utils.getWeatherIcon(json.weather[0].icon);
+
 
     //description
     var description = document.createElement("span");
+    var description_text = json.data.weather[0];
     description.className = "weather_description";
-    description.textContent = utils.weatherDescriptor(json.weather[0].description) + " ";
-
+    description.textContent = utils.weatherDescriptor(description_text) +".";
+    
+    //weather icon
+    var icon = document.createElement("span");
+    icon.className = "weather_icon";
+   // icon.src = json.data.iconLink[0];
+   
+     icon.textContent = utils.getWeatherIcon(description_text); //convert description to favicon
     //temp
     var temp = document.createElement("span");
     temp.className = "weather_temp";
-    var currentTemp = json.main.temp > 150 ? ((json.main.temp - 273.15) * 1.8) + 32 : json.main.temp; //symbol for degrees F. Sometimes the temp from openweather comes back in kelvin even if I ask for it in F, so I need to convert.    
-    temp.textContent = currentTemp.toFixed(1) + "\u2109 ";
+    var currentTemp = json.currentobservation.Temp; //symbol for degrees F. Sometimes the temp from openweather comes back in kelvin even if I ask for it in F, so I need to convert.    
+    temp.textContent = currentTemp + "\u2109 ";
 
     //wind
     var wind_speed = document.createElement("span");
     wind_speed.className = "weather_wind_speed";
-    wind_speed.textContent = "wind:\u00a0" + json.wind.speed.toFixed(1) + "\u00a0mph";
+    wind_speed.textContent = "wind:\u00a0" + json.currentobservation.Winds + "\u00a0mph";
 
     //5-day forecast link
     var five_day_forcast_span = document.createElement("span");
