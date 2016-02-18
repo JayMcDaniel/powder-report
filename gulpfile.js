@@ -3,6 +3,7 @@
 var gulp = require("gulp"); //build skeleton
 var gutil = require("gulp-util"); //console util
 var source = require("vinyl-source-stream"); // helps with transfering files
+var babelify = require("babelify");
 var browserify = require("browserify"); //keeps build/concat order straight with requires
 var watchify = require("watchify"); //tool that watches src for changes and auto runs gulpfile
 //var reactify = require("reactify"); //tool that changes jsx to js
@@ -15,7 +16,9 @@ var sass = require('gulp-sass');
 gulp.task('sass', function () {
 
     gulp.src('./styles/sass/*.scss')
-        .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(sass.sync({
+            outputStyle: 'compressed'
+        }).on('error', sass.logError))
         .pipe(gulp.dest('./styles/css'));
 });
 
@@ -29,24 +32,26 @@ gulp.task('sass:watch', function () {
 
 
 
-gulp.task("default", ['sass','sass:watch'], function () {
-    var bundler = watchify(browserify({
-        entries: ["./scripts_src/app.js"],
-        // transform: [reactify],
-        extensions: ['.jsx', '.js'],
-        debug: true,
-        cache: {},
-        packageCache: {},
-        fullPaths: false
-    }));
+gulp.task("default", ['sass', 'sass:watch'], function () {
+    var bundler = watchify(
+        browserify({
+            entries: ["./scripts_src/app.js"],
+            // transform: [reactify],
+            extensions: ['.jsx', '.js'],
+            debug: true,
+            cache: {},
+            packageCache: {},
+            fullPaths: false
+        })
+        .transform("babelify", {
+            presets: ["es2015"]
+        })
+    );
 
     function build(file) {
         if (file) {
             gutil.log("Recompiling " + file);
         }
-
-
-
 
         return bundler
             .bundle()

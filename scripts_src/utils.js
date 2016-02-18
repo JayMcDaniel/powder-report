@@ -50,7 +50,7 @@
               return parsed_address;
 
           },
-          
+
 
           /** if url doesn't start with http, add it */
           urlFormat: function (string) {
@@ -63,8 +63,48 @@
 
           /** return modded language for weather description */
           weatherDescriptor: function (string) {
-              //return string.replace("overcast clouds", "overcast").replace(/sky is clear/i, "clear skies");
+              if (string === "NAmph ") {
+                  return "N/A";
+              }
+
               return string.slice(0, 1) + string.slice(1).toLowerCase().replace(".", ";");
+          },
+
+          /** mod wind language */
+          windDescriptor: function (string) {
+              if (string === "NAmph ") {
+                  return "N/A";
+              } else {
+                  return string;
+              }
+
+          },
+
+          /** return compass direction for number */
+          windDirection: function (wind) {
+              var wind_num = Number(wind);
+              if (isNaN(wind_num)) {
+                  return "";
+              } else if (wind_num < 22.5) {
+                  return "N";
+              } else if (wind_num < 67.5) {
+                  return "NE";
+              } else if (wind_num < 112.5) {
+                  return "E";
+              } else if (wind_num < 157.5) {
+                  return "SE";
+              } else if (wind_num < 202.5) {
+                  return "S";
+              } else if (wind_num < 247.5) {
+                  return "SW";
+              } else if (wind_num < 292.5) {
+                  return "W";
+              } else if (wind_num < 337.5) {
+                  return "NW";
+              } else {
+                  return "N";
+              }
+
           },
 
 
