@@ -70,7 +70,7 @@
 
           /** swap with appropriate custom weather icon */
           getWeatherIcon: function (icon) {
-              var description = ["showers", "clear", "sunny", "mostly cloudy", "cloudy", "fog", "blustery", "snow", "wintry", "thunder", "wind", "rain"];
+              var description = ["showers", "clear", "sunny", "mostly cloudy", "cloud", "fog", "blustery", "snow", "wintry", "thunder", "wind", "rain"];
               var customWeatherIcons = ["R", "B", "B", "Y", "N", "M", "F", "W", "X", "Z", "F", "R"]; //custom icons using http://www.alessioatzeni.com/meteocons/  
 
               var foundIndex = -1;

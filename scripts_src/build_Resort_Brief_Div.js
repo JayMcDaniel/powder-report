@@ -34,7 +34,7 @@ var buildResortBriefDiv = function (resort_obj, parsed_address) {
 
     var snippet = "<div class='resort_snippet' id ='" + resort_obj.id + "' alt='" + resort_obj.name + "  stats and prices'>" + name_and_logo + "\
         " + map_thumbnail + "<div class='resort_snippet_text'>\
-        <span class='stats_report'>" + trails + lifts + acres + peak + vert + "</span><br/>\
+        <span class='stats_report' alt ='" + resort_obj.name + " mountain stats' title ='" + resort_obj.name + " mountain stats'>" + trails + lifts + acres + peak + vert + "</span><br/>\
         " + rates + "<br>\
         " + toggle_widget_link + " " + toggle_contact_info_link + "</div>\
             <div class='clear_float'></div>\

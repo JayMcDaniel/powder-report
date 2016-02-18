@@ -1,5 +1,5 @@
 {
-    "northeast": [
+    "new_england": [
         {
             "name": "Q Burke",
 
@@ -23,7 +23,7 @@
                 "skiable_acres": "178",
                 "trails": "50",
                 "lifts": "6",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802004&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -32,12 +32,12 @@
                 "juniors_midweek": "40",
                 "juniors_prime": "47",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://qburke.com/skiing-and-riding/tickets-and-passes/day-tickets/",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/91:11:US"
 
 
     },
@@ -64,7 +64,7 @@
                 "skiable_acres": "485",
                 "trails": "116",
                 "lifts": "13",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802018&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -78,7 +78,7 @@
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USVT0234:1:US"
 
 
             }, {
@@ -104,7 +104,7 @@
                 "skiable_acres": "4000",
                 "trails": "111",
                 "lifts": "16",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802023&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -118,7 +118,7 @@
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USVT0237:1:US"
 
 
                 }, {
@@ -144,7 +144,7 @@
                 "skiable_acres": "385",
                 "trails": "78",
                 "lifts": "9",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802006&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -153,12 +153,12 @@
                 "juniors_midweek": "55",
                 "juniors_prime": "62",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://jaypeakresort.com/skiing-riding/tickets-passes/lift-tickets/",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USVT0120:1:US"
 
 
                     },
@@ -185,7 +185,7 @@
                 "skiable_acres": "1000",
                 "trails": "78",
                 "lifts": "8",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802016&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -194,12 +194,12 @@
                 "juniors_midweek": "40",
                 "juniors_prime": "54",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://www.smuggs.com/pages/winter/skiride/lift-ticket-rates.php",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/395:11:US"
 
 
             },
@@ -226,7 +226,7 @@
                 "skiable_acres": "670",
                 "trails": "97",
                 "lifts": "11",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802019&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -235,12 +235,12 @@
                 "juniors_midweek": "79",
                 "juniors_prime": "89",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://www.stratton.com/lift-tickets-and-passes/lift-tickets.aspx",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USVT0236:1:US"
 
 
             },
@@ -267,7 +267,7 @@
                 "skiable_acres": "178",
                 "trails": "46",
                 "lifts": "9",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802003&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -276,12 +276,12 @@
                 "juniors_midweek": "63",
                 "juniors_prime": "68",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "https://www.bromley.com/winter/tickets-passes/lift-tickets/",
                 "specials_note": "Save $10 each additional consecutive day."
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USVT0030:1:US"
 
 
             },
@@ -308,7 +308,7 @@
                 "skiable_acres": "589",
                 "trails": "80",
                 "lifts": "20",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802012&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -317,12 +317,12 @@
                 "juniors_midweek": "70",
                 "juniors_prime": "75",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://www.mountsnow.com/tickets-passes/",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USVT0153:1:US"
 
 
             },
@@ -349,7 +349,7 @@
                 "skiable_acres": "667",
                 "trails": "121",
                 "lifts": "20",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802013&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -363,7 +363,7 @@
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USVT0176:1:US"
 
 
             },
@@ -390,7 +390,7 @@
                 "skiable_acres": "100",
                 "trails": "23",
                 "lifts": "3",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802021&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -399,12 +399,12 @@
                 "juniors_midweek": "25",
                 "juniors_prime": "50",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://www.woodstockinn.com/ski-area/tickets-passes",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/437:11:US"
 
 
             },
@@ -431,7 +431,7 @@
                 "skiable_acres": "1977",
                 "trails": "212",
                 "lifts": "29",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802007&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -440,12 +440,12 @@
                 "juniors_midweek": "72",
                 "juniors_prime": "74",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://www.killington.com/site/tickets",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USVT0125:1:US"
 
 
             },
@@ -472,7 +472,7 @@
                 "skiable_acres": "300",
                 "trails": "71",
                 "lifts": "6",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802002&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -481,12 +481,12 @@
                 "juniors_midweek": "49",
                 "juniors_prime": "59",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://www.boltonvalley.com/tickets-passes-rentals/lift-tickets",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USVT0020:1:US"
 
 
             },
@@ -513,7 +513,7 @@
                 "skiable_acres": "115",
                 "trails": "45",
                 "lifts": "4",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802008&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -522,12 +522,12 @@
                 "juniors_midweek": "60",
                 "juniors_prime": "68",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://www.madriverglen.com/skiing/lift-tickets",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/222:11:US"
 
 
             },
@@ -554,7 +554,7 @@
                 "skiable_acres": "468",
                 "trails": "57",
                 "lifts": "7",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802014&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -563,12 +563,12 @@
                 "juniors_midweek": "55",
                 "juniors_prime": "57",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://www.picomountain.com/winter/tickets_and_passes",
                 "specials_note": ""
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/319:11:US"
 
 
             },
@@ -595,7 +595,7 @@
                 "skiable_acres": "200",
                 "trails": "43",
                 "lifts": "4",
-                "widget_link": ""
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=802009&state=VT&size=large&region=us&pettabs=2&deals=&noads=TRUE"
             },
 
             "rates": {
@@ -604,12 +604,12 @@
                 "juniors_midweek": "44",
                 "juniors_prime": "59",
                 "rentals": "",
-                "rates_url": "",
+                "rates_url": "http://www.magicmtn.com/lifttickets.php",
                 "specials_note": "Throwback Thursdays: $25 lift tickets!"
 
             },
 
-            "weather_forcast_url": ""
+            "weather_forcast_url": "https://weather.com/weather/5day/l/225:11:US"
 
 
             }
