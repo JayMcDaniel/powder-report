@@ -1031,6 +1031,47 @@
             "weather_forcast_url": "https://weather.com/weather/5day/l/USUT0234:1:US"
 
 
-        }
+        },
+        {
+            "name": "Grand Targhee",
+
+            "contact_info": {
+                "url": "http://www.grandtarghee.com/",
+                "full_address": "3300 Ski Hill Rd, Alta, WY 83414",
+                "phone": "(307) 353-2300",
+                "address_url": "https://goo.gl/maps/jEkQDRHJwn22",
+                "lat_lon": "43.788762, -110.957772"
+            },
+
+            "images": {
+                "logo": "grand_targhee_WY.png",
+                "map": "grand_targhee_WY.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "2270",
+                "peak": "9862",
+                "skiable_acres": "2602",
+                "trails": "95",
+                "lifts": "5",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=307002&state=WY&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "75",
+                "adults_prime": "80",
+                "juniors_midweek": "32",
+                "juniors_prime": "37",
+                "rentals": "",
+                "rates_url": "http://www.grandtarghee.com/tickets-passes/winter-lift-tickets/",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": ""
+
+
+                            }
                        ]
 }
