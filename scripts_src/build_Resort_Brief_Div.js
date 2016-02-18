@@ -4,12 +4,11 @@ var utils = require('./utils.js');
 var buildResortBriefDiv = function (resort_obj, parsed_address) {
     
 
-
     var name_and_logo = "<a class = 'resort_name' target ='_blank' href ='" + utils.urlFormat(resort_obj.contact_info.url) + "'><h3><img title='" + resort_obj.name + " logo' alt='" + resort_obj.name + " logo' class ='resort_logo_img' src = 'images/resort_logos/" + resort_obj.images.logo + "'/>" + resort_obj.name + " <span class='resort_state'>" + parsed_address.state + "</span></h3></a>";
 
-    var trails = "<span class = 'trails report'>" + resort_obj.stats.trails + "&nbsp;trails </span>";
+    var trails = `<span class = 'trails report'> ${resort_obj.stats.trails} &nbsp;trails </span>`;
 
-    var lifts = "<span class = 'lifts report'>" + resort_obj.stats.lifts + "&nbsp;lifts </span>";
+    var lifts = `<span class = 'lifts report'> ${resort_obj.stats.lifts} &nbsp;lifts </span>`;
 
     var acres = "<span class = 'acres report'>" + utils.addCommas(resort_obj.stats.skiable_acres) + "&nbsp;acres</span>";
     
