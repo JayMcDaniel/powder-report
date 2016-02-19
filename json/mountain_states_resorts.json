@@ -1072,6 +1072,48 @@
             "weather_forcast_url": ""
 
 
+                            },
+
+        {
+            "name": "Jackson Hole",
+
+            "contact_info": {
+                "url": "http://www.jacksonhole.com/",
+                "full_address": "3395 Cody Ln, Teton Village, WY 83025",
+                "phone": "307-733-2292",
+                "address_url": "https://goo.gl/maps/HSwVGzvXe7s",
+                "lat_lon": "43.587557,-110.827645,"
+            },
+
+            "images": {
+                "logo": "jackson_hole_WY.jpg",
+                "map": "jackson_hole_WY.jpg",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "4139",
+                "peak": "10450",
+                "skiable_acres": "2500",
+                "trails": "133",
+                "lifts": "13",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=307008&state=WY&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "115",
+                "adults_prime": "130",
+                "juniors_midweek": "69",
+                "juniors_prime": "80",
+                "rentals": "",
+                "rates_url": "http://www.jacksonhole.com/lift-tickets.html",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/USWY0089:1:US"
+
+
                             }
                        ]
 }
