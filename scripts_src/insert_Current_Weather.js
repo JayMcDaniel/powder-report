@@ -41,7 +41,7 @@ var insertCurrentWeather = function insertCurrentWeather(json, resort_obj, parse
     var wind_speed = document.createElement("span");
    // var wind_direction = json.currentobservation.Windd;
     wind_speed.className = "weather_wind_speed";
-    wind_speed.textContent = "wind:\u00a0" + utils.windDescriptor(json.currentobservation.Winds + "mph ") + utils.windDirection(json.currentobservation.Windd);
+    wind_speed.textContent = "wind:\u00a0" + utils.windDescriptor(json.currentobservation.Winds + "mph\u00a0") + utils.windDirection(json.currentobservation.Windd);
 
     //5-day forecast link
     var five_day_forcast_span = document.createElement("span");
