@@ -6,20 +6,19 @@ var buildResortBriefDiv = function (resort_obj, parsed_address) {
 
     var name_and_logo = "<a class = 'resort_name' target ='_blank' href ='" + utils.urlFormat(resort_obj.contact_info.url) + "'><h3><img title='" + resort_obj.name + " logo' alt='" + resort_obj.name + " logo' class ='resort_logo_img' src = 'images/resort_logos/" + resort_obj.images.logo + "'/>" + resort_obj.name + " <span class='resort_state'>" + parsed_address.state + "</span></h3></a>";
 
-    var trails = `<span class = 'trails report'> ${resort_obj.stats.trails} &nbsp;trails </span>`;
+    var trails = `<span class = 'trails report'> ${resort_obj.stats.trails}&nbsp;trails </span>`;
 
-    var lifts = `<span class = 'lifts report'> ${resort_obj.stats.lifts} &nbsp;lifts </span>`;
+    var lifts = `<span class = 'lifts report'> ${resort_obj.stats.lifts}&nbsp;lifts </span>`;
 
-    var acres = "<span class = 'acres report'>" + utils.addCommas(resort_obj.stats.skiable_acres) + "&nbsp;acres</span>";
+    var acres = `<span class = 'acres report'> ${utils.addCommas(resort_obj.stats.skiable_acres)}&nbsp;acres</span>`;
     
-    var peak = "<span class = 'peak report'>" + utils.addCommas(resort_obj.stats.peak) + "'&nbsp;peak</span>";
+    var peak = `<span class = 'peak report'> ${utils.addCommas(resort_obj.stats.peak)}'&nbsp;peak</span>`;
 
     var vert = "<span class = 'vert report'>" + utils.addCommas(resort_obj.stats.vertical_drop_ft) + "'&nbsp;vertical&nbsp;drop</span>";
 
     var full_address = "<a target ='_blank' href ='" + resort_obj.contact_info.address_url + "'><span class = 'full_address'>" + parsed_address.full_address + "</span></a> ";
 
-    var rates = "<span class = 'rates_adult report'>Adult:&nbsp;$" + resort_obj.rates.adults_midweek + "&nbsp;to&nbsp;$" + resort_obj.rates.adults_prime + "&nbsp;</span>\
-                <span class = 'rates_junior report'>Junior:&nbsp;$" + resort_obj.rates.juniors_midweek + "&nbsp;to&nbsp;$" + resort_obj.rates.juniors_prime + "</span> <a class = 'rates_url' target ='_blank' href ='" + resort_obj.rates.rates_url + "'>Get&nbsp;tickets</a>";
+    var rates = "<span class = 'rates_adult report'>Adult:&nbsp;$" + utils.printRate(resort_obj.rates.adults_midweek, resort_obj.rates.adults_prime) + "&nbsp;</span><span class = 'rates_junior report'>Junior:&nbsp;$" + utils.printRate(resort_obj.rates.juniors_midweek, resort_obj.rates.juniors_prime) + "</span> <a class = 'rates_url' target ='_blank' href ='" + resort_obj.rates.rates_url + "'>Get&nbsp;tickets</a>";
 
     var phone = "<span class ='resort_phone_number'>" + utils.phoneFormat(resort_obj.contact_info.phone) + "</span>";
 

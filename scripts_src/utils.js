@@ -50,6 +50,11 @@
               return parsed_address;
 
           },
+          
+          /** return the rate span if there's a difference */
+          printRate: function printRate(lowRate, HighRate){
+              return  lowRate < HighRate ? lowRate + "&nbsp;to&nbsp;$" + HighRate : lowRate;
+          },
 
 
           /** if url doesn't start with http, add it */
