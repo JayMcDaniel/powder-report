@@ -36,6 +36,34 @@ $highlight-color: #633737;
 
 }
 
+/*font for header */
+
+//@font-face {
+//    font-family: 'sinkin_sans100_thin';
+//    src: url('../fonts/sinkin-sans.100-thin-webfont.eot');
+//    src: url('../fonts/sinkin-sans.100-thin-webfont.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/sinkin-sans.100-thin-webfont.woff2') format('woff2'),
+//         url('../fonts/sinkin-sans.100-thin-webfont.woff') format('woff'),
+//         url('../fonts/sinkin-sans.100-thin-webfont.ttf') format('truetype'),
+//         url('../fonts/sinkin-sans.100-thin-webfont.svg#sinkin_sans100_thin') format('svg');
+//    font-weight: normal;
+//    font-style: normal;
+//
+//}
+
+@font-face {
+    font-family: 'sinkin_sans200_x_light';
+    src: url('../fonts/sinkin-sans.200-x-light-webfont.eot');
+    src: url('../fonts/sinkin-sans.200-x-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sinkin-sans.200-x-light-webfont.woff2') format('woff2'),
+         url('../fonts/sinkin-sans.200-x-light-webfont.woff') format('woff'),
+         url('../fonts/sinkin-sans.200-x-light-webfont.ttf') format('truetype'),
+         url('../fonts/sinkin-sans.200-x-light-webfont.svg#sinkin_sans200_x_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 html {
     position: relative;
@@ -88,20 +116,22 @@ br {
 #skis_logo {
     width: 7vw;
     margin-left: -30px;
-    margin-right: -5px;
+    margin-right: 10px;
 }
 
 h1#logo_pr {
+    font-family: "sinkin_sans200_x_light";
     position: absolute;
-    bottom: 0px;
+    bottom: -19px;
     left: 11vw;
-    font-size: 8vw;
+    font-size: 9vw;
     font-weight: bold;
-    color: rgba(108, 144, 189, 0.65);
+    color: $highlight-color;
+
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: "sinkin_sans200_x_light";
     font-weight: normal;
     font-size: 3vw;
     margin-top: 5px;
@@ -111,13 +141,17 @@ h2 {
 }
 
 h3 {
+    font-family: "sinkin_sans200_x_light";
     margin-top: 10px;
     margin-left: 8px;
 }
 
 h4 {
+    font-family: "sinkin_sans200_x_light";
     margin-left: 11.5%;
+    margin-bottom: 30px;
     color: rgb(51, 122, 183);
+    font-size: 1.5vw;
 
 }
 
@@ -132,6 +166,7 @@ h4 {
 
 label {
     font-weight: normal;
+    font-family: "sinkin_sans200_x_light";
 }
 
 .hide_show_caret{
@@ -141,7 +176,7 @@ label {
 
 #sort_bar {
     min-height: 30px;
-    background-color: rgba(133, 163, 200, 0.94);
+    background-color: rgb(53, 123, 184);
     padding: 10px;
     padding-bottom: 2px;
     padding-top: 2px;
@@ -170,7 +205,7 @@ label {
 
 #footer_bar {
     min-height: 30px;
-    background-color: rgba(133, 163, 200, 0.94);
+    background-color: rgb(32, 66, 81);
     padding: 10px;
     padding-bottom: 2px;
     padding-top: 2px;
@@ -191,9 +226,10 @@ label {
         color: #fff;
     }
     .sort_link {
+        font-weight: 100;
         cursor: pointer;
         text-decoration: underline;
-        color: $highlight-color;
+        color: #FFFF40;
         margin-right: 15px;
         -webkit-user-select: none;
         /* Chrome all / Safari all */
@@ -204,7 +240,7 @@ label {
         user-select: none;
     }
     .sort_link_selected {
-        color: #FFFF40;
+        color: #74FFBF;
     }
     .sort_triangle {
         font-size: 60%;
@@ -401,11 +437,11 @@ span.rates_adult{
 @media screen and (max-device-width: 800px) {
     
     h2 {
-        font-size: 5vw;
+        font-size: 4vw;
         margin-left: 1%;
     }
     h3 {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     h4{
         font-size: 3vw;
@@ -413,13 +449,21 @@ span.rates_adult{
     }
 
     h1#logo_pr {
-        font-size: 12vw;
+        font-size: 10vw;
+        left: 3vw;
     }
     #resorts_results_div {
         padding-bottom: 20px;
         width: 100%;
         float: left;
     }
+    
+    #skis_logo {
+        width: 7vw;
+        margin-left: -20px;
+        margin-right: 2px;
+    }
+    
     .resort_snippet,
     #sort_bar {
         font-size: 4vw;
@@ -482,10 +526,10 @@ span.rates_adult{
         height: 200px;
     }
     h3 {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     h2 {
-        font-size: 5vw;
+        font-size: 4vw;
         margin-left: 1%;
     }
 }
@@ -497,13 +541,13 @@ span.rates_adult{
     }
     
     h3 {
-        font-size: 8vw;
+        font-size: 6vw;
     }
     #sort_bar h3 {
-        font-size: 5vw;
+        font-size: 4vw;
     }
     h2 {
-        font-size: 5vw;
+        font-size: 4vw;
         margin-left: 1%;
     }
     #banner_img {
@@ -528,4 +572,10 @@ span.rates_adult{
     padding-left: 0px;
     white-space: nowrap;
 }
+    
+    #skis_logo {
+        width: 7vw;
+        margin-left: -11px;
+        margin-right: 2px;
+    }
 }
