@@ -77,10 +77,10 @@
 
           /** mod wind language */
           windDescriptor: function (string) {
-              if (string === "NAmph ") {
+              if (string === "NA") {
                   return "N/A";
               } else {
-                  return string;
+                  return string + "mph\u00a0";
               }
 
           },

@@ -34,14 +34,15 @@ var insertCurrentWeather = function insertCurrentWeather(json, resort_obj, parse
     //temp
     var temp = document.createElement("span");
     temp.className = "weather_temp";
-    var currentTemp = json.currentobservation.Temp; //symbol for degrees F. Sometimes the temp from openweather comes back in kelvin even if I ask for it in F, so I need to convert.    
-    temp.textContent = currentTemp + "\u2109 ";
+    var currentTemp = json.data.temperature[0]; 
+    
+    temp.textContent = currentTemp + "\u2109 "; //symbol for degrees F. 
 
     //wind
     var wind_speed = document.createElement("span");
    // var wind_direction = json.currentobservation.Windd;
     wind_speed.className = "weather_wind_speed";
-    wind_speed.textContent = "wind:\u00a0" + utils.windDescriptor(json.currentobservation.Winds + "mph\u00a0") + utils.windDirection(json.currentobservation.Windd);
+    wind_speed.textContent = "wind:\u00a0" + utils.windDescriptor(json.currentobservation.Winds) + utils.windDirection(json.currentobservation.Windd);
 
     //5-day forecast link
     var five_day_forcast_span = document.createElement("span");
