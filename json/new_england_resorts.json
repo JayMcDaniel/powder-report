@@ -73,7 +73,7 @@
                 "juniors_midweek": "62",
                 "juniors_prime": "95",
                 "rentals": "",
-                "rates_url": "www.stowe.com/ski-ride/lift/",
+                "rates_url": "http://www.stowe.com/ski-ride/lift/",
                 "specials_note": ""
 
             },
@@ -113,7 +113,7 @@
                 "juniors_midweek": "73",
                 "juniors_prime": "75",
                 "rentals": "",
-                "rates_url": "www.sugarbush.com/plan/day-of-tickets/",
+                "rates_url": "http://www.sugarbush.com/plan/day-of-tickets/",
                 "specials_note": ""
 
             },
@@ -358,7 +358,7 @@
                 "juniors_midweek": "76",
                 "juniors_prime": "85",
                 "rentals": "",
-                "rates_url": "www.okemo.com/mountain-info/lift-tickets/",
+                "rates_url": "http://www.okemo.com/mountain-info/lift-tickets/",
                 "specials_note": ""
 
             },
