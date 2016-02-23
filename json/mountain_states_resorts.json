@@ -1114,6 +1114,48 @@
             "weather_forcast_url": "https://weather.com/weather/5day/l/USWY0089:1:US"
 
 
+                            },
+
+        {
+            "name": "Snow King",
+
+            "contact_info": {
+                "url": "http://snowkingmountain.com/",
+                "full_address": "100 E Snow King Ave, Jackson, WY 83001",
+                "phone": "(307) 201-5464",
+                "address_url": "https://goo.gl/maps/4zXyinUQewP2",
+                "lat_lon": "43.472323, -110.759339"
+            },
+
+            "images": {
+                "logo": "snow_king_WY.png",
+                "map": "snow_king_WY.pdf",
+                "stock": ""
+            },
+
+            "stats": {
+                "vertical_drop_ft": "1571",
+                "peak": "7808",
+                "skiable_acres": "400",
+                "trails": "32",
+                "lifts": "3",
+                "widget_link": "http://www.snocountry.com/widget/widget_resort.php?code=307006&state=WY&size=large&region=us&pettabs=2&deals=&noads=TRUE"
+            },
+
+            "rates": {
+                "adults_midweek": "47",
+                "adults_prime": "47",
+                "juniors_midweek": "30",
+                "juniors_prime": "30",
+                "rentals": "47",
+                "rates_url": "http://snowkingmountain.com/activities/skiing-snowboarding/#lift-access-pricing",
+                "specials_note": ""
+
+            },
+
+            "weather_forcast_url": "https://weather.com/weather/5day/l/12:11:US"
+
+
                             }
                        ]
 }
